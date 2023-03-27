@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="arg2zso7">
+  <resources>
+    <component id="pk0k0" name="TestUI.xml" path="/" exported="true"/>
+    <image id="em5i1" name="blueButton1.png" path="/images/"/>
+    <image id="em5i2" name="blueButton2.png" path="/images/"/>
+    <component id="em5i3" name="ButtonBlue.xml" path="/comp/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

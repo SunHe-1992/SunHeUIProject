@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="36,46">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="TEST"/>
+    </component>
+  </displayList>
+</component>
