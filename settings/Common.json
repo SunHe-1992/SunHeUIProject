@@ -1,7 +1,7 @@
 {
-  "font": "",
-  "fontSize": 12,
-  "textColor": "#000000",
+  "font": "OPPOSans",
+  "fontSize": 24,
+  "textColor": "#ffffff",
   "fontAdjustment": false,
   "colorScheme": [
     "标题字 #fafcff",
@@ -48,7 +48,7 @@
     "defaultDisplay": "visible"
   },
   "tipsRes": "",
-  "buttonClickSound": "",
+  "buttonClickSound": "ui://9bv6j6647rh78",
   "pivot": "default",
   "fileName": "Common"
 }

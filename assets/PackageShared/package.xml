@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9bv6j664">
+  <resources>
+    <sound id="7rh70" name="close.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh71" name="diamond.mp3" path="/UISound/" exported="true"/>
+    <sound id="7rh72" name="dropcoin.mp3" path="/UISound/" exported="true"/>
+    <sound id="7rh73" name="dropcoin_2.mp3" path="/UISound/" exported="true"/>
+    <sound id="7rh74" name="enter.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh75" name="Money.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh76" name="SkillUp.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh77" name="ChangeTab.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh78" name="click.wav" path="/UISound/" exported="true"/>
+    <sound id="7rh79" name="clickfailed.wav" path="/UISound/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
