@@ -5,6 +5,8 @@
     <image id="em5i1" name="blueButton1.png" path="/images/"/>
     <image id="em5i2" name="blueButton2.png" path="/images/"/>
     <component id="em5i3" name="ButtonBlue.xml" path="/comp/" exported="true"/>
+    <component id="7rh74" name="SamplePage.xml" path="/" exported="true"/>
+    <image id="7rh75" name="bgImage.png" path="/images/" scale="9grid" scale9grid="26,71,52,142"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
