@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,171" designImage="ui://fstosj6iscq57">
+  <controller name="ctrl_showEffects" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_scq5" name="n0" src="scq5f" fileName="Images/黑底.png" xy="-1,12" size="184,53"/>
+    <text id="n1_scq5" name="txt_tileName" xy="25,21" size="143,38" fontSize="27" color="#ffffff" autoSize="shrink" autoClearText="true" text="Ground"/>
+    <image id="n2_scq5" name="n2" src="scq5f" fileName="Images/黑底.png" xy="-2,65" size="192,64">
+      <gearDisplay controller="ctrl_showEffects" pages="1"/>
+    </image>
+    <text id="n3_scq5" name="txt_effect" xy="3,67" size="108,29" fontSize="20" color="#ffffff" autoSize="shrink" text="Skill Effects">
+      <gearDisplay controller="ctrl_showEffects" pages="1"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,60" designImage="ui://fstosj6iscq57" designImageOffsetY="-565">
+  <displayList>
+    <image id="n0_scq5" name="n0" src="scq5f" fileName="Images/黑底.png" xy="-3,0" size="480,60"/>
+    <text id="n1_scq5" name="txt_name" xy="117,8" size="174,42" fontSize="26" color="#ffffff" autoSize="shrink" strokeColor="#000000" singleLine="true" autoClearText="true" text="Louis&amp; sigurd">
+      <relation target="n0_scq5" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n2_scq5" name="txt_bond" xy="285,9" size="114,42" fontSize="26" color="#ffffff" autoSize="shrink" strokeColor="#000000" singleLine="true" autoClearText="true" text="bond 11">
+      <relation target="n0_scq5" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

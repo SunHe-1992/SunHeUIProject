@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,202" designImage="ui://fstosj6iscq57" designImageOffsetY="-518" designImageLayer="1">
+  <displayList>
+    <image id="n0_scq5" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,126" size="1280,76">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </image>
+    <text id="n1_scq5" name="n1" xy="503,147" size="31,29" fontSize="20" color="#ffffff" strokeColor="#000000" autoClearText="true" text="HP">
+      <relation target="n0_scq5" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n2_scq5" name="txt_hp1" xy="560,127" size="83,70" fontSize="53" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="48/">
+      <relation target="n0_scq5" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n3_scq5" name="txt_hp2" xy="639,138" size="79,70" fontSize="40" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="48">
+      <relation target="n0_scq5" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n4_scq5" name="txt_class" xy="23,128" size="244,35" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="lance armor /Armored">
+      <relation target="n0_scq5" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n18_scq5" name="AU_atk" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="714,133">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_scq5" name="AU_spd" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="714,167">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_scq5" name="AU_hit" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="815,133">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n21_scq5" name="AU_avo" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="815,167">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n22_scq5" name="AU_def" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="916,133">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n23_scq5" name="AU_res" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="916,167">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n24_scq5" name="AU_mov" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="386,134">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n25_scq5" name="AU_level" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="299,133" controller="ctrl_bar,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

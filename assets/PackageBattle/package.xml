@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fstosj6i">
+  <resources>
+    <image id="scq50" name="unit summary.jpg" path="/效果图/"/>
+    <image id="scq51" name="unit selection.jpg" path="/效果图/"/>
+    <image id="scq52" name="unit summary2.jpg" path="/效果图/"/>
+    <image id="scq53" name="weapon selection.jpg" path="/效果图/"/>
+    <image id="scq54" name="attack hud.jpg" path="/效果图/"/>
+    <image id="scq55" name="attack hud2.jpg" path="/效果图/"/>
+    <image id="scq56" name="attack hud3.jpg" path="/效果图/"/>
+    <image id="scq57" name="unit move.jpg" path="/效果图/"/>
+    <component id="scq58" name="BattlePanel.xml" path="/UIPanels/" exported="true"/>
+    <image id="scq59" name="common_notice1.png" path="/Images/" scale="9grid" scale9grid="25,25,50,50"/>
+    <component id="scq5a" name="PawnSummaryBar.xml" path="/Comp/"/>
+    <component id="scq5b" name="AttributeUnit.xml" path="/Comp/"/>
+    <image id="scq5c" name="bg_2.png" path="/Images/"/>
+    <component id="scq5e" name="ProgressBar1.xml" path="/Comp/"/>
+    <image id="scq5f" name="黑底.png" path="/Images/" scale="9grid" scale9grid="19,5,28,10"/>
+    <component id="scq5g" name="PawnNameComp.xml" path="/Comp/"/>
+    <component id="scq5h" name="TileInfo.xml" path="/Comp/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

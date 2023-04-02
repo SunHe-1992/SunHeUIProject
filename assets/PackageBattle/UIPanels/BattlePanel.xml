@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" designImage="ui://fstosj6iscq57">
+  <displayList>
+    <component id="n0_scq5" name="nameBar" src="scq5g" fileName="Comp/PawnNameComp.xml" xy="-3,562">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n1_scq5" name="bottomBar" src="scq5a" fileName="Comp/PawnSummaryBar.xml" xy="0,518">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </component>
+    <component id="n3_scq5" name="tileInfoComp" src="scq5h" fileName="Comp/TileInfo.xml" xy="0,0" touchable="false">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+</component>
