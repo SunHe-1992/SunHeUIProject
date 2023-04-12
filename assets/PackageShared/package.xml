@@ -11,6 +11,8 @@
     <sound id="7rh77" name="ChangeTab.wav" path="/UISound/" exported="true"/>
     <sound id="7rh78" name="click.wav" path="/UISound/" exported="true"/>
     <sound id="7rh79" name="clickfailed.wav" path="/UISound/" exported="true"/>
+    <image id="ag5la" name="common_btn3.png" path="/buttons/"/>
+    <component id="ag5lb" name="ButtonClose.xml" path="/buttons/" exported="true"/>
   </resources>
-  <publish name=""/>
+  <publish name="" genCode="true"/>
 </packageDescription>

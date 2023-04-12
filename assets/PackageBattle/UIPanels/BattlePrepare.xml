@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n1_ag5l" name="n1" src="scq59" fileName="Images/common_notice1.png" xy="19,0" size="196,720">
+      <relation target="" sidePair="height-height,left-left,top-top"/>
+    </image>
+    <component id="n2_ag5l" name="btn_fight" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="45,109">
+      <Button title="Fight!"/>
+    </component>
+  </displayList>
+</component>

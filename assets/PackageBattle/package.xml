@@ -18,6 +18,8 @@
     <image id="scq5f" name="黑底.png" path="/Images/" scale="9grid" scale9grid="19,5,28,10"/>
     <component id="scq5g" name="PawnNameComp.xml" path="/Comp/"/>
     <component id="scq5h" name="TileInfo.xml" path="/Comp/"/>
+    <component id="ag5li" name="BattlePrepare.xml" path="/UIPanels/" exported="true"/>
+    <component id="ag5lj" name="PhaseComp.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

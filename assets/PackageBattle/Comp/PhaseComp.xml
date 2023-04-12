@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="437,111">
+  <controller name="ctrl_phase" pages="0,,1,,2,,3,,4," selected="4">
+    <remark page="0" value="none"/>
+    <remark page="1" value="player"/>
+    <remark page="2" value="villian"/>
+    <remark page="3" value="ally"/>
+    <remark page="4" value="neutral"/>
+  </controller>
+  <displayList>
+    <graph id="n1_ag5l" name="n1" xy="7,11" size="429,100" type="rect"/>
+    <text id="n0_ag5l" name="n2" xy="13,20" size="415,84" fontSize="40" color="#4b8be3" autoSize="none" bold="true" strokeColor="#000000" text="Player Phase">
+      <gearDisplay controller="ctrl_phase" pages="1"/>
+    </text>
+    <text id="n2_ag5l" name="n3" xy="22,20" size="415,84" fontSize="40" color="#f0432b" autoSize="none" bold="true" strokeColor="#000000" text="Villian Phase">
+      <gearDisplay controller="ctrl_phase" pages="2"/>
+    </text>
+    <text id="n3_ag5l" name="n4" xy="13,20" size="415,84" fontSize="40" color="#3df94a" autoSize="none" bold="true" strokeColor="#000000" text="Ally Phase">
+      <gearDisplay controller="ctrl_phase" pages="3"/>
+    </text>
+    <text id="n4_ag5l" name="n5" xy="16,21" size="415,84" fontSize="40" color="#e4c83a" autoSize="none" bold="true" strokeColor="#000000" text="Neutral Phase">
+      <gearDisplay controller="ctrl_phase" pages="4"/>
+    </text>
+  </displayList>
+</component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720">
+<component size="1280,720" opaque="false">
   <displayList>
     <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="20,502" size="895,219">
       <relation target="" sidePair="center-center,middle-middle"/>
@@ -14,6 +14,9 @@
     <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="48,637" size="186,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="SLGTest load scene"/>
+    </component>
+    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="858,492">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
   </displayList>
 </component>

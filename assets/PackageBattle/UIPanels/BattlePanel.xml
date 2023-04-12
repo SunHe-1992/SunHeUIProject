@@ -10,5 +10,9 @@
     <component id="n3_scq5" name="tileInfoComp" src="scq5h" fileName="Comp/TileInfo.xml" xy="0,0" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
+    <component id="n4_ag5l" name="phaseCom" src="ag5lj" fileName="Comp/PhaseComp.xml" xy="838,161"/>
   </displayList>
+  <transition name="anim_phase">
+    <item time="0" type="XY" target="n4_ag5l" tween="true" startValue="1285,165.5,1.004,0.23" endValue="833,165.5" duration="6"/>
+  </transition>
 </component>
