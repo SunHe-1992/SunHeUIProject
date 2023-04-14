@@ -20,6 +20,8 @@
     <component id="scq5h" name="TileInfo.xml" path="/Comp/"/>
     <component id="ag5li" name="BattlePrepare.xml" path="/UIPanels/" exported="true"/>
     <component id="ag5lj" name="PhaseComp.xml" path="/Comp/"/>
+    <component id="lay8k" name="MenuItem.xml" path="/Comp/"/>
+    <component id="lay8l" name="ActionMenuComp.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
