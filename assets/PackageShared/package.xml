@@ -13,12 +13,12 @@
     <sound id="7rh79" name="clickfailed.wav" path="/UISound/" exported="true"/>
     <image id="ag5la" name="common_btn3.png" path="/buttons/"/>
     <component id="ag5lb" name="ButtonClose.xml" path="/buttons/" exported="true"/>
-    <sound id="lay8c" name="click1.ogg" path="/kenney_sound/"/>
-    <sound id="lay830" name="click2.ogg" path="/kenney_sound/"/>
-    <sound id="lay831" name="rollover1.ogg" path="/kenney_sound/"/>
-    <sound id="lay832" name="rollover2.ogg" path="/kenney_sound/"/>
-    <sound id="lay833" name="switch2.ogg" path="/kenney_sound/"/>
-    <sound id="lay834" name="switch3.ogg" path="/kenney_sound/"/>
+    <sound id="lay8c" name="click1.ogg" path="/kenney_sound/" exported="true"/>
+    <sound id="lay830" name="click2.ogg" path="/kenney_sound/" exported="true"/>
+    <sound id="lay831" name="rollover1.ogg" path="/kenney_sound/" exported="true"/>
+    <sound id="lay832" name="rollover2.ogg" path="/kenney_sound/" exported="true"/>
+    <sound id="lay833" name="switch2.ogg" path="/kenney_sound/" exported="true"/>
+    <sound id="lay834" name="switch3.ogg" path="/kenney_sound/" exported="true"/>
     <image id="lay8a3" name="arrowBeige_left.png" path="/Images/Arrow/" exported="true"/>
     <image id="lay8a4" name="iconCross_blue.png" path="/Images/Dot/" exported="true"/>
     <image id="lay8a5" name="iconCross_brown.png" path="/Images/Dot/" exported="true"/>
@@ -285,8 +285,8 @@
     <image id="lay8he" name="yellow_button11.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hf" name="yellow_button10.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hg" name="yellow_button09.png" path="/Images/Button/" exported="true"/>
-    <image id="lay8hh" name="yellow_button08.png" path="/Images/Button/" exported="true"/>
-    <image id="lay8hi" name="yellow_button07.png" path="/Images/Button/" exported="true"/>
+    <image id="lay8hh" name="yellow_button08.png" path="/Images/Button/" exported="true" scale="9grid" scale9grid="12,11,24,4"/>
+    <image id="lay8hi" name="yellow_button07.png" path="/Images/Button/" exported="true" scale="9grid" scale9grid="12,12,24,7"/>
     <image id="lay8hj" name="yellow_button06.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hk" name="yellow_button13.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hl" name="yellow_button05.png" path="/Images/Button/" exported="true"/>

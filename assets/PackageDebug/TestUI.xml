@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" opaque="false">
   <displayList>
-    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="20,502" size="895,219">
+    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="192,50" size="895,619">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <text id="n3_7rh7" name="n3" xy="60,511" size="720,54" fontSize="40" color="#fafcff" autoSize="none" text="Debug UI 文字测试 国">
+    <text id="n3_7rh7" name="n3" xy="232,59" size="720,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
     </text>
-    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="49,569">
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="871,148">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="TEST"/>
     </component>
-    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="48,637" size="186,56">
+    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="224,148" size="186,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="SLGTest load scene"/>
+      <Button title="Start Test Battle"/>
     </component>
-    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="858,492">
+    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1030,40">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
   </displayList>
