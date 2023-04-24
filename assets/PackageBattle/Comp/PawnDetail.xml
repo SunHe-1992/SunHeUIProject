@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="161,668" designImage="ui://fstosj6iscq51" designImageOffsetX="-393" designImageOffsetY="-51">
+  <displayList>
+    <graph id="n9_genv" name="n9" xy="0,0" size="160,668" type="rect" lineSize="0" fillColor="#cc051626">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n5_genv" name="n5" src="scq5f" fileName="Images/黑底.png" xy="-22,22" size="338,46"/>
+    <graph id="n4_genv" name="n4" xy="0,81" size="159,111" type="rect" lineSize="0" fillColor="#ff494337"/>
+    <text id="n0_genv" name="txt_pawnName" xy="95,26" size="196,34" fontSize="24" color="#ffffff" ubb="true" autoSize="shrink" autoClearText="true" text="John Smith"/>
+    <text id="n1_genv" name="txt_class" xy="7,82" size="196,34" fontSize="20" color="#ffffff" ubb="true" autoSize="shrink" autoClearText="true" text="SwordMan"/>
+    <text id="n2_genv" name="txt_classType" xy="11,109" size="196,32" fontSize="20" color="#ffffff" ubb="true" autoSize="shrink" autoClearText="true" text="/ Backup"/>
+    <list id="n7_genv" name="list_combatStats" xy="19,315" size="182,121" overflow="scroll" defaultItem="ui://fstosj6igenvn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_genv" name="n8" src="genvo" fileName="Comp/Label1.xml" xy="6,298">
+      <Label title="Combat Stats"/>
+    </component>
+    <component id="n10_genv" name="n10" src="genvo" fileName="Comp/Label1.xml" xy="9,429">
+      <Label title="Basic Stats"/>
+    </component>
+    <list id="n11_genv" name="list_BasicStats" xy="14,454" size="182,196" overflow="scroll" defaultItem="ui://fstosj6igenvn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_genv" name="stat_build" src="genvn" fileName="Comp/StatsCom.xml" xy="17,246"/>
+    <component id="n14_genv" name="stat_SP" src="genvn" fileName="Comp/StatsCom.xml" xy="17,270"/>
+    <component id="n15_genv" name="stat_HP" src="genvp" fileName="Comp/HPComp.xml" xy="12,191"/>
+    <component id="n16_genv" name="levelCom" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="0,137"/>
+    <component id="n17_genv" name="stat_Rating" src="genvn" fileName="Comp/StatsCom.xml" xy="14,631"/>
+    <component id="n19_genv" name="moveCom" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="88,138" size="72,30"/>
+  </displayList>
+</component>

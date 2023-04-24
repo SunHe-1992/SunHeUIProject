@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="50,10" extention="ProgressBar">
   <displayList>
-    <graph id="n0_scq5" name="n0" xy="0,0" size="50,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff009966" corner="2">
+    <graph id="n0_scq5" name="n0" xy="0,0" size="50,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff000000" corner="2">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_scq5" name="bar" xy="0,0" size="50,10" type="rect" lineSize="0" corner="2">
+    <graph id="n1_scq5" name="bar" xy="0,0" size="50,10" type="rect" lineSize="0" fillColor="#ff0b7ad9" corner="2">
       <relation target="" sidePair="height-height"/>
     </graph>
   </displayList>

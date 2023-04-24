@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,24" designImage="ui://fstosj6iscq51" designImageOffsetX="-407" designImageOffsetY="-524">
+  <controller name="ctrl_arrow" pages="0,,1,,2," selected="0">
+    <remark page="0" value="hidden"/>
+    <remark page="1" value="up"/>
+    <remark page="2" value="down"/>
+  </controller>
+  <displayList>
+    <image id="n0_genv" name="n0" src="scq5c" fileName="Images/bg_2.png" xy="1,-4" size="137,27">
+      <gearDisplay controller="ctrl_arrow" pages="1,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_genv" name="txt_attrName" xy="6,0" size="67,29" fontSize="20" color="#7a7066" autoSize="shrink" singleLine="true" autoClearText="true" text="Mov"/>
+    <text id="n2_genv" name="txt_attrValue" xy="66,-2" size="56,35" fontSize="20" color="#ffffff" align="right" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="123">
+      <gearColor controller="ctrl_arrow" pages="1,2" values="#3cd3f6,#000000|#ff4f75,#000000" default="#ffffff,#000000"/>
+    </text>
+    <image id="n3_genv" name="n3" src="lay8f7" fileName="Images/Arrow/grey_arrowDownWhite.png" pkg="9bv6j664" xy="124,9" color="#f0432b">
+      <gearDisplay controller="ctrl_arrow" pages="2"/>
+    </image>
+    <image id="n4_genv" name="n4" src="lay8f9" fileName="Images/Arrow/grey_arrowUpWhite.png" pkg="9bv6j664" xy="124,9" color="#a7bcd3">
+      <gearDisplay controller="ctrl_arrow" pages="1"/>
+    </image>
+    <graph id="n5_genv" name="n5" xy="139,3" size="45,20" type="rect" lineSize="0" fillColor="#ff3f71ae" corner="6">
+      <gearDisplay controller="ctrl_arrow" pages="1,2"/>
+    </graph>
+    <text id="n6_genv" name="txt_changeValue" xy="142,-1" size="35,26" fontSize="18" color="#ffffff" align="right" ubb="true" singleLine="true" autoClearText="true" text="+12">
+      <gearDisplay controller="ctrl_arrow" pages="1,2"/>
+    </text>
+  </displayList>
+</component>

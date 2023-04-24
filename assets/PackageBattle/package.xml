@@ -22,6 +22,11 @@
     <component id="ag5lj" name="PhaseComp.xml" path="/Comp/"/>
     <component id="lay8k" name="MenuItem.xml" path="/Comp/"/>
     <component id="lay8l" name="ActionMenuComp.xml" path="/Comp/"/>
+    <component id="genvm" name="PawnDetail.xml" path="/Comp/"/>
+    <component id="genvn" name="StatsCom.xml" path="/Comp/"/>
+    <component id="genvo" name="Label1.xml" path="/Comp/"/>
+    <component id="genvp" name="HPComp.xml" path="/Comp/"/>
+    <component id="genvq" name="UnitUI.xml" path="/UIPanels/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

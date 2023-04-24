@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n0_genv" name="bg" xy="0,0" size="1280,720" type="rect" lineSize="0" fillColor="#e5000000"/>
+    <component id="n1_genv" name="pawn_detail" src="genvm" fileName="Comp/PawnDetail.xml" xy="5,52"/>
+    <component id="n2_genv" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1179,29">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

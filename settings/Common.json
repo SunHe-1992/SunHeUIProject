@@ -4,6 +4,8 @@
   "textColor": "#ffffff",
   "fontAdjustment": false,
   "colorScheme": [
+    "text blue #3cd3f6",
+    "text red #ff4f75",
     "标题字 #fafcff",
     "页签字选中白 #f2f8fe",
     "页签字未选中蓝 #a7bcd3",

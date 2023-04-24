@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,24" extention="Label" designImage="ui://fstosj6iscq51" designImageOffsetX="-398" designImageOffsetY="-349">
+  <displayList>
+    <graph id="n1_genv" name="n1" xy="4,17" size="150,2" type="rect" lineSize="0" fillColor="#ff7a7066">
+      <relation target="" sidePair="width-width,left-left"/>
+    </graph>
+    <text id="n0_genv" name="title" xy="15,-3" size="127,24" fontSize="16" color="#7a7066" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="Label Title "/>
+  </displayList>
+</component>

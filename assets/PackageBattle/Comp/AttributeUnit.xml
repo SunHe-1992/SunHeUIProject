@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="92,30">
   <controller name="ctrl_buffed" pages="0,,1," selected="0"/>
-  <controller name="ctrl_bar" exported="true" pages="0,,1," selected="1"/>
+  <controller name="ctrl_bar" exported="true" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n2_scq5" name="n2" src="scq5c" fileName="Images/bg_2.png" xy="0,0" size="92,30">
       <gearDisplay controller="ctrl_buffed" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n0_scq5" name="txt_attrName" xy="0,0" size="50,29" fontSize="20" color="#ffffff" autoSize="shrink" strokeColor="#000000" singleLine="true" autoClearText="true" text="PHatk"/>
-    <text id="n1_scq5" name="txt_attrValue" xy="36,-6" size="56,35" fontSize="25" color="#ffffff" align="right" ubb="true" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="123"/>
+    <text id="n0_scq5" name="txt_attrName" xy="0,0" size="50,29" fontSize="20" color="#ffffff" autoSize="shrink" strokeColor="#000000" singleLine="true" autoClearText="true" text="ABC">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n1_scq5" name="txt_attrValue" xy="36,-6" size="56,35" fontSize="25" color="#ffffff" align="right" ubb="true" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="12">
+      <relation target="" sidePair="right-right"/>
+    </text>
     <component id="n3_scq5" name="pgsBar" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="0,27" size="92,3">
       <gearDisplay controller="ctrl_bar" pages="1"/>
       <ProgressBar value="50" max="100"/>

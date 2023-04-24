@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,202" designImage="ui://fstosj6iscq57" designImageOffsetY="-518" designImageLayer="1">
+<component size="1280,202" designImage="ui://fstosj6iscq57" designImageOffsetY="-518">
   <displayList>
     <image id="n0_scq5" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,126" size="1280,76">
       <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
@@ -39,6 +39,9 @@
     </component>
     <component id="n25_scq5" name="AU_level" src="scq5b" fileName="Comp/AttributeUnit.xml" xy="299,133" controller="ctrl_bar,1">
       <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n27_genv" name="btn_detail" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="2,1">
+      <Button title="pawn&apos;s detail"/>
     </component>
   </displayList>
 </component>
