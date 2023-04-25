@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" designImage="ui://fstosj6iscq54" designImageOffsetX="-118" designImageOffsetY="-515">
+  <displayList>
+    <image id="n1_g0n5" name="n1" src="lay8bn" fileName="Images/Dot/grey_circle.png" xy="7,7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_g0n5" name="iconLoader" xy="5,5" size="40,40" url="ui://9bv6j664g0n5hw" fill="scaleMatchWidth" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

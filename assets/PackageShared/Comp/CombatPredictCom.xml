@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="488,235" designImage="ui://9bv6j664g0n5ia" designImageOffsetY="-477" designImageLayer="1">
+  <displayList>
+    <image id="n0_g0n5" name="n0" src="lay8c3" fileName="Images/Square/space.png" xy="1,0" size="482,82"/>
+    <image id="n1_g0n5" name="n1" src="lay8c3" fileName="Images/Square/space.png" xy="0,95" size="488,140"/>
+    <component id="n2_g0n5" name="n2" src="g0n5hu" fileName="Comp/ItemComp.xml" xy="123,40"/>
+    <text id="n3_g0n5" name="n3" xy="23,2" size="420,34" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="Alear &amp; Micaiah"/>
+  </displayList>
+</component>

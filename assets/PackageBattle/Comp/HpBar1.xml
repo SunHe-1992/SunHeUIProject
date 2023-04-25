@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,10" extention="ProgressBar">
+  <controller name="color" pages="0,,1," selected="0">
+    <remark page="0" value="blue"/>
+    <remark page="1" value="red"/>
+  </controller>
+  <displayList>
+    <graph id="n0_scq5" name="n0" xy="0,0" size="116,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff202040" corner="2">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_scq5" name="bar" xy="1,1" size="114,8" type="rect" lineSize="0" fillColor="#ff6bc8ff" corner="2">
+      <gearColor controller="color" pages="0,1" values="#6bc8ff|#fc5a5b"/>
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <image id="n3_g0n5" name="pin" src="lay8df" fileName="Images/Slider/grey_sliderDown.png" pkg="9bv6j664" xy="34,-16" size="10,15" aspect="true"/>
+    <text id="n4_g0n5" name="n4" xy="45,-21" size="31,24" fontSize="16" color="#ffffff" singleLine="true" autoClearText="true" text="991">
+      <relation target="n3_g0n5" sidePair="left-right,top-top"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="488,235" designImage="ui://fstosj6iscq54" designImageOffsetY="-477" designImageLayer="1">
+  <controller name="ctrl_color" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="blue"/>
+    <remark page="1" value="red"/>
+  </controller>
+  <controller name="ctrl_showDir" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n0_g0n5" name="n0" xy="1,0" size="482,82" type="rect" lineSize="4" lineColor="#ffefb298" fillColor="#ff094e99" corner="4">
+      <gearColor controller="ctrl_color" pages="0,1" values="#094e99|#b20f09"/>
+    </graph>
+    <image id="n1_g0n5" name="n1" src="lay8c3" fileName="Images/Square/space.png" pkg="9bv6j664" xy="0,95" size="488,140"/>
+    <component id="n2_g0n5" name="weaponCom" src="g0n5hu" fileName="Comp/ItemComp.xml" pkg="9bv6j664" xy="123,40"/>
+    <text id="n3_g0n5" name="n3" xy="23,2" size="420,34" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="Alear &amp; Micaiah"/>
+    <component id="n4_g0n5" name="btn_prev" src="g0n5i8" fileName="buttons/ButtonArrow.xml" pkg="9bv6j664" xy="21,20" controller="dir,0">
+      <gearDisplay controller="ctrl_showDir" pages="1"/>
+    </component>
+    <component id="n6_g0n5" name="btn_next" src="g0n5i8" fileName="buttons/ButtonArrow.xml" pkg="9bv6j664" xy="353,20" controller="dir,1">
+      <gearDisplay controller="ctrl_showDir" pages="1"/>
+    </component>
+    <component id="n7_g0n5" name="lbl_dmg" src="g0n5u" fileName="Comp/Label2.xml" xy="56,158">
+      <Label title="Dmg"/>
+    </component>
+    <component id="n8_g0n5" name="lbl_hit" src="g0n5u" fileName="Comp/Label2.xml" xy="56,182">
+      <Label title="Hit"/>
+    </component>
+    <component id="n9_g0n5" name="lbl_crit" src="g0n5u" fileName="Comp/Label2.xml" xy="56,206">
+      <Label title="Crit"/>
+    </component>
+    <component id="n10_g0n5" name="hpBar" src="g0n5v" fileName="Comp/HpBar1.xml" xy="134,126" size="116,10">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n11_g0n5" name="txt_hp" xy="65,108" size="62,48" fontSize="35" color="#ffffff" align="right" autoSize="shrink" singleLine="true" autoClearText="true" text="30"/>
+    <text id="n12_g0n5" name="n12" xy="6,116" size="57,29" fontSize="20" color="#ffffff" align="right" autoSize="shrink" text="HP"/>
+  </displayList>
+</component>

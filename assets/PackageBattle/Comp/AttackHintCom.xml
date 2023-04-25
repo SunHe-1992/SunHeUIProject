@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="355,29" designImage="ui://fstosj6iscq54" designImageOffsetX="-477" designImageOffsetY="-624">
+  <controller name="ctrl_arrow" pages="0,,1," selected="1">
+    <remark page="0" value="toRight"/>
+    <remark page="1" value="toLeft"/>
+  </controller>
+  <controller name="ctrl_hint" pages="0,,1,,2," selected="0">
+    <remark page="0" value="none"/>
+    <remark page="1" value="break"/>
+    <remark page="2" value="smash"/>
+  </controller>
+  <displayList>
+    <text id="n0_g0n5" name="txt_value1" xy="251,-4" size="107,34" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#6f1d33" text="99 x 12">
+      <gearDisplay controller="ctrl_arrow" pages="0"/>
+    </text>
+    <graph id="n1_g0n5" name="n1" xy="234,5" size="20,30" type="regular_polygon" lineSize="0" fillColor="#ff6ad3f6" sides="3">
+      <gearDisplay controller="ctrl_arrow" pages="0"/>
+    </graph>
+    <graph id="n2_g0n5" name="n2" xy="81,14" size="158,2" type="rect" lineSize="0" fillColor="#ff6ad3f6">
+      <gearDisplay controller="ctrl_arrow" pages="0"/>
+    </graph>
+    <graph id="n3_g0n5" name="n3" xy="87,5" size="20,30" type="regular_polygon" lineSize="0" fillColor="#fff0432b" sides="3" startAngle="60">
+      <gearDisplay controller="ctrl_arrow" pages="1"/>
+    </graph>
+    <graph id="n4_g0n5" name="n4" xy="102,14" size="158,2" type="rect" lineSize="0" fillColor="#fff0432b">
+      <gearDisplay controller="ctrl_arrow" pages="1"/>
+    </graph>
+    <text id="n8_g0n5" name="txt_value2" xy="-8,-4" size="107,34" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#6f1d33" text="99 x 12">
+      <gearDisplay controller="ctrl_arrow" pages="1"/>
+    </text>
+    <text id="n5_g0n5" name="n5" xy="99,-2" size="137,34" fontSize="24" color="#ffffff" align="center" autoSize="none" strokeColor="#6f1d33" autoClearText="true" text="Break!">
+      <gearDisplay controller="ctrl_hint" pages="1"/>
+    </text>
+    <text id="n9_g0n5" name="n9" xy="98,-2" size="137,34" fontSize="24" color="#ffffff" align="center" autoSize="none" strokeColor="#6f1d33" autoClearText="true" text="Smash">
+      <gearDisplay controller="ctrl_hint" pages="2"/>
+    </text>
+  </displayList>
+</component>

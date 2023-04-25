@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="217,40" designImage="ui://fstosj6iscq54" designImageOffsetX="-118" designImageOffsetY="-517">
+  <displayList>
+    <text id="n0_g0n5" name="txt_name" xy="41,4" size="181,34" fontSize="24" color="#ffffff" autoSize="shrink" autoClearText="true" text="Levin Sword+5"/>
+    <component id="n1_g0n5" name="iconCom" src="g0n5hv" fileName="Comp/ItemIcon.xml" xy="-3,-6"/>
+  </displayList>
+</component>

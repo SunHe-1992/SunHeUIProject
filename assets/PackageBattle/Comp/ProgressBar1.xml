@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="50,10" extention="ProgressBar">
+  <controller name="color" pages="0,,1," selected="1">
+    <remark page="0" value="blue"/>
+    <remark page="1" value="red"/>
+  </controller>
   <displayList>
-    <graph id="n0_scq5" name="n0" xy="0,0" size="50,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff000000" corner="2">
+    <graph id="n0_scq5" name="n0" xy="0,0" size="50,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff202040" corner="2">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_scq5" name="bar" xy="0,0" size="50,10" type="rect" lineSize="0" fillColor="#ff0b7ad9" corner="2">
+    <graph id="n1_scq5" name="bar" xy="1,1" size="48,8" type="rect" lineSize="0" fillColor="#fffc5a5b" corner="2">
+      <gearColor controller="color" pages="0,1" values="#6bc8ff|#fc5a5b"/>
       <relation target="" sidePair="height-height"/>
     </graph>
   </displayList>

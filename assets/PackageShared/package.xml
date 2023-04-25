@@ -11,7 +11,6 @@
     <sound id="7rh77" name="ChangeTab.wav" path="/UISound/" exported="true"/>
     <sound id="7rh78" name="click.wav" path="/UISound/" exported="true"/>
     <sound id="7rh79" name="clickfailed.wav" path="/UISound/" exported="true"/>
-    <image id="ag5la" name="common_btn3.png" path="/buttons/"/>
     <component id="ag5lb" name="ButtonClose.xml" path="/buttons/" exported="true"/>
     <sound id="lay8c" name="click1.ogg" path="/kenney_sound/" exported="true"/>
     <sound id="lay830" name="click2.ogg" path="/kenney_sound/" exported="true"/>
@@ -91,7 +90,7 @@
     <image id="lay8c0" name="panel_beige.png" path="/Images/Panel/" exported="true"/>
     <image id="lay8c1" name="panel_blue.png" path="/Images/Panel/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
     <image id="lay8c2" name="list.png" path="/Images/Square/" exported="true"/>
-    <image id="lay8c3" name="space.png" path="/Images/Square/" exported="true"/>
+    <image id="lay8c3" name="space.png" path="/Images/Square/" exported="true" scale="9grid" scale9grid="12,12,24,24"/>
     <image id="lay8c4" name="space_inlay.png" path="/Images/Square/" exported="true"/>
     <image id="lay8c5" name="brown.png" path="/Images/Square/Ancient/" exported="true"/>
     <image id="lay8c6" name="brown_inlay.png" path="/Images/Square/Ancient/" exported="true"/>
@@ -298,6 +297,23 @@
     <image id="lay8hr" name="red_button12.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hs" name="yellow_button04.png" path="/Images/Button/" exported="true"/>
     <image id="lay8ht" name="yellow_pressed.png" path="/Images/Square/Outline/" exported="true"/>
+    <component id="g0n5hu" name="ItemComp.xml" path="/Comp/" exported="true"/>
+    <component id="g0n5hv" name="ItemIcon.xml" path="/Comp/" exported="true"/>
+    <image id="g0n5hw" name="battle-axe.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5hx" name="book-cover.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5hy" name="bowie-knife.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5hz" name="broad-dagger.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i0" name="download.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i1" name="hatchet.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i2" name="high-shot.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i3" name="images.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i4" name="katana.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i5" name="pocket-bow.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i6" name="stiletto.png" path="/Images/WeaponIcons/"/>
+    <image id="g0n5i7" name="wood-axe.png" path="/Images/WeaponIcons/"/>
+    <component id="g0n5i8" name="ButtonArrow.xml" path="/buttons/" exported="true"/>
+    <component id="g0n5i9" name="CombatPredictCom.xml" path="/Comp/"/>
+    <image id="g0n5ia" name="attack hud.jpg" path="/效果图/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

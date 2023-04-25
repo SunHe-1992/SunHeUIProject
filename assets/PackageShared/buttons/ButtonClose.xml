@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="56,59" extention="Button">
-  <Button/>
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n0_ag5l" src="ag5la" name="n0" xy="0,0">
-      <relation target="" sidePair="width,height"/>
+    <image id="n0_ag5l" name="n0" src="lay8gg" fileName="Images/CheckBox/yellow_cross.png" xy="0,0" size="59,59" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
     </image>
   </displayList>
+  <Button/>
 </component>

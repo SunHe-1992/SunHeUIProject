@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="dir" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_g0n5" name="n0" src="lay8a3" fileName="Images/Arrow/arrowBeige_left.png" xy="20,21" size="40,38" aspect="true">
+      <gearDisplay controller="dir" pages="0"/>
+    </image>
+    <image id="n2_g0n5" name="n2" src="lay8ez" fileName="Images/Arrow/arrowBeige_right.png" xy="20,21" size="40,38" aspect="true">
+      <gearDisplay controller="dir" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

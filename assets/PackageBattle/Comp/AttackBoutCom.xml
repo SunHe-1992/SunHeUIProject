@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="354,224" designImage="ui://fstosj6iscq54" designImageOffsetX="-457" designImageOffsetY="-492">
+  <controller name="showEngage" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n0_g0n5" name="n0" xy="39,0" size="276,45" type="rect" lineSize="2" lineColor="#ff817b75" fillColor="#ff0c1d2f" corner="4"/>
+    <text id="n1_g0n5" name="n1" xy="50,7" size="253,29" fontSize="20" color="#ffffff" align="center" autoSize="shrink" singleLine="true" autoClearText="true" text="Attack"/>
+    <graph id="n2_g0n5" name="n2" xy="125,44" size="104,28" type="rect" lineSize="0" fillColor="#ff205dd1" corner="6">
+      <gearDisplay controller="showEngage" pages="1"/>
+      <relation target="n3_g0n5" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <text id="n3_g0n5" name="n3" xy="132,43" size="90,29" fontSize="20" color="#ffffff" align="center" autoClearText="true" text="+ Engage">
+      <gearDisplay controller="showEngage" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n4_g0n5" name="list_atk" xy="1,78" size="351,144" overflow="scroll" defaultItem="ui://fstosj6ig0n5x" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

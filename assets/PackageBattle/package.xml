@@ -27,6 +27,12 @@
     <component id="genvo" name="Label1.xml" path="/Comp/"/>
     <component id="genvp" name="HPComp.xml" path="/Comp/"/>
     <component id="genvq" name="UnitUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="g0n5r" name="CombatPredict.xml" path="/UIPanels/" exported="true"/>
+    <component id="g0n5s" name="CombatPredictCom.xml" path="/Comp/"/>
+    <component id="g0n5u" name="Label2.xml" path="/Comp/"/>
+    <component id="g0n5v" name="HpBar1.xml" path="/Comp/"/>
+    <component id="g0n5w" name="AttackBoutCom.xml" path="/Comp/"/>
+    <component id="g0n5x" name="AttackHintCom.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
