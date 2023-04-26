@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,30" extention="Label" designImage="ui://fstosj6iscq57">
+  <displayList>
+    <image id="n0_svtj" name="n0" src="scq5f" fileName="Images/黑底.png" xy="0,0" size="212,30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_svtj" name="n1" src="lay8f3" fileName="Images/Arrow/arrowBrown_right.png" pkg="9bv6j664" xy="1,4"/>
+    <text id="n2_svtj" name="title" xy="25,-2" size="115,34" fontSize="24" color="#ffffff" ubb="true" autoClearText="true" text="impassible"/>
+  </displayList>
+</component>

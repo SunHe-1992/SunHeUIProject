@@ -33,6 +33,7 @@
     <component id="g0n5v" name="HpBar1.xml" path="/Comp/"/>
     <component id="g0n5w" name="AttackBoutCom.xml" path="/Comp/"/>
     <component id="g0n5x" name="AttackHintCom.xml" path="/Comp/"/>
+    <component id="svtjy" name="TileInfoItem.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
