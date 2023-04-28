@@ -4,6 +4,6 @@
     <graph id="n1_genv" name="n1" xy="4,17" size="150,2" type="rect" lineSize="0" fillColor="#ff7a7066">
       <relation target="" sidePair="width-width,left-left"/>
     </graph>
-    <text id="n0_genv" name="title" xy="15,-3" size="127,24" fontSize="16" color="#7a7066" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="Label Title "/>
+    <text id="n0_genv" name="title" xy="15,-3" size="83,24" fontSize="16" color="#7a7066" vAlign="middle" singleLine="true" autoClearText="true" text="Label Title "/>
   </displayList>
 </component>

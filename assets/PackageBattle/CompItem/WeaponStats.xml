@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,230" designImage="ui://fstosj6iscq53" designImageOffsetX="-860" designImageOffsetY="-323" designImageAlpha="0">
+  <controller name="ctrl_state" pages="0,,1," selected="0">
+    <remark page="0" value="stats"/>
+    <remark page="1" value="performance"/>
+  </controller>
+  <displayList>
+    <graph id="n0_tjjs" name="n0" xy="0,0" size="360,21" type="rect" lineSize="0" fillColor="#ff7e7168"/>
+    <text id="n1_tjjs" name="n1" xy="30,0" size="144,24" fontSize="16" color="#ffffff" autoSize="none" text="In-Use Stats">
+      <gearText controller="ctrl_state" pages="0" values="In-Use Stats" default="Performance"/>
+    </text>
+    <list id="n2_tjjs" name="list_attrs" xy="4,20" size="369,84" layout="flow_hz" lineItemCount="3" defaultItem="ui://fstosj6itjjs12" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_tjjs" name="txt_des" xy="13,108" size="341,117" fontSize="20" color="#ffffff" ubb="true" autoSize="shrink" autoClearText="true" text="A long long long long long long long long long long long long long "/>
+  </displayList>
+</component>

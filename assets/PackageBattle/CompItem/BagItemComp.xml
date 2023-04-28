@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="362,40" extention="Button" designImage="ui://fstosj6iscq53" designImageOffsetX="-858" designImageOffsetY="-162" designImageAlpha="0">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <controller name="ctrl_grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n3_tjjs" name="n3" src="lay8ac" fileName="Images/Panel/glassPanel.png" pkg="9bv6j664" xy="29,0" size="313,40">
+      <gearDisplay controller="button" pages="3,4,5"/>
+    </image>
+    <image id="n4_tjjs" name="n4" src="lay8f5" fileName="Images/Arrow/arrowSilver_right.png" pkg="9bv6j664" xy="15,9">
+      <gearDisplay controller="button" pages="3,4,5"/>
+    </image>
+    <text id="n0_g0n5" name="txt_name" xy="91,3" size="181,34" fontSize="24" color="#ffffff" autoSize="shrink" autoClearText="true" text="Levin Sword+5"/>
+    <component id="n1_g0n5" name="iconCom" src="g0n5hv" fileName="CompItem/ItemIcon.xml" xy="40,-5"/>
+    <text id="n2_tjjs" name="txt_left" xy="261,0" size="48,34" fontSize="24" color="#ffffff" align="right" autoSize="none" autoClearText="true" text=""/>
+    <graph id="n5_tjjs" name="n5" xy="0,0" size="362,40" type="rect" lineSize="0" fillColor="#7f000000">
+      <gearDisplay controller="ctrl_grayed" pages="1"/>
+    </graph>
+    <loader id="n6_tjjs" name="clickLoader" xy="5,0" size="355,38">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -10,7 +10,7 @@
       <gearColor controller="ctrl_color" pages="0,1" values="#094e99|#b20f09"/>
     </graph>
     <image id="n1_g0n5" name="n1" src="lay8c3" fileName="Images/Square/space.png" pkg="9bv6j664" xy="0,95" size="488,140"/>
-    <component id="n2_g0n5" name="weaponCom" src="g0n5hu" fileName="Comp/ItemComp.xml" pkg="9bv6j664" xy="123,40"/>
+    <component id="n2_g0n5" name="weaponCom" src="g0n5hu" fileName="Comp/ItemComp.xml" xy="123,40"/>
     <text id="n3_g0n5" name="n3" xy="23,2" size="420,34" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="Alear &amp; Micaiah"/>
     <component id="n4_g0n5" name="btn_prev" src="g0n5i8" fileName="buttons/ButtonArrow.xml" pkg="9bv6j664" xy="21,20" controller="dir,0">
       <gearDisplay controller="ctrl_showDir" pages="1"/>

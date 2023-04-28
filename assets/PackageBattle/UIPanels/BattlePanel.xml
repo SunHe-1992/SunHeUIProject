@@ -14,7 +14,10 @@
     <component id="n5_lay8" name="actionCom" src="lay8l" fileName="Comp/ActionMenuComp.xml" xy="760,75">
       <relation target="" sidePair="middle-middle,right-right%"/>
     </component>
-    <text id="n6_lay8" name="txt_logicState" xy="191,1" size="43,34" alpha="0.75" fontSize="24" color="#ffffff" ubb="true" bold="true" strokeColor="#000000" autoClearText="true" text="123"/>
+    <component id="n7_tjjs" name="inventoryCom" src="tjjsz" fileName="CompItem/ItemInventoryComp.xml" xy="866,0">
+      <relation target="" sidePair="right-right,top-top,bottomext-bottom"/>
+    </component>
+    <text id="n6_lay8" name="txt_logicState" xy="5,166" size="43,34" alpha="0.7" fontSize="24" color="#ffffff" ubb="true" bold="true" strokeColor="#000000" autoClearText="true" text="123"/>
   </displayList>
   <transition name="anim_phase">
     <item time="0" type="XY" target="n4_ag5l" tween="true" startValue="1285,165.5,1.004,0.23" endValue="833,165.5" duration="6"/>

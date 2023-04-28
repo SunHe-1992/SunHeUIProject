@@ -34,6 +34,14 @@
     <component id="g0n5w" name="AttackBoutCom.xml" path="/Comp/"/>
     <component id="g0n5x" name="AttackHintCom.xml" path="/Comp/"/>
     <component id="svtjy" name="TileInfoItem.xml" path="/Comp/"/>
+    <component id="tjjsz" name="ItemInventoryComp.xml" path="/CompItem/"/>
+    <image id="tjjs10" name="weapon_performence.jpg" path="/效果图/"/>
+    <component id="tjjs11" name="WeaponStats.xml" path="/CompItem/"/>
+    <component id="tjjs12" name="StatsComItem.xml" path="/Comp/"/>
+    <component id="g0n5hu" name="ItemComp.xml" path="/CompItem/"/>
+    <component id="g0n5hv" name="ItemIcon.xml" path="/CompItem/"/>
+    <image id="tjjs13" name="circle.png" path="/Images/"/>
+    <component id="tjjs14" name="BagItemComp.xml" path="/CompItem/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

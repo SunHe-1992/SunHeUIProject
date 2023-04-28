@@ -297,8 +297,6 @@
     <image id="lay8hr" name="red_button12.png" path="/Images/Button/" exported="true"/>
     <image id="lay8hs" name="yellow_button04.png" path="/Images/Button/" exported="true"/>
     <image id="lay8ht" name="yellow_pressed.png" path="/Images/Square/Outline/" exported="true"/>
-    <component id="g0n5hu" name="ItemComp.xml" path="/Comp/" exported="true"/>
-    <component id="g0n5hv" name="ItemIcon.xml" path="/Comp/" exported="true"/>
     <image id="g0n5hw" name="battle-axe.png" path="/Images/WeaponIcons/"/>
     <image id="g0n5hx" name="book-cover.png" path="/Images/WeaponIcons/"/>
     <image id="g0n5hy" name="bowie-knife.png" path="/Images/WeaponIcons/"/>
@@ -312,7 +310,6 @@
     <image id="g0n5i6" name="stiletto.png" path="/Images/WeaponIcons/"/>
     <image id="g0n5i7" name="wood-axe.png" path="/Images/WeaponIcons/"/>
     <component id="g0n5i8" name="ButtonArrow.xml" path="/buttons/" exported="true"/>
-    <component id="g0n5i9" name="CombatPredictCom.xml" path="/Comp/"/>
     <image id="g0n5ia" name="attack hud.jpg" path="/效果图/"/>
   </resources>
   <publish name="" genCode="true"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,640" designImage="ui://fstosj6iscq53" designImageOffsetX="-861">
+  <displayList>
+    <graph id="n0_tjjs" name="n0" xy="0,0" size="360,640" type="rect" lineSize="0" fillColor="#bf061626">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_tjjs" name="lbl_title" src="genvo" fileName="Comp/Label1.xml" xy="-3,92" size="362,23">
+      <Label title="Weapon Selection" titleColor="#fafcff"/>
+    </component>
+    <component id="n1_tjjs" name="statsComp" src="tjjs11" fileName="CompItem/WeaponStats.xml" xy="0,326"/>
+    <list id="n3_tjjs" name="list_inventory" xy="2,113" size="356,206" overflow="hidden" defaultItem="ui://fstosj6itjjs14" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>
