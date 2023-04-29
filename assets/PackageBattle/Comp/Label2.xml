@@ -4,7 +4,7 @@
     <graph id="n1_genv" name="n1" xy="4,16" size="343,2" type="rect" lineSize="0" fillColor="#ff7a7066">
       <relation target="" sidePair="width-width,left-left"/>
     </graph>
-    <text id="n0_genv" name="title" xy="76,-8" size="104,29" fontSize="20" color="#fafcff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="Label"/>
+    <text id="n0_genv" name="title" xy="76,-8" size="104,29" fontSize="20" color="#fafcff" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="ph atk"/>
     <text id="n2_g0n5" name="txt_value" xy="167,-9" size="83,34" fontSize="20" color="#ffffff" align="right" autoSize="shrink" text="8844"/>
   </displayList>
 </component>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" designImage="ui://fstosj6iscq54">
   <displayList>
-    <component id="n4_g0n5" name="comLeft" src="g0n5s" fileName="Comp/CombatPredictCom.xml" xy="3,477" controller="ctrl_color,0">
+    <component id="n4_g0n5" name="comLeft" src="g0n5s" fileName="Comp/CombatPredictCom.xml" xy="3,477" size="465,235" controller="ctrl_color,0">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
-    <component id="n5_g0n5" name="comRight" src="g0n5s" fileName="Comp/CombatPredictCom.xml" xy="791,477" controller="ctrl_color,1">
+    <component id="n5_g0n5" name="comRight" src="g0n5s" fileName="Comp/CombatPredictCom.xml" xy="804,477" size="475,235" controller="ctrl_color,1">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
-    <component id="n6_g0n5" name="comCenter" src="g0n5w" fileName="Comp/AttackBoutCom.xml" xy="463,491">
+    <component id="n6_g0n5" name="comCenter" src="g0n5w" fileName="Comp/AttackBoutCom.xml" xy="463,491" size="356,224">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
     <component id="n7_g0n5" name="titleInfoLeft" src="scq5h" fileName="Comp/TileInfo.xml" xy="0,0">

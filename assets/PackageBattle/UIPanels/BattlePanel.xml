@@ -11,10 +11,10 @@
       <relation target="" sidePair="left-left,top-top"/>
     </component>
     <component id="n4_ag5l" name="phaseCom" src="ag5lj" fileName="Comp/PhaseComp.xml" xy="838,161"/>
-    <component id="n5_lay8" name="actionCom" src="lay8l" fileName="Comp/ActionMenuComp.xml" xy="760,75">
+    <component id="n5_lay8" name="actionCom" src="lay8l" fileName="Comp/ActionMenuComp.xml" xy="760,75" visible="false">
       <relation target="" sidePair="middle-middle,right-right%"/>
     </component>
-    <component id="n7_tjjs" name="inventoryCom" src="tjjsz" fileName="CompItem/ItemInventoryComp.xml" xy="866,0">
+    <component id="n7_tjjs" name="inventoryCom" src="tjjsz" fileName="CompItem/ItemInventoryComp.xml" xy="866,0" visible="false">
       <relation target="" sidePair="right-right,top-top,bottomext-bottom"/>
     </component>
     <text id="n6_lay8" name="txt_logicState" xy="5,166" size="43,34" alpha="0.7" fontSize="24" color="#ffffff" ubb="true" bold="true" strokeColor="#000000" autoClearText="true" text="123"/>
