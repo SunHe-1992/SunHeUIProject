@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,202" designImage="ui://fstosj6iscq57" designImageOffsetY="-518">
+  <controller name="ctrl_color" pages="1,player camp,2,villian camp,3,NPC camp" selected="0">
+    <remark page="0" value="light"/>
+    <remark page="1" value="dark"/>
+    <remark page="2" value="green"/>
+  </controller>
   <displayList>
     <image id="n0_scq5" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,126" size="1280,76">
+      <gearDisplay controller="ctrl_color" pages="2"/>
       <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
     </image>
+    <graph id="n28_tjjs" name="n28" xy="0,126" size="1280,76" type="rect" lineSize="0" fillColor="#ff175392">
+      <gearDisplay controller="ctrl_color" pages="1"/>
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </graph>
+    <graph id="n29_tjjs" name="n29" xy="0,126" size="1280,76" type="rect" lineSize="0" fillColor="#ff339900">
+      <gearDisplay controller="ctrl_color" pages="3"/>
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </graph>
     <text id="n1_scq5" name="n1" xy="503,147" size="31,29" fontSize="20" color="#ffffff" strokeColor="#000000" autoClearText="true" text="HP">
       <relation target="n0_scq5" sidePair="center-center,top-top"/>
     </text>
