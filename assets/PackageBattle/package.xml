@@ -42,6 +42,11 @@
     <component id="g0n5hv" name="ItemIcon.xml" path="/CompItem/"/>
     <image id="tjjs13" name="circle.png" path="/Images/"/>
     <component id="tjjs14" name="BagItemComp.xml" path="/CompItem/"/>
+    <component id="tjjs15" name="CombatPanel.xml" path="/UIPanels/" exported="true"/>
+    <component id="tjjs16" name="PawnWeaponCom.xml" path="/Comp/"/>
+    <component id="tjjs17" name="CombatBar.xml" path="/Comp/"/>
+    <component id="tjjs18" name="CombatBar1.xml" path="/Comp/"/>
+    <component id="tjjs19" name="CombatHpBar.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

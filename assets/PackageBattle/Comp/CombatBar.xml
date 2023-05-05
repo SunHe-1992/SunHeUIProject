@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,77" designImage="ui://fstosj6iscq56" designImageOffsetX="-484" designImageOffsetY="-566">
+  <displayList>
+    <image id="n0_tjjs" name="n0" src="scq5f" fileName="Images/黑底.png" xy="2,0" size="150,24">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <image id="n2_tjjs" name="n2" src="scq5f" fileName="Images/黑底.png" xy="2,27" size="150,24">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <image id="n3_tjjs" name="n3" src="scq5f" fileName="Images/黑底.png" xy="2,54" size="150,24">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <text id="n1_tjjs" name="txt_value1" xy="-2,-2" size="138,29" fontSize="20" color="#ffffff" align="center" autoSize="none" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n4_tjjs" name="txt_value2" xy="-2,25" size="138,29" fontSize="20" color="#ffffff" align="center" autoSize="none" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n5_tjjs" name="txt_value3" xy="-2,52" size="138,29" fontSize="20" color="#ffffff" align="center" autoSize="none" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

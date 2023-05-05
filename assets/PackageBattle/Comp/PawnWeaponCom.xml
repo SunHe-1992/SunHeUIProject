@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="222,95" designImage="ui://fstosj6iscq56" designImageOffsetY="-411">
+  <controller name="color" exported="true" pages="0,,1,,2," selected="2">
+    <remark page="0" value="blue"/>
+    <remark page="1" value="red"/>
+    <remark page="2" value="green"/>
+  </controller>
+  <displayList>
+    <graph id="n2_tjjs" name="n2" xy="0,47" size="220,48" type="rect" lineSize="0" fillColor="#e5101a24"/>
+    <graph id="n0_tjjs" name="n0" xy="0,0" size="220,48" type="rect" lineSize="4" lineColor="#ff8c949c" fillColor="#ff43b95f">
+      <gearColor controller="color" pages="1,2" values="#ae080f|#43b95f" default="#0d4f98"/>
+    </graph>
+    <text id="n3_tjjs" name="txt_name" xy="10,7" size="200,34" fontSize="24" color="#ffffff" autoClearText="true" text="John Smith &amp; King"/>
+    <component id="n4_tjjs" name="weaponCom" src="tjjs14" fileName="CompItem/BagItemComp.xml" xy="-40,54"/>
+  </displayList>
+</component>
