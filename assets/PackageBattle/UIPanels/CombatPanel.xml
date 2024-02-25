@@ -13,17 +13,24 @@
     <component id="n7_tjjs" name="infoRight" src="tjjs17" fileName="Comp/CombatBar.xml" xy="658,568">
       <relation target="n12_tjjs" sidePair="center-center,bottom-top"/>
     </component>
-    <text id="n8_tjjs" name="n8" xy="615,561" size="54,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" autoClearText="true" text="Dmg">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
-    </text>
-    <text id="n9_tjjs" name="n9" xy="625,588" size="33,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" autoClearText="true" text="Hit">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
-    </text>
-    <text id="n10_tjjs" name="n10" xy="621,616" size="41,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" autoClearText="true" text="Crit">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
-    </text>
-    <component id="n12_tjjs" name="n12" src="tjjs18" fileName="Comp/CombatBar1.xml" xy="264,518">
+    <component id="n12_tjjs" name="hpbar" src="tjjs18" fileName="Comp/CombatBar1.xml" xy="264,518">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
+    <text id="n8_tjjs" name="n8" xy="615,561" size="54,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Dmg">
+      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
+    </text>
+    <text id="n9_tjjs" name="n9" xy="625,588" size="33,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Hit">
+      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
+    </text>
+    <text id="n10_tjjs" name="n10" xy="621,616" size="41,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Crit">
+      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
+    </text>
   </displayList>
+  <transition name="anim_hide">
+    <item time="0" type="Alpha" target="n0_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
+    <item time="0" type="Alpha" target="n12_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
+    <item time="0" type="Alpha" target="n1_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
+    <item time="0" type="Alpha" target="n6_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
+    <item time="0" type="Alpha" target="n7_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
+  </transition>
 </component>

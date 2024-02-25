@@ -4,7 +4,7 @@
     <image id="n0_tjjs" name="n0" src="scq5f" fileName="Images/黑底.png" xy="4,0" size="752,43">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n6_tjjs" name="n6" xy="357,3" size="37,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" autoClearText="true" text="HP"/>
+    <text id="n6_tjjs" name="n6" xy="357,3" size="37,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="HP"/>
     <text id="n7_tjjs" name="HPLeft" xy="245,0" size="60,42" fontSize="30" color="#ffffff" align="center" autoSize="shrink" autoClearText="true" text="292"/>
     <text id="n8_tjjs" name="HPRight" xy="446,0" size="60,42" fontSize="30" color="#ffffff" align="center" autoSize="shrink" autoClearText="true" text="292"/>
     <component id="n9_tjjs" name="barLeft" src="tjjs19" fileName="Comp/CombatHpBar.xml" xy="231,15" pivot="1,0" anchor="true" size="200,10">

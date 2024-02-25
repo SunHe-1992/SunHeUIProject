@@ -8,9 +8,13 @@
     <graph id="n0_scq5" name="n0" xy="0,0" size="116,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff202040" corner="2">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_scq5" name="bar" xy="1,1" size="114,8" type="rect" lineSize="0" fillColor="#ff6bc8ff" corner="2">
+    <graph id="n1_scq5" name="barFade" xy="1,1" size="114,8" type="rect" lineSize="0" fillColor="#ff6bc8ff" corner="2">
       <gearColor controller="color" pages="0,1" values="#6bc8ff|#fc5a5b"/>
-      <relation target="" sidePair="height-height"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2_cmpo" name="bar" xy="1,1" pivot="1,0" size="114,8" alpha="0.5" type="rect" lineSize="0" fillColor="#ff6bc8ff" corner="2">
+      <gearColor controller="color" pages="0,1" values="#6bc8ff|#fc5a5b"/>
+      <relation target="" sidePair="width-width,height-height"/>
     </graph>
   </displayList>
   <ProgressBar/>
