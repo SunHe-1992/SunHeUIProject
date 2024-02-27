@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dxvwggiw">
+  <resources>
+    <component id="r35z0" name="MonopolyMain.xml" path="/comp/" exported="true"/>
+    <image id="r35z2" name="setting-two.png" path="/images/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

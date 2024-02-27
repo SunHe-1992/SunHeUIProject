@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n1_r35z" name="btn_Test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="16,536">
+      <Button title="btnTest"/>
+    </component>
+    <component id="n2_r35z" name="btn_Jump" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="10,610">
+      <Button title="test jump"/>
+    </component>
+    <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="1067,24"/>
+  </displayList>
+</component>
