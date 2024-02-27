@@ -7,16 +7,20 @@
     <text id="n3_7rh7" name="n3" xy="232,59" size="720,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
     </text>
-    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="871,148">
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="882,156">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="TEST"/>
     </component>
-    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="224,148" size="186,56">
+    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="259,229" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Start Test Battle"/>
+      <Button title="Test Fire Emblem Battle"/>
     </component>
     <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1030,40">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n6_ldl8" name="btn_monopoly" src="em5i3" fileName="comp/ButtonBlue.xml" xy="259,140" size="248,56">
+      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+      <Button title="Test monopoly"/>
     </component>
   </displayList>
 </component>

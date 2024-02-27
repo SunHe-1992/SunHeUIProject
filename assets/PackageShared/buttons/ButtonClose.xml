@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="56,59" extention="Button">
+<component size="60,60" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n0_ag5l" name="n0" src="lay8gg" fileName="Images/CheckBox/yellow_cross.png" xy="0,0" size="59,59" aspect="true">
+    <image id="n2_ldl8" name="n2" src="lay8go" fileName="Images/CheckBox/red_boxCross.png" xy="0,2" pivot="0.5,0.5" size="60,56" aspect="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
   </displayList>
