@@ -8,5 +8,9 @@
       <Button title="test jump"/>
     </component>
     <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="1067,24"/>
+    <graph id="n5_fmio" name="n5" xy="9,13" size="274,370" type="rect" lineSize="0" fillColor="#7f000000"/>
+    <text id="n6_fmio" name="txt_hud" xy="20,24" size="249,347" fontSize="24" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="123123&#xA;123123&#xA;123123">
+      <relation target="n5_fmio" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
   </displayList>
 </component>
