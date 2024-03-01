@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,74" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" exported="true" pages="0,,1," selected="0"/>
+  <controller name="moneyIcon" exported="true" pages="0,,1,铜钱,2,元宝" selected="0"/>
+  <displayList>
+    <image id="n0_ijmi" name="n0" src="ijmisojwe" fileName="通用图/公用按钮1.png" xy="0,0" size="280,74">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ijmi" name="title" xy="105,14" pivot="0.5,0.5" size="70,45" font="ui://3qaaq8woeztcojw3" fontSize="33" color="#fff1d1" align="center" vAlign="middle" ubb="true" vars="true" singleLine="true" text="8888">
+      <gearXY controller="moneyIcon" pages="0" values="105,14" default="123,14"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_nhft" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="240,0" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <image id="n7_hsr0" name="n7" src="kbdw0" fileName="item_money_1.png" pkg="rhdkaedp" xy="56,13" size="50,50" aspect="true">
+      <gearDisplay controller="moneyIcon" pages="1"/>
+      <relation target="n1_ijmi" sidePair="middle-middle,right-left"/>
+    </image>
+    <image id="n8_hsr0" name="n8" src="khpv3" fileName="item_money_2.png" pkg="rhdkaedp" xy="56,13" size="50,50" aspect="true">
+      <gearDisplay controller="moneyIcon" pages="2"/>
+      <relation target="n1_ijmi" sidePair="middle-middle,right-left"/>
+    </image>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

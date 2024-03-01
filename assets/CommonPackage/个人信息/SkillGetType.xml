@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,21" extention="Button">
+  <controller name="type_" pages="5,,7," selected="0">
+    <remark page="0" value="牌友"/>
+    <remark page="1" value="牌局"/>
+  </controller>
+  <displayList>
+    <loader id="n0_qmnz" name="n0" xy="0,0" size="54,21" url="ui://080sa613qmnzo7z" fill="scale">
+      <gearIcon controller="type_" pages="5,7" values="ui://080sa613qmnzo7z|ui://080sa613qmnzo7v"/>
+    </loader>
+    <richtext id="n1_qmnz" name="title" xy="0,-1" size="54,24" font="ui://b6ljs3rfc4lz2" fontSize="16" color="#fff7eb" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="TXT-SkillGetType_1">
+      <gearText controller="type_" pages="5,7" values="TXT-SkillGetType_1|TXT-SkillGetType_2"/>
+    </richtext>
+  </displayList>
+  <Button/>
+</component>

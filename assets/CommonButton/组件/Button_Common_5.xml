@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,74" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ijmi" name="n0" src="ijmisojwf" fileName="通用图/公用按钮2.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ijmi" name="title" xy="0,0" size="280,74" font="ui://3qaaq8woeztcojw3" fontSize="33" color="#094548" align="center" vAlign="middle" letterSpacing="-2" ubb="true" vars="true" autoSize="none" singleLine="true" text="fdsfsdfds">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

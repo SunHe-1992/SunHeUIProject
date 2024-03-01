@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,24">
+  <controller name="redpoint" exported="true" pages="0,无,1,有" selected="1"/>
+  <controller name="c1" exported="true" pages="1,红点,0,叹号" selected="0"/>
+  <displayList>
+    <image id="n0_rc7x" name="n0" src="o0nehhk0ty" fileName="素材/不导出/红点.png" xy="0,0" aspect="true">
+      <gearDisplay controller="redpoint" pages="1"/>
+      <gearDisplay2 controller="c1" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_onhs" name="n1" src="onhs7sokh6" fileName="素材/不导出/common_red2.png" xy="-7,-13" pivot="0,1">
+      <gearDisplay controller="redpoint" pages="1"/>
+      <gearDisplay2 controller="c1" pages="0" condition="0"/>
+    </image>
+  </displayList>
+  <transition name="t0" options="6" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n1_onhs" tween="true" startValue="-10.21" endValue="16.06" duration="13"/>
+    <item time="13" type="Rotation" target="n1_onhs" tween="true" startValue="16.06" endValue="-10.21" duration="11"/>
+    <item time="26" type="Scale" target="n1_onhs" tween="true" startValue="1,1" endValue="1.3,1.3" duration="4"/>
+    <item time="30" type="Scale" target="n1_onhs" tween="true" startValue="1.3,1.3" endValue="1,1" duration="4"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n0_rc7x" tween="true" startValue="1" endValue="0.3" duration="12"/>
+    <item time="12" type="Alpha" target="n0_rc7x" tween="true" startValue="0.3" endValue="1" duration="12"/>
+  </transition>
+</component>

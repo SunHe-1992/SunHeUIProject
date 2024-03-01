@@ -24,7 +24,11 @@
     </component>
     <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="886,250">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="ADD 50 dices"/>
+      <Button title="+ 50 dices"/>
+    </component>
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="886,331">
+      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+      <Button title="+ 10K gold"/>
     </component>
   </displayList>
 </component>

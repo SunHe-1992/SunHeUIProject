@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,71" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="page" pages="0,,1," selected="0"/>
+  <controller name="btnPage" pages="0,,1,,2,,3,,4,,5," selected="0">
+    <remark page="0" value="福袋"/>
+    <remark page="1" value="资源"/>
+    <remark page="2" value="牌友"/>
+    <remark page="3" value="装扮"/>
+    <remark page="4" value="牌局"/>
+    <remark page="5" value="道具"/>
+  </controller>
+  <displayList>
+    <image id="n3_ptvy" name="bg" src="ptvyhhk0tb" fileName="素材/不导出/商城_选中切页.png" xy="0,0">
+      <gearDisplay controller="page" pages="1"/>
+    </image>
+    <text id="n5_ptvy" name="title" xy="0,0" size="203,71" font="ui://b6ljs3rfg4vv0" fontSize="26" color="#fff1d1" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" text="福袋">
+      <gearColor controller="page" pages="1" values="#87481f,#000000" default="#fff1d1,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n6_xde5" name="noChoose" xy="47,36" pivot="0.5,0.5" anchor="true" size="43,42" url="ui://z2dx9rj5xde5hhk0tm" align="center" vAlign="middle">
+      <gearDisplay controller="page" pages="0"/>
+      <gearIcon controller="btnPage" pages="0,1,2,3,4,5" values="ui://z2dx9rj5xde5hhk0tm|ui://z2dx9rj5xde5hhk0ts|ui://z2dx9rj5xde5hhk0tj|ui://z2dx9rj5xde5hhk0tq|ui://z2dx9rj5xde5hhk0to|ui://z2dx9rj5xde5hhk0tk"/>
+    </loader>
+    <loader id="n7_xde5" name="choose" xy="47,36" pivot="0.5,0.5" anchor="true" size="43,42" url="ui://z2dx9rj5xde5hhk0tn" align="center" vAlign="middle">
+      <gearDisplay controller="page" pages="1"/>
+      <gearIcon controller="btnPage" pages="0,1,2,3,4,5" values="ui://z2dx9rj5xde5hhk0tn|ui://z2dx9rj5xde5hhk0tt|ui://z2dx9rj5xde5hhk0ti|ui://z2dx9rj5xde5hhk0tr|ui://z2dx9rj5xde5hhk0tp|ui://z2dx9rj5xde5hhk0tl"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

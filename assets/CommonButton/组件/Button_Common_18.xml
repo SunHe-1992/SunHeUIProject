@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="273,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <controller name="red" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n0_ijmi" name="n0" src="ef5a7sokh9" fileName="素材/不导出/ywbz_btn1.png" xy="0,0" size="273,80">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_ijmi" name="title" xy="112,17" size="64,45" font="ui://3qaaq8wogn107sok2e" fontSize="33" color="#b04815" align="center" vAlign="middle" ubb="true" vars="true" singleLine="true" text="488">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_nhft" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="236,8" touchable="false" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n9_ef5a" name="moneyLoader" xy="70,14" size="50,50" touchable="false" url="ui://rhdkaedpkhpv3" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">
+      <relation target="n1_ijmi" sidePair="middle-middle,right-left"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

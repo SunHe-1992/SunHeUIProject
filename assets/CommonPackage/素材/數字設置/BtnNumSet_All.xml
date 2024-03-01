@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="56,56" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="upOrDown" exported="true" pages="0,向上,1,向下" selected="1"/>
+  <displayList>
+    <image id="n0_rtax" name="n0" src="rtaxo5n" fileName="素材/數字設置/all按钮.png" xy="28,28" pivot="0.5,0.5" anchor="true" rotation="180">
+      <gearLook controller="upOrDown" pages="1" values="1,180,0,0" default="1,0,0,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

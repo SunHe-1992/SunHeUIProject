@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0_cenm" name="n0" src="o5kasojwo" fileName="不发布图片/common_btn6.png" xy="0,0" size="76,170" color="#808080">
+      <gearColor controller="button" pages="1,3" values="#808080|#808080" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r1"/>
+</component>

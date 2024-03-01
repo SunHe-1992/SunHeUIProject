@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,74" extention="Label">
+  <controller name="hasLayer" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_t3vu" name="n5" src="ns6y2t" fileName="通用素材/通用_提示底框.png" xy="0,0" size="520,74">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n6_t3vu" name="title" xy="4,12" size="512,50" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#fff7eb" align="center" vAlign="middle" autoSize="shrink" bold="true" singleLine="true" autoClearText="true" text="你是庄家，你先出牌">
+      <gearDisplay controller="hasLayer" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <richtext id="n7_j9d9" name="txt_layer" xy="4,12" size="512,50" font="ui://b6ljs3rfg4vv0" fontSize="22" color="#fff7eb" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" bold="true" strokeColor="#332f4e" singleLine="true" autoClearText="true" text="你是庄家，你先出牌">
+      <gearDisplay controller="hasLayer" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+</component>

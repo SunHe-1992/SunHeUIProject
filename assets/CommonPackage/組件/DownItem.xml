@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,111">
+  <controller name="type_" exported="true" pages="0,牌友,1,背包,2,牌谱,3,小卖部,4,茶楼" selected="0"/>
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <controller name="red" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_odw3" name="n0" src="i9vio6c" fileName="素材/down图标/功能底框2.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_i9vi" name="n2" src="i9vio6b" fileName="素材/down图标/功能底框_茶楼.png" xy="-17,-11">
+      <gearDisplay controller="type_" pages="4"/>
+    </image>
+    <loader id="n1_odw3" name="loader_icon" xy="1,15" size="96,96" aspect="true" url="ui://080sa613i9vio6d" align="center" vAlign="bottom">
+      <gearIcon controller="type_" pages="0,1,2,3,4" values="ui://080sa613i9vio6d|ui://080sa613i9vio6i|ui://080sa613i9vio6f|ui://080sa613i9vio6g|ui://080sa613i9vio6h"/>
+    </loader>
+    <component id="n3_i9vi" name="n3" src="latbojsw" fileName="组件/Com_RedPoint.xml" pkg="z2dx9rj5" xy="76,12" controller="redpoint,1,c1,0">
+      <gearDisplay controller="red" pages="1"/>
+    </component>
+  </displayList>
+</component>

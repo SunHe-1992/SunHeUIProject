@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120">
+  <controller name="choose" pages="0,,1,道具选中框,5,道具选中框2" selected="0"/>
+  <controller name="isup" pages="0,没有上阵,1,上阵中,2,物品重复" selected="0"/>
+  <controller name="bg" pages="0,白,1,绿,2,蓝,3,紫,4,橙,5,红" selected="0"/>
+  <controller name="red" pages="0,,1," selected="0"/>
+  <controller name="useing" pages="0,,1," selected="0">
+    <remark page="0" value="不显示使用中"/>
+    <remark page="1" value="显示使用中"/>
+  </controller>
+  <controller name="nowear" pages="0,,1," selected="0"/>
+  <controller name="unLock" pages="0,,1,没有解锁" selected="0"/>
+  <displayList>
+    <loader id="n0_g4vv" name="bgLoader" xy="0,0" size="120,120" url="ui://080sa613rtaxo56" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="unLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="bg" pages="1,2,3,4,5" values="ui://080sa613rtaxo58|ui://080sa613rtaxo59|ui://080sa613rtaxo57|ui://080sa613rtaxo5a|ui://080sa613pluco67" default="ui://080sa613rtaxo56"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n2_g4vv" name="loader_icon" xy="4,4" size="112,113" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="unLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n7_rtax" name="txt_num" xy="5,84" size="109,29" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#fff7eb" align="right" vAlign="middle" ubb="true" vars="true" autoSize="shrink" strokeColor="#000000" singleLine="true" autoClearText="true" text="0">
+      <gearDisplay controller="unLock" pages="0"/>
+      <gearLook controller="unLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+    <image id="n6_rtax" name="n6" src="rtaxo5c" fileName="素材/品质底/道具选中框.png" xy="-13,-13">
+      <gearDisplay controller="choose" pages="1"/>
+    </image>
+    <image id="n4_odw3" name="n4" src="odw31n" fileName="素材/品质底/公用道具框_选中.png" xy="0,0">
+      <gearDisplay controller="choose" pages="5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_rtax" name="n5" src="rtaxo5b" fileName="素材/标签_上场中.png" xy="0,0">
+      <gearDisplay controller="isup" pages="1"/>
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <component id="n8_evpl" name="n8" src="latbojsw" fileName="组件/Com_RedPoint.xml" pkg="z2dx9rj5" xy="96,3" controller="redpoint,1,c1,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <image id="n9_ptvy" name="n9" src="ptvyo6l" fileName="通用素材/使用中标签.png" xy="0,83">
+      <gearDisplay controller="useing" pages="1"/>
+    </image>
+    <image id="n10_fxuf" name="n10" src="fxufo6m" fileName="不导出素材/不可穿戴.png" xy="12,15">
+      <gearDisplay controller="nowear" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <richtext id="n13_vim2" name="txt_tip" xy="5,83" size="109,29" font="ui://b6ljs3rfg4vv0" fontSize="20" color="#fff7eb" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" strokeColor="#000000" singleLine="true" text="TXT-PAIYOU-51">
+      <gearDisplay controller="unLock" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </richtext>
+    <image id="n14_m0p5" name="n14" src="m0p5o8g" fileName="素材/茶楼_重复.png" xy="1,1">
+      <gearDisplay controller="isup" pages="2"/>
+    </image>
+  </displayList>
+  <transition name="ChangeSize">
+    <item time="0" type="Pivot" value="0.5,0.5"/>
+    <item time="0" type="Scale" tween="true" startValue="0.2,0.2" endValue="1,1" duration="6"/>
+  </transition>
+</component>

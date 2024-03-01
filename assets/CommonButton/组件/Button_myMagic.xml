@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="131,96" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uris" name="n0" src="urissa2" fileName="素材/魂术魂技界面显示/切片/我的魂器术按钮.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

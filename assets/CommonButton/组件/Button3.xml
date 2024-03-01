@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="273,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n0_9zss" name="n0" src="ef5a7sokh9" fileName="通用图/ywbz_btn1.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_9zss" name="title" xy="0,5" size="273,71" font="ui://3qaaq8wogn107sok2e" fontSize="36" color="#b04815" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="￥30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n2_odr9" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="242,8" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

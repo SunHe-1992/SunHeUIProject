@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,118">
+  <controller name="lockType" pages="0,,1,锁定" selected="0"/>
+  <displayList>
+    <image id="n2_qmnz" name="n2" src="qmnzo7s" fileName="不导出素材/雀士_技能底框.png" xy="0,0" size="118,118" aspect="true">
+      <gearLook controller="lockType" pages="0" values="1,0,0,0" default="1,0,1,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n0_qmnz" name="loader_icon" src="vim2o8a" fileName="不导出组件/skillIcon.xml" xy="3,3" size="112,112" aspect="true">
+      <gearLook controller="lockType" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_qmnz" name="n1" src="qmnzo7t" fileName="不导出素材/雀士未解锁.png" xy="27,27">
+      <gearDisplay controller="lockType" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

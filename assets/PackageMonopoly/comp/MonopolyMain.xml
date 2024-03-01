@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" designImage="ui://dxvwggiww6ez3" designImageOffsetX="280" designImageOffsetY="-180">
   <displayList>
-    <component id="n1_r35z" name="btn_Test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="16,536">
+    <component id="n9_ei10" name="topBar" src="g4vvr" fileName="組件/TopbarCom.xml" pkg="080sa613" xy="0,2" size="754,119">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n1_r35z" name="btn_Test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="4,670">
       <Button title="btnTest"/>
     </component>
     <component id="n2_r35z" name="btn_RollDice" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="220,594" size="95,75">
       <Button title="Roll Dice"/>
     </component>
-    <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="202,306" size="64,64" aspect="true">
+    <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="202,456" size="64,64" aspect="true">
       <relation target="n5_fmio" sidePair="right-right,bottom-bottom"/>
     </image>
-    <graph id="n5_fmio" name="n5" xy="9,13" size="274,370" type="rect" lineSize="0" fillColor="#7f000000"/>
-    <text id="n6_fmio" name="txt_hud" xy="20,24" size="249,347" fontSize="24" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="123123&#xA;123123&#xA;123123">
+    <graph id="n5_fmio" name="n5" xy="9,163" size="274,370" type="rect" lineSize="0" fillColor="#7f000000"/>
+    <text id="n6_fmio" name="txt_hud" xy="20,174" size="249,347" fontSize="24" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="123123&#xA;123123&#xA;123123">
       <relation target="n5_fmio" sidePair="width-width,height-height,center-center,middle-middle"/>
     </text>
     <component id="n7_w6ez" name="compFactor" src="w6ez4" fileName="comp/DiceFactor.xml" xy="322,596">

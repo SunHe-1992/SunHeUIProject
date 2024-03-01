@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1440,720" opaque="false">
+  <displayList>
+    <component id="n0_jjga" name="tipsCom" src="t3vu2v" fileName="組件/Tips_Common_0.xml" xy="720,360" pivot="0.5,0.5" anchor="true" touchable="false"/>
+  </displayList>
+</component>

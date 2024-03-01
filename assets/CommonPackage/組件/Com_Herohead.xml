@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120">
+  <controller name="isTop" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n24_zwck" name="n24" src="odw319" fileName="不导出素材/头像框_2.png" xy="7,7"/>
+    <component id="n18_ku0w" name="loadercom" src="g4vv11" fileName="不导出组件/loaderhead.xml" xy="7,7"/>
+    <image id="n23_odw3" name="n23" src="odw31b" fileName="不导出素材/头像框_装饰.png" xy="0,37">
+      <gearDisplay controller="isTop" pages="1"/>
+    </image>
+    <loader id="n20_10d3s" name="loaderKuang" xy="-3,-4" size="126,126" url="ui://080sa613j9d9o87" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

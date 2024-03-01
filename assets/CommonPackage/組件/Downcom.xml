@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="867,131">
+  <displayList>
+    <image id="n0_odw3" name="n0" src="odw31c" fileName="素材/功能底框1.png" xy="189,48" size="678,83"/>
+    <component id="n2_odw3" name="btn_paiyou" src="odw31k" fileName="組件/DownItem.xml" xy="287,16"/>
+    <component id="n3_odw3" name="btn_bag" src="odw31k" fileName="組件/DownItem.xml" xy="435,16" controller="type_,1"/>
+    <component id="n4_odw3" name="btn_paipu" src="odw31k" fileName="組件/DownItem.xml" xy="435,239" visible="false" controller="type_,2"/>
+    <component id="n5_odw3" name="btn_shop" src="odw31k" fileName="組件/DownItem.xml" xy="570,16" controller="type_,3"/>
+    <component id="n6_odw3" name="btn_chalou" src="odw31k" fileName="組件/DownItem.xml" xy="718,16" controller="type_,4"/>
+  </displayList>
+</component>

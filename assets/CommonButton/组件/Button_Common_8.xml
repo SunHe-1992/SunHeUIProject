@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,92" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n3_qfe3" name="n3" xy="0,0" size="88,92" url="ui://z2dx9rj5jko0sojxt" align="center" vAlign="middle" fill="scale">
+      <gearColor controller="button" pages="1,3" values="#808080|#808080" default="#ffffff"/>
+      <gearIcon controller="type" pages="1" values="ui://ph0nop4vcgc6sojyy" default="ui://z2dx9rj5jko0sojxt"/>
+    </loader>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3"/>
+</component>

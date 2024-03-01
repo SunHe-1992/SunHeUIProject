@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,157">
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <controller name="iswear" pages="0,,1," selected="0"/>
+  <controller name="unLock" pages="0,已解鎖,1,未解锁" selected="0"/>
+  <controller name="red" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n17_rtax" name="n17" src="rtaxo60" fileName="通用素材/雀士_时装展示框.png" xy="0,0">
+      <gearLook controller="unLock" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n18_rtax" name="loader_icon" xy="7,6" size="110,125" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="unLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n15_rtax" name="txt_name" xy="6,131" size="109,24" font="ui://b6ljs3rfc4lz2" fontSize="16" color="#a56a3d" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="厲害">
+      <gearDisplay controller="unLock" pages="0"/>
+      <gearLook controller="unLock" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,center-center"/>
+    </richtext>
+    <image id="n19_rtax" name="n19" src="rtaxo5c" fileName="素材/品质底/道具选中框.png" xy="-12,-13" size="146,184">
+      <gearDisplay controller="choose" pages="1"/>
+    </image>
+    <image id="n20_rtax" name="n20" src="rtaxo61" fileName="通用素材/标签_已穿戴.png" xy="2,2">
+      <gearDisplay controller="iswear" pages="1"/>
+    </image>
+    <image id="n27_evpl" name="n27" src="pluco66" fileName="不导出素材/雀士_时装未解锁.png" xy="0,0" size="120,157" group="n25_rtax" alpha="0.5"/>
+    <text id="n23_rtax" name="txt_getName" xy="23,100" size="85,24" group="n25_rtax" font="ui://b6ljs3rfc4lz2" fontSize="16" color="#fff7eb" align="center" ubb="true" vars="true" autoSize="none" singleLine="true" text="获取途径:"/>
+    <text id="n24_rtax" name="txt_getNotice" xy="2,123" size="118,26" group="n25_rtax" font="ui://b6ljs3rfc4lz2" fontSize="18" color="#de6a45" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="缔结契约"/>
+    <group id="n25_rtax" name="n25" xy="0,0" size="120,157" advanced="true">
+      <gearDisplay controller="unLock" pages="1"/>
+    </group>
+    <component id="n28_evpl" name="n28" src="latbojsw" fileName="组件/Com_RedPoint.xml" pkg="z2dx9rj5" xy="98,6" controller="redpoint,1,c1,1">
+      <gearDisplay controller="red" pages="1"/>
+    </component>
+  </displayList>
+</component>

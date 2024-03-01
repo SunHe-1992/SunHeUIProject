@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="080sa613">
+  <resources>
+    <image id="n9l8c" name="背景图.jpg" path="/不导出素材/"/>
+    <image id="v5lee" name="1656674831463.jpg" path="/不导出素材/"/>
+    <image id="onn9h" name="公用_二级弹窗.png" path="/不导出素材/"/>
+    <component id="onn9i" name="CommonFrame1.xml" path="/組件/" exported="true"/>
+    <component id="g4vvr" name="TopbarCom.xml" path="/組件/" exported="true"/>
+    <component id="g4vvs" name="TopBar_Point.xml" path="/組件/" exported="true"/>
+    <image id="g4vvu" name="公用_类别底1.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="19,8,38,16"/>
+    <component id="g4vvv" name="Com_Herohead.xml" path="/組件/" exported="true"/>
+    <image id="g4vvw" name="主界面_头像底(1).png" path="/不导出素材/"/>
+    <image id="g4vvx" name="主界面_等级底框.png" path="/不导出素材/"/>
+    <image id="g4vvy" name="主界面_主角头像.png" path="/不导出素材/"/>
+    <component id="g4vvz" name="TopHead.xml" path="/組件/" exported="true"/>
+    <image id="g4vv10" name="主界面_上底.png" path="/不导出素材/"/>
+    <component id="g4vv11" name="loaderhead.xml" path="/不导出组件/"/>
+    <component id="g4vva" name="itemCom.xml" path="/組件/" exported="true"/>
+    <image id="c4lz13" name="麻将主界面.jpg" path="/设计图/"/>
+    <image id="c4lz14" name="铜钱临时资源.png" path="/不导出素材/"/>
+    <image id="c4lz15" name="货币底框.png" path="/素材/" scale="9grid" scale9grid="20,10,40,20"/>
+    <image id="c4lz16" name="添加按钮.png" path="/不导出素材/"/>
+    <image id="odw317" name="头像框_1.png" path="/不导出素材/"/>
+    <image id="odw318" name="功能底框2.png" path="/不导出素材/"/>
+    <image id="odw319" name="头像框_2.png" path="/不导出素材/"/>
+    <image id="odw31a" name="头像临时资源.png" path="/不导出素材/"/>
+    <image id="odw31b" name="头像框_装饰.png" path="/不导出素材/"/>
+    <image id="odw31c" name="功能底框1.png" path="/素材/"/>
+    <component id="odw31d" name="Downcom.xml" path="/組件/" exported="true"/>
+    <image id="odw31e" name="功能底框2.png" path="/素材/"/>
+    <image id="odw31f" name="奖励图标.png" path="/素材/"/>
+    <image id="odw31g" name="牌谱图标.png" path="/素材/"/>
+    <image id="odw31h" name="任务图标.png" path="/素材/"/>
+    <image id="odw31i" name="商城图标.png" path="/素材/"/>
+    <image id="odw31j" name="活动图标.png" path="/素材/"/>
+    <component id="odw31k" name="DownItem.xml" path="/組件/" exported="true"/>
+    <image id="odw31l" name="麻将主界面-换装.jpg" path="/素材/"/>
+    <image id="odw31n" name="公用道具框_选中.png" path="/素材/品质底/"/>
+    <image id="ina81o" name="通用_框1.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="44,48,88,96"/>
+    <component id="ina81p" name="Button_Common_0.xml" path="/組件/" exported="true"/>
+    <image id="ina81r" name="黄色按钮.png" path="/素材/"/>
+    <image id="ina82q" name="规则.png" path="/素材/"/>
+    <image id="ina82o" name="小控件底框.png" path="/素材/"/>
+    <image id="ina82p" name="小控件设置.png" path="/素材/"/>
+    <component id="ina81s" name="ButtonSet.xml" path="/組件/" exported="true"/>
+    <image id="ina81t" name="表情.png" path="/素材/"/>
+    <image id="ina81u" name="记牌器.png" path="/素材/"/>
+    <image id="ina81v" name="托管.png" path="/素材/"/>
+    <image id="ina81w" name="头像临时资源.png" path="/素材/"/>
+    <image id="i2ia2r" name="抬头底框.png" path="/素材/选房间/" scale="9grid" scale9grid="132,13,14,26"/>
+    <image id="i2ia2s" name="返回按钮.png" path="/素材/选房间/"/>
+    <image id="ns6y2t" name="通用_提示底框.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="130,18,260,36"/>
+    <image id="ns6y2u" name="通用_框2.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="22,58,44,116"/>
+    <component id="t3vu2v" name="Tips_Common_0.xml" path="/組件/" exported="true"/>
+    <component id="yvwe3y" name="UIMjItem.xml" path="/組件/" exported="true"/>
+    <image id="yvwe3z" name="角标赖.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe40" name="MJ_FENG_BEI.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe41" name="MJ_TONG_7.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe42" name="MJ_TONG_8.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe43" name="MJ_TONG_9.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe44" name="MJ_UNKNOWN.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe45" name="MJ_WANG_1.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe46" name="MJ_WANG_2.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe47" name="MJ_WANG_3.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe48" name="MJ_WANG_4.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe49" name="MJ_WANG_5.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4a" name="MJ_WANG_5RED.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4b" name="MJ_WANG_6.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4c" name="MJ_WANG_7.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4d" name="MJ_WANG_8.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4e" name="MJ_WANG_9.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4f" name="MJ_ZFB_BAIBAN.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4g" name="MJ_TONG_6.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4h" name="MJ_TONG_5RED.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4i" name="MJ_TONG_5.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4j" name="MJ_TONG_4.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4k" name="MJ_FENG_DONG.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4l" name="MJ_FENG_NAN.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4m" name="MJ_FENG_XI.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4n" name="MJ_TIAO_1.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4o" name="MJ_TIAO_2.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4p" name="MJ_TIAO_3.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4q" name="MJ_TIAO_4.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4r" name="MJ_ZFB_FACAI.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4s" name="MJ_TIAO_5.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4t" name="MJ_TIAO_6.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4u" name="MJ_TIAO_7.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4v" name="MJ_TIAO_8.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4w" name="MJ_TIAO_9.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4x" name="MJ_TONG_1.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4y" name="MJ_TONG_2.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe4z" name="MJ_TONG_3.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe50" name="MJ_TIAO_5RED.png" path="/麻将切图/" exported="true"/>
+    <image id="yvwe51" name="MJ_ZFB_HONGZHONG.png" path="/麻将切图/" exported="true"/>
+    <component id="jjga52" name="UIMJRow.xml" path="/組件/" exported="true"/>
+    <component id="jjga53" name="TipsPage.xml" path="/組件/" exported="true"/>
+    <image id="1025o55" name="蓝色按钮.png" path="/素材/"/>
+    <image id="rtaxo56" name="公用道具框_最低级.png" path="/素材/品质底/"/>
+    <image id="rtaxo57" name="公用道具框_紫.png" path="/素材/品质底/"/>
+    <image id="rtaxo58" name="公用道具框_绿.png" path="/素材/品质底/"/>
+    <image id="rtaxo59" name="公用道具框_蓝.png" path="/素材/品质底/"/>
+    <image id="rtaxo5a" name="公用道具框_黄.png" path="/素材/品质底/"/>
+    <image id="rtaxo5b" name="标签_上场中.png" path="/素材/"/>
+    <image id="rtaxo5c" name="道具选中框.png" path="/素材/品质底/" exported="true" scale="9grid" scale9grid="36,36,72,72"/>
+    <image id="rtaxo5d" name="通用_标切页.png" path="/通用素材/" exported="true"/>
+    <component id="rtaxo5e" name="commonTitle.xml" path="/組件/" exported="true"/>
+    <component id="rtaxo5f" name="EmoCom.xml" path="/組件/" exported="true"/>
+    <image id="rtaxo5g" name="临时资源 (1).png" path="/不导出素材/"/>
+    <image id="rtaxo5h" name="通用_弹窗2.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="114,88,228,16"/>
+    <image id="rtaxo5i" name="通用_关闭按钮1.png" path="/通用素材/" exported="true"/>
+    <component id="rtaxo5j" name="commonKuang.xml" path="/組件/" exported="true"/>
+    <component id="rtaxo5k" name="commonClose.xml" path="/組件/" exported="true"/>
+    <image id="rtaxo5l" name="通用_分割线.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="28,2,13,4"/>
+    <component id="rtaxo5m" name="itemComWithName.xml" path="/組件/" exported="true"/>
+    <image id="rtaxo5n" name="all按钮.png" path="/素材/數字設置/" exported="true"/>
+    <image id="rtaxo5o" name="加按钮.png" path="/素材/數字設置/" exported="true"/>
+    <image id="rtaxo5p" name="加减底框1.png" path="/素材/數字設置/" exported="true" scale="9grid" scale9grid="27,0,54,59"/>
+    <image id="rtaxo5q" name="减按钮.png" path="/素材/數字設置/" exported="true"/>
+    <component id="rtaxo5s" name="NumSet.xml" path="/組件/" exported="true"/>
+    <component id="rtaxo5t" name="BtnNumSet_Add.xml" path="/素材/數字設置/"/>
+    <component id="rtaxo5u" name="BtnNumSet_Del.xml" path="/素材/數字設置/"/>
+    <component id="rtaxo5v" name="BtnNumSet_All.xml" path="/素材/數字設置/"/>
+    <image id="rtaxo5w" name="通用_弹窗3.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="360,37,720,11"/>
+    <image id="rtaxo5x" name="通用_箭头.png" path="/通用素材/" exported="true"/>
+    <image id="rtaxo5y" name="通用_标切新.png" path="/通用素材/" exported="true"/>
+    <component id="rtaxo5z" name="playerClothCom.xml" path="/組件/" exported="true"/>
+    <image id="rtaxo60" name="雀士_时装展示框.png" path="/通用素材/" exported="true"/>
+    <image id="rtaxo61" name="标签_已穿戴.png" path="/通用素材/" exported="true"/>
+    <image id="rtaxo62" name="锁.png" path="/通用素材/" exported="true"/>
+    <image id="tjzyo63" name="通用_关闭按钮.png" path="/通用素材/" exported="true"/>
+    <image id="tjzyo64" name="通用_弹窗1.png" path="/通用素材/" scale="9grid" scale9grid="361,156,26,260"/>
+    <component id="tjzyo65" name="common_kuang_1.xml" path="/組件/" exported="true"/>
+    <component id="f4qro" name="BagPageButton.xml" path="/組件/" exported="true"/>
+    <component id="f4qrp" name="SmallBagPageButton.xml" path="/組件/" exported="true"/>
+    <image id="f4qr8" name="更多按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qr9" name="更多按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc19" name="胡特效按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc18" name="胡特效按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc10" name="戒指按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc11" name="戒指按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc12" name="美甲按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc13" name="美甲按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imx" name="牌背按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imu" name="牌背按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imv" name="牌桌按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imw" name="牌桌按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc1b" name="碰特效按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc1a" name="碰特效按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrf" name="时装按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrg" name="时装按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc17" name="手饰按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc16" name="手饰按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jcy" name="手套按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jcz" name="手套按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc14" name="贴纸按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f9jc15" name="贴纸按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrj" name="头发按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrk" name="头发按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="l3ims" name="头像按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imt" name="头像按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imr" name="头像框按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="l3imq" name="头像框按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrm" name="鞋子按钮_未选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrn" name="鞋子按钮_选中.png" path="/素材/分类按钮/"/>
+    <image id="f4qrd" name="切页_未选中.png" path="/素材/"/>
+    <image id="f4qre" name="切页_选中.png" path="/素材/"/>
+    <image id="pluco66" name="雀士_时装未解锁.png" path="/不导出素材/"/>
+    <image id="pluco67" name="公用道具框_红.png" path="/素材/品质底/"/>
+    <image id="pluco68" name="麻将倒下.png" path="/麻将切图/"/>
+    <image id="pluco69" name="麻将直立.png" path="/麻将切图/"/>
+    <image id="i9vio6b" name="功能底框_茶楼.png" path="/素材/down图标/"/>
+    <image id="i9vio6c" name="功能底框2.png" path="/素材/down图标/"/>
+    <image id="i9vio6d" name="好友图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6e" name="活动图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6f" name="牌谱图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6g" name="小卖铺图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6h" name="茶楼图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6i" name="背包图标.png" path="/素材/down图标/"/>
+    <image id="i9vio6j" name="小控件邮件.png" path="/素材/"/>
+    <component id="di7jo6k" name="Common_RuleText.xml" path="/組件/" exported="true"/>
+    <image id="ptvyo6l" name="使用中标签.png" path="/通用素材/" exported="true"/>
+    <component id="di7j1b" name="PlayerInfoSet.xml" path="/組件/" exported="true"/>
+    <image id="fxufo6m" name="不可穿戴.png" path="/不导出素材/"/>
+    <image id="hm4wo6n" name="个人信息_bg1.png" path="/切片/切片/" scale="9grid" scale9grid="627,203,10,74"/>
+    <image id="hm4wo6o" name="个人信息_切页栏.png" path="/切片/切片/" exported="true"/>
+    <image id="hm4wo6p" name="个人信息_标题.png" path="/切片/切片/"/>
+    <component id="hm4wo6q" name="PlayerItem.xml" path="/个人信息/"/>
+    <image id="hm4wo6r" name="个人信息_切页hl.png" path="/切片/切片/"/>
+    <image id="hm4wo6s" name="个人信息_资料2.png" path="/切片/切片/"/>
+    <image id="hm4wo6t" name="个人信息_战绩2.png" path="/切片/切片/"/>
+    <image id="hm4wo6u" name="个人信息_荣誉2.png" path="/切片/切片/"/>
+    <image id="hm4wo6v" name="个人信息_资料1.png" path="/切片/切片/"/>
+    <image id="hm4wo6w" name="个人信息_战绩1.png" path="/切片/切片/"/>
+    <image id="hm4wo6x" name="个人信息_荣誉1.png" path="/切片/切片/"/>
+    <image id="hm4wo6y" name="G个人信息-荣誉.jpg" path="/切片/切片/"/>
+    <image id="hm4wo6z" name="G个人信息-战绩.jpg" path="/切片/切片/"/>
+    <image id="hm4wo70" name="G个人信息-资料.jpg" path="/切片/切片/"/>
+    <image id="hm4wo71" name="个人信息_分割线.png" path="/切片/切片/" scale="9grid" scale9grid="10,0,20,0"/>
+    <image id="hm4wo72" name="个人信息_名字底.png" path="/切片/切片/" scale="9grid" scale9grid="96,10,38,20"/>
+    <image id="hm4wo73" name="个人信息_改名.png" path="/切片/切片/"/>
+    <image id="hm4wo74" name="商城_按钮刷新.png" path="/切片/切片/"/>
+    <component id="hm4wo75" name="Button_changeName.xml" path="/个人信息/"/>
+    <image id="hm4wo76" name="个人信息_切页未选中.png" path="/切片/切片/"/>
+    <image id="hm4wo77" name="个人信息_切页选中.png" path="/切片/切片/"/>
+    <component id="hm4wo78" name="Button_playerChoose.xml" path="/个人信息/"/>
+    <component id="hm4wo79" name="PlayerInfo.xml" path="/个人信息/" exported="true"/>
+    <image id="hm4wo7a" name="临时徽章1.png" path="/切片/切片/"/>
+    <image id="hm4wo7b" name="临时徽章2.png" path="/切片/切片/"/>
+    <image id="hm4wo7c" name="临时徽章3.png" path="/切片/切片/"/>
+    <image id="hm4wo7d" name="个人信息_荣耀底.png" path="/切片/切片/"/>
+    <component id="hm4wo7e" name="PaiweiItem.xml" path="/个人信息/"/>
+    <image id="hm4wo7f" name="个人信息_战绩底框.png" path="/切片/切片/" scale="9grid" scale9grid="347,0,43,104"/>
+    <image id="hm4wo7g" name="个人信息_蓝色爱心.png" path="/切片/切片/"/>
+    <image id="hm4wo7h" name="个人信息_胜.png" path="/切片/切片/"/>
+    <image id="hm4wo7i" name="个人信息_败.png" path="/切片/切片/"/>
+    <image id="hm4wo7j" name="好感_2.png" path="/切片/切片/"/>
+    <component id="hm4wo7k" name="PlayerJifenItem.xml" path="/个人信息/"/>
+    <image id="hm4wo7m" name="通用_勾选.png" path="/切片/切片/"/>
+    <image id="hm4wo7n" name="通用_勾选hl.png" path="/切片/切片/" exported="true"/>
+    <component id="hm4wo7o" name="Button_gou.xml" path="/个人信息/" exported="true"/>
+    <image id="n1ruo7p" name="通用_弹窗1_1.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="20,70,34,140"/>
+    <component id="ibfjo7q" name="ConfirmWindow.xml" path="/組件/" exported="true"/>
+    <component id="qmnzo7r" name="SkillItem.xml" path="/組件/" exported="true"/>
+    <image id="qmnzo7s" name="雀士_技能底框.png" path="/不导出素材/"/>
+    <image id="qmnzo7t" name="雀士未解锁.png" path="/不导出素材/"/>
+    <component id="qmnzo7u" name="SkillType.xml" path="/个人信息/" exported="true"/>
+    <image id="qmnzo7v" name="羁绊_底框.png" path="/不导出素材/技能底框/"/>
+    <image id="qmnzo7w" name="时装_底框.png" path="/不导出素材/技能底框/"/>
+    <image id="qmnzo7x" name="主动_底框.png" path="/不导出素材/技能底框/"/>
+    <image id="qmnzo7y" name="被动_底框.png" path="/不导出素材/技能底框/"/>
+    <image id="qmnzo7z" name="基础_底框.png" path="/不导出素材/技能底框/"/>
+    <image id="zwcko80" name="icon_200101.png" path="/不导出素材/"/>
+    <image id="zwcko82" name="icon_200201.png" path="/不导出素材/"/>
+    <image id="eba5o83" name="技能4_临时图标.png" path="/不导出素材/"/>
+    <component id="j9d9o84" name="SkillItemFang.xml" path="/組件/" exported="true"/>
+    <image id="j9d9o85" name="技能底框.png" path="/不导出素材/" exported="true" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="j9d9o86" name="icon_200201(1).png" path="/不导出素材/"/>
+    <image id="j9d9o87" name="icon_200102.png" path="/不导出素材/"/>
+    <component id="pf6ao88" name="common_kuang_2.xml" path="/組件/" exported="true"/>
+    <image id="n0v3o89" name="个人信息_分割线.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="10,1,20,0"/>
+    <component id="vim2o8a" name="skillIcon.xml" path="/不导出组件/"/>
+    <component id="hkx4o8b" name="SkillGetType.xml" path="/个人信息/" exported="true"/>
+    <image id="c2f5o8c" name="弹窗底.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="30,70,46,144"/>
+    <image id="bx5no8d" name="雀石.png" path="/不导出素材/"/>
+    <image id="bx5no8e" name="麻麻球.png" path="/不导出素材/"/>
+    <image id="bx5no8f" name="使用中标签.png" path="/素材/"/>
+    <image id="m0p5o8g" name="茶楼_重复.png" path="/素材/"/>
+    <image id="s6wmo8h" name="道行_进度条黄.png" path="/素材/" scale="9grid" scale9grid="22,7,44,14"/>
+    <image id="s6wmo8i" name="道行_进度条底.png" path="/素材/" scale="9grid" scale9grid="22,7,44,14"/>
+    <component id="s6wmo8j" name="ProgressBar_vip.xml" path="/組件/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" pages="0,,1," selected="1">
+    <remark page="0" value="没有红点"/>
+    <remark page="1" value="有红点"/>
+  </controller>
+  <displayList>
+    <image id="n0_aopu" name="n0" src="qpk9hhk0r8" fileName="通用图/坐骑_缘分.png" xy="34,34" pivot="0.5,0.5" anchor="true" size="69,69">
+      <gearSize controller="button" pages="1,3" values="69,69,0.9,0.9|69,69,0.9,0.9" default="69,69,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n1_aopu" name="title" xy="11,46" pivot="0.5,0.5" size="47,32" tooltips="TXT-20436" customData="TXT-20436" font="ui://3qaaq8wogn107sok2e" fontSize="22" color="#fffde2" align="center" vAlign="middle" letterSpacing="-1" ubb="true" vars="true" strokeColor="#9d301e" shadowColor="#9d301e" shadowOffset="1,1" singleLine="true" text="缘分">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <component id="n2_ns2x" name="red" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="43,5" scale="0.8,0.8" touchable="false" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3"/>
+</component>

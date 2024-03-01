@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,28" extention="ProgressBar">
+  <displayList>
+    <image id="n0_s6wm" name="n0" src="s6wmo8i" fileName="素材/道行_进度条底.png" xy="0,0" size="89,28">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_s6wm" name="bar" src="s6wmo8h" fileName="素材/道行_进度条黄.png" xy="0,0" size="89,28"/>
+    <richtext id="n2_n3k7" name="title" xy="5,4" size="80,20" fontSize="12" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

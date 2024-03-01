@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,71">
+  <controller name="infoType" pages="0,资料,1,荣誉,2,战绩" selected="0"/>
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n41_hm4w" name="n41" src="hm4wo6r" fileName="切片/切片/个人信息_切页hl.png" xy="0,0">
+      <gearDisplay controller="choose" pages="1"/>
+    </image>
+    <image id="n42_hm4w" name="n42" src="hm4wo6s" fileName="切片/切片/个人信息_资料2.png" xy="45,21" group="n48_hm4w">
+      <gearDisplay controller="infoType" pages="0"/>
+    </image>
+    <image id="n44_hm4w" name="n44" src="hm4wo6t" fileName="切片/切片/个人信息_战绩2.png" xy="45,21" group="n48_hm4w">
+      <gearDisplay controller="infoType" pages="2"/>
+    </image>
+    <image id="n46_hm4w" name="n46" src="hm4wo6u" fileName="切片/切片/个人信息_荣誉2.png" xy="46,20" group="n48_hm4w">
+      <gearDisplay controller="infoType" pages="1"/>
+    </image>
+    <image id="n51_hm4w" name="n51" src="hm4wo71" fileName="切片/切片/个人信息_分割线.png" xy="45,65" group="n48_hm4w"/>
+    <group id="n48_hm4w" name="n48" xy="45,20" size="43,47" advanced="true">
+      <gearDisplay controller="choose" pages="1"/>
+    </group>
+    <image id="n43_hm4w" name="n43" src="hm4wo6v" fileName="切片/切片/个人信息_资料1.png" xy="45,21" group="n49_hm4w">
+      <gearDisplay controller="infoType" pages="0"/>
+    </image>
+    <image id="n45_hm4w" name="n45" src="hm4wo6w" fileName="切片/切片/个人信息_战绩1.png" xy="45,21" group="n49_hm4w">
+      <gearDisplay controller="infoType" pages="2"/>
+    </image>
+    <image id="n47_hm4w" name="n47" src="hm4wo6x" fileName="切片/切片/个人信息_荣誉1.png" xy="46,20" group="n49_hm4w">
+      <gearDisplay controller="infoType" pages="1"/>
+    </image>
+    <group id="n49_hm4w" name="n49" xy="45,20" size="31,31" advanced="true">
+      <gearDisplay controller="choose" pages="0"/>
+    </group>
+    <richtext id="n50_hm4w" name="title" xy="82,17" size="91,34" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#515967" align="center" ubb="true" vars="true" autoSize="shrink" text="fdfds">
+      <gearColor controller="choose" pages="0,1" values="#515967,#000000|#87481f,#000000"/>
+    </richtext>
+    <image id="n52_hm4w" name="n52" src="hm4wo71" fileName="切片/切片/个人信息_分割线.png" xy="17,70" size="168,2"/>
+  </displayList>
+</component>

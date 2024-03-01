@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="505,620">
+  <controller name="hasClose" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_tjzy" name="n1" src="tjzyo64" fileName="通用素材/通用_弹窗1.png" xy="0,0" size="493,620">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_tjzy" name="btn_close" src="tjzyhhk0t6" fileName="组件/Button_Common_33.xml" pkg="z2dx9rj5" xy="457,24">
+      <gearDisplay controller="hasClose" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <richtext id="n3_di7j" name="title" xy="128,45" size="275,42" font="ui://b6ljs3rfg4vv0" fontSize="30" color="#a54b00" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="fsdfds">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

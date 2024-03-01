@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,50">
+  <displayList>
+    <loader id="n3_guux" name="loader_icon" xy="6,1" size="50,50" scale="0.9,0.9" url="ui://rhdkaedpmr0z5" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <richtext id="n4_guux" name="txt_num" xy="44,6" size="43,34" fontSize="24" color="#fff7d2" letterSpacing="-1" ubb="true" vars="true" singleLine="true" text="100">
+      <relation target="n3_guux" sidePair="left-left"/>
+    </richtext>
+  </displayList>
+  <relation target="n4_guux" sidePair="width-width"/>
+</component>

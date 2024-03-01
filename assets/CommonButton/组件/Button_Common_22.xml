@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,74" pivot="0.5,0.5" extention="Button" designImage="ui://gz5vacffj4k6sojyd" designImageOffsetX="-220" designImageOffsetY="-938" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" exported="true" pages="0,,1," selected="0"/>
+  <controller name="moneyIcon" exported="true" pages="0,桃子,1,铜钱,2,元宝,3," selected="3"/>
+  <controller name="type" alias="按钮颜色" exported="true" pages="0,,1,,2," selected="0">
+    <remark page="0" value="红色"/>
+    <remark page="1" value="蓝色"/>
+    <remark page="2" value="黄色"/>
+  </controller>
+  <controller name="grayType" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_ijmi" name="n0" src="ijmisojwe" fileName="素材/不导出/公用按钮1.png" xy="0,0" size="280,74">
+      <gearDisplay controller="type" pages="0"/>
+      <gearLook controller="grayType" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n11_lnzc" name="n11" src="ijmisojwf" fileName="素材/不导出/公用按钮2.png" xy="0,0">
+      <gearDisplay controller="type" pages="1"/>
+    </image>
+    <image id="n12_lnzc" name="n12" src="ijmisojwg" fileName="素材/不导出/公用按钮3.png" xy="0,0">
+      <gearDisplay controller="type" pages="2"/>
+    </image>
+    <text id="n1_ijmi" name="title_money" xy="139,53" pivot="0.5,0.5" anchor="true" size="32,34" font="ui://ph0nop4vkbdwsojyq" fontSize="24" color="#fff1d1" align="center" vAlign="middle" letterSpacing="-1" ubb="true" bold="true" strokeColor="#9d6e27" autoClearText="true" text="30">
+      <gearXY controller="moneyIcon" pages="0,1,2,3" values="150,53|150,53|150,53|139,53"/>
+      <gearLook controller="grayType" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_nhft" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="240,0" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n9_lnzc" name="loader_money_icon" xy="89,37" size="37,25" touchable="false" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">
+      <gearDisplay controller="moneyIcon" pages="0,1,2"/>
+      <gearLook controller="grayType" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <gearIcon controller="moneyIcon" pages="0,2,3" values="ui://rhdkaedpmr0z5|ui://rhdkaedpkhpv3|" default="ui://rhdkaedpkbdw0"/>
+      <relation target="" sidePair="middle-middle"/>
+      <relation target="n1_ijmi" sidePair="right-left"/>
+    </loader>
+    <text id="n10_lnzc" name="title" xy="139,22" pivot="0.5,0.5" anchor="true" size="124,42" font="ui://3qaaq8woeztcojw3" fontSize="30" color="#fff1d1" align="center" vAlign="middle" ubb="true" vars="true" singleLine="true" text="开始挑战">
+      <gearLook controller="grayType" pages="1" values="1,0,1,0" default="1,0,0,0"/>
+      <gearColor controller="type" pages="2" values="#6b440d,#000000" default="#fff1d1,#000000"/>
+    </text>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="913,711">
+  <controller name="playerInfoType" pages="0,资料,2,战绩,1,荣誉" selected="1"/>
+  <displayList>
+    <image id="n42_hm4w" name="n42" src="hm4wo6n" fileName="切片/切片/个人信息_bg1.png" xy="0,0" size="912,711" group="n41_di7j"/>
+    <image id="n43_hm4w" name="n43" src="hm4wo6o" fileName="切片/切片/个人信息_切页栏.png" xy="34,118" group="n41_di7j"/>
+    <image id="n44_hm4w" name="n44" src="hm4wo6p" fileName="切片/切片/个人信息_标题.png" xy="52,61" group="n41_di7j"/>
+    <component id="n46_hm4w" name="btn_close" src="hm4whhk0tf" fileName="组件/Button_close3.xml" pkg="z2dx9rj5" xy="865,35" group="n41_di7j">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <list id="n45_hm4w" name="list_page" xy="20,145" size="200,300" group="n41_di7j" overflow="scroll" defaultItem="ui://080sa613hm4wo6q">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n51_hm4w" name="PlayerInfo" src="hm4wo79" fileName="个人信息/PlayerInfo.xml" xy="203,105" group="n41_di7j">
+      <gearDisplay controller="playerInfoType" pages="0"/>
+    </component>
+    <richtext id="n60_hm4w" name="txt_shengju" xy="236,127" size="254,36" group="n68_hm4w" font="ui://b6ljs3rfg4vv0" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="ffdfs"/>
+    <richtext id="n61_hm4w" name="txt_shengjusaiji" xy="595,127" size="254,36" group="n68_hm4w" font="ui://b6ljs3rfg4vv0" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="ffdfs"/>
+    <richtext id="n62_hm4w" name="txt_shengjupaiwei" xy="236,279" size="254,36" group="n68_hm4w" font="ui://b6ljs3rfg4vv0" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="ffdfs"/>
+    <list id="n63_hm4w" name="list_shegnju" xy="228,157" size="307,103" group="n68_hm4w" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://080sa613hm4wo7e" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n66_hm4w" name="list_saishi" xy="587,157" size="307,103" group="n68_hm4w" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://080sa613hm4wo7e" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n67_hm4w" name="n67" src="hm4wo71" fileName="切片/切片/个人信息_分割线.png" xy="557,160" size="107,2" group="n68_hm4w" rotation="90"/>
+    <group id="n68_hm4w" name="group_rongyu" xy="228,127" size="666,188" group="n41_di7j" advanced="true">
+      <gearDisplay controller="playerInfoType" pages="1"/>
+    </group>
+    <list id="n57_hm4w" name="list_zhanjiType" xy="235,121" size="636,62" group="n82_hm4w" visible="false" touchable="false" layout="row" overflow="scroll" scroll="horizontal" colGap="1" defaultItem="ui://080sa613hm4wo78">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n78_hm4w" name="list_zhanjiInfo" xy="238,123" size="633,497" group="n82_hm4w" overflow="scroll" lineGap="4" defaultItem="ui://080sa613hm4wo7k" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n79_hm4w" name="txt_infoshow" xy="231,639" size="295,32" group="n82_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="xfdsfdsfdsf"/>
+    <component id="n81_hm4w" name="btn_allowSee" src="hm4wo7o" fileName="个人信息/Button_gou.xml" xy="694,644" group="n82_hm4w" visible="false" touchable="false"/>
+    <group id="n82_hm4w" name="n82" xy="231,121" size="640,550" group="n41_di7j" advanced="true">
+      <gearDisplay controller="playerInfoType" pages="2"/>
+    </group>
+    <group id="n41_di7j" name="n41" xy="0,0" size="913,711" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

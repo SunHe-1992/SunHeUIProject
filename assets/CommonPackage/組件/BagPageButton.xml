@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="98,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="touchType" pages="0,,1," selected="0">
+    <remark page="0" value="未选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <image id="n3_f4qr" name="n3" src="f4qrd" fileName="素材/切页_未选中.png" xy="0,0"/>
+    <image id="n4_f4qr" name="n4" src="f4qre" fileName="素材/切页_选中.png" xy="-5,-5">
+      <gearDisplay controller="touchType" pages="1"/>
+    </image>
+    <richtext id="n5_f4qr" name="title" xy="29,17" size="40,68" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#8d7153" align="center" vAlign="middle" leading="-4" autoSize="none" text="道具">
+      <gearColor controller="touchType" pages="0" values="#8d7153,#000000" default="#87481f,#000000"/>
+    </richtext>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

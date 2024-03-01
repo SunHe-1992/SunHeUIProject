@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,106" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="typeTouch" pages="0,,1," selected="1">
+    <remark page="0" value="没有选中"/>
+    <remark page="1" value="选中"/>
+  </controller>
+  <displayList>
+    <image id="n3_kmhb" name="bg" src="s7zd7sok21" fileName="通用图/藏宝阁-按钮1.png" xy="0,0">
+      <gearDisplay controller="button" pages=""/>
+      <gearDisplay2 controller="typeTouch" pages="0" condition="0"/>
+    </image>
+    <image id="n4_kmhb" name="n4" src="s7zd7sok22" fileName="通用图/藏宝阁-按钮2.png" xy="0,0">
+      <gearDisplay controller="button" pages=""/>
+      <gearDisplay2 controller="typeTouch" pages="1" condition="0"/>
+    </image>
+    <image id="n6_rtij" name="n6" src="s7zd7sok23" fileName="通用图/藏宝阁-按钮残卷未选中.png" xy="0,0">
+      <gearDisplay controller="button" pages=""/>
+      <gearDisplay2 controller="typeTouch" pages="0" condition="0"/>
+    </image>
+    <image id="n7_rtij" name="n7" src="s7zd7sok24" fileName="通用图/藏宝阁-按钮残卷选中.png" xy="0,0">
+      <gearDisplay controller="button" pages=""/>
+      <gearDisplay2 controller="typeTouch" pages="1" condition="0"/>
+    </image>
+    <text id="n5_rtij" name="title" xy="0,73" size="106,34" fontSize="24" color="#fffab2" align="center" vAlign="middle" autoSize="none" strokeColor="#323b44" text="多点">
+      <gearLook controller="typeTouch" pages="0" values="1,0,1,0" default="1,0,0,0"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" sound="ui://g2fjgz25od3r6"/>
+</component>

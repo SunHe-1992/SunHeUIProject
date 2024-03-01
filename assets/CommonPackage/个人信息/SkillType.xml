@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,21" extention="Button">
+  <controller name="type_" pages="0,主动,1,被动,5,基础,6,时装,7,羁绊" selected="0"/>
+  <displayList>
+    <loader id="n0_qmnz" name="n0" xy="0,0" size="54,21" url="ui://080sa613qmnzo7x" fill="scale">
+      <gearIcon controller="type_" pages="0,5,6,7" values="ui://080sa613qmnzo7x|ui://080sa613qmnzo7z|ui://080sa613qmnzo7w|ui://080sa613qmnzo7v" default="ui://080sa613qmnzo7y"/>
+    </loader>
+    <richtext id="n1_qmnz" name="title" xy="0,-1" size="54,24" font="ui://b6ljs3rfc4lz2" fontSize="16" color="#fff7eb" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="TXT-TriggerType_1">
+      <gearText controller="type_" pages="0,1,5,6,7" values="TXT-TriggerType_1|TXT-TriggerType_2|TXT-SkillUnlockType_1|TXT-SkillUnlockType_3|TXT-SkillUnlockType_2"/>
+    </richtext>
+  </displayList>
+  <Button/>
+</component>

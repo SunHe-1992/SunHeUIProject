@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,875" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://ph0nop4vlatbojt2,">
+  <displayList>
+    <richtext id="n0_egkk" name="title" xy="0,0" size="687,1301" font="ui://b6ljs3rfg4vv1" fontSize="22" color="#775a47" leading="0" ubb="true" vars="true" autoSize="height" autoClearText="true" text="内容压&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;ddddddddddddddddddddsddddd&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;sdfsdfsd&#xA;dffs&#xA;dfsdfdsfsd&#xA;ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddsddddddddddddddddddddddddddddddddddddddddddddddddddddddddd">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+</component>

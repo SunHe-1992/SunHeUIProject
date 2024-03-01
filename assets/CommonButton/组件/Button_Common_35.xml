@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="173,59" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="page" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n3_ptvy" name="bg" src="ptvyhhk0td" fileName="素材/不导出/商城_上选中切页.png" xy="0,0">
+      <gearDisplay controller="page" pages="1"/>
+    </image>
+    <text id="n4_ptvy" name="title" xy="0,0" size="173,59" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#fff1d1" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" text="福袋">
+      <gearColor controller="page" pages="0,1" values="#fff1d1,#000000|#87481f,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

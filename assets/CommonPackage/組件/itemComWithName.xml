@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,149">
+  <displayList>
+    <component id="n16_rtax" name="item" src="g4vva" fileName="組件/itemCom.xml" xy="0,0"/>
+    <richtext id="n14_rtax" name="txt_addNum" xy="6,5" size="107,29" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#51cd8b" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" strokeColor="#2f3034" singleLine="true" autoClearText="true" text="+100">
+      <relation target="" sidePair="width-width,center-center"/>
+    </richtext>
+    <richtext id="n15_rtax" name="txt_name" xy="7,119" size="107,34" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#a56a3d" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="厲害">
+      <relation target="" sidePair="width-width,center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="753,100" opaque="false">
+  <controller name="showHead" exported="true" pages="0,头像,1,界面" selected="0"/>
+  <displayList>
+    <component id="n2_g4vv" name="head" src="g4vvz" fileName="組件/TopHead.xml" xy="6,5">
+      <gearDisplay controller="showHead" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <image id="n3_i2ia" name="n3" src="i2ia2r" fileName="素材/选房间/抬头底框.png" xy="-1,0" size="334,53" group="n7_i2ia"/>
+    <image id="n4_i2ia" name="n4" src="i2ia2s" fileName="素材/选房间/返回按钮.png" xy="209,9" group="n7_i2ia"/>
+    <richtext id="n5_i2ia" name="txt_title" xy="95,8" size="127,36" group="n7_i2ia" font="ui://b6ljs3rfg4vv0" fontSize="26" color="#fff7eb" align="center" ubb="true" vars="true" autoSize="shrink" strokeColor="#383a65" strokeSize="2" singleLine="true" text="fdsfsdf"/>
+    <component id="n6_i2ia" name="btn_back" src="a0kssojwc" fileName="组件/Button_empty.xml" pkg="z2dx9rj5" xy="2,-1" size="400,78" group="n7_i2ia">
+      <gearDisplay controller="showHead" pages="1,2"/>
+    </component>
+    <group id="n7_i2ia" name="n7" xy="-1,-1" size="403,78" advanced="true">
+      <gearDisplay controller="showHead" pages="1,2"/>
+    </group>
+    <component id="n8_xde5" name="goldComp" src="g4vvs" fileName="組件/TopBar_Point.xml" xy="318,39">
+      <Button sound="ui://g2fjgz25od3r3"/>
+    </component>
+  </displayList>
+</component>

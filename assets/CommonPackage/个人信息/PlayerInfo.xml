@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="693,508">
+  <displayList>
+    <image id="n51_hm4w" name="n51" src="hm4wo72" fileName="切片/切片/个人信息_名字底.png" xy="106,19" group="n56_hm4w"/>
+    <component id="n50_hm4w" name="head" src="g4vvv" fileName="組件/Com_Herohead.xml" xy="21,0" group="n56_hm4w"/>
+    <component id="n24_di7j" name="btn_changeName" src="hm4wo75" fileName="个人信息/Button_changeName.xml" xy="293,19" group="n56_hm4w"/>
+    <richtext id="n23_di7j" name="txt_name" xy="146,24" size="146,36" group="n56_hm4w" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#ffffff" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n27_di7j" name="txt_allNum" xy="0,111" size="168,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="24" color="#515967" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n30_di7j" name="txt_winNum" xy="230,111" size="168,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="24" color="#515967" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n31_di7j" name="txt_duanwei" xy="488,111" size="168,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="24" color="#515967" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n32_di7j" name="txt_allNum2" xy="0,154" size="168,49" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="36" color="#a56a3d" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n33_di7j" name="txt_winNum2" xy="230,154" size="168,49" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="36" color="#a56a3d" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <richtext id="n34_di7j" name="txt_duanwei2" xy="488,154" size="168,49" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="36" color="#a56a3d" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <list id="n35_di7j" name="list_page" xy="32,223" size="636,62" group="n56_hm4w" layout="row" overflow="scroll" scroll="horizontal" colGap="1" defaultItem="ui://080sa613hm4wo78">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n36_di7j" name="txt_fightNum" xy="36,295" size="271,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsffdsfsd"/>
+    <richtext id="n37_di7j" name="txt_fanshuType" xy="36,339" size="271,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsffdsfsd"/>
+    <richtext id="n38_di7j" name="txt_winNumOnce" xy="460,295" size="229,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsffdsfsd"/>
+    <richtext id="n39_di7j" name="txt_fanshu" xy="460,339" size="229,36" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsffdsfsd"/>
+    <list id="n40_di7j" name="list_group" xy="6,406" size="1102,102" group="n56_hm4w" scale="0.62,0.62" layout="row" colGap="10" defaultItem="ui://080sa613yvwe3y" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n52_hm4w" name="txt_UID" xy="145,62" size="171,29" group="n56_hm4w" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfdsf"/>
+    <image id="n53_hm4w" name="n53" src="hm4wo71" fileName="切片/切片/个人信息_分割线.png" xy="193,108" size="77,2" group="n56_hm4w" rotation="90"/>
+    <image id="n54_hm4w" name="n54" src="hm4wo71" fileName="切片/切片/个人信息_分割线.png" xy="441,108" size="77,2" group="n56_hm4w" rotation="90"/>
+    <group id="n56_hm4w" name="n56" xy="0,0" size="1108,508"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="98,38" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_wvr9" name="n3" src="dqljhhk0ri" fileName="通用图/公用按钮4.png" xy="0,0"/>
+    <richtext id="n4_wvr9" name="title" xy="25,2" pivot="0.5,0.5" size="47,32" font="ui://3qaaq8woeztcojw3" fontSize="22" color="#562a18" align="center" vAlign="middle" letterSpacing="-1" ubb="true" singleLine="true" autoClearText="true" text="按钮">
+      <relation target="" sidePair="center-center,top-top"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

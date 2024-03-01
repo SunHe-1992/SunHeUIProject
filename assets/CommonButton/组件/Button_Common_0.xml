@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="288,120" pivot="0.5,0.5" extention="Button">
+  <controller name="mode_" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_nvio" name="n0" src="latbojss" fileName="不发布图片/图层 3.png" xy="0,0" size="288,120">
+      <gearDisplay controller="mode_" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_nvio" name="n1" src="latbojst" fileName="不发布图片/图层 4.png" xy="0,0" size="288,120">
+      <gearDisplay controller="mode_" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n2_nvio" name="title" xy="17,0" size="253,120" font="ui://3qaaq8woeztcojw3" fontSize="40" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="shrink" singleLine="true" autoClearText="true" text="df adafad df">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <component id="n3_nvio" name="red" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="256,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+</component>

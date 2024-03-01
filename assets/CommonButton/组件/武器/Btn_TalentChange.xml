@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="big" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="red" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n4_dad0" name="loader_now" xy="0,0" size="80,80" group="n9_chp9" aspect="true" url="ui://ph0nop4vibqjsb2" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="big" pages="1,2,3" values="ui://ph0nop4vibqjsb0|ui://ph0nop4van3qsc7|ui://ph0nop4van3qsc9" default="ui://ph0nop4vibqjsb2"/>
+    </loader>
+    <image id="n8_cpqu" name="n8" src="l2uo7sok3e" fileName="素材/底部公用图标替换/公用-文字底.png" xy="5,52" size="70,30" group="n9_chp9" aspect="true" alpha="0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <richtext id="n6_dad0" name="btn_level" xy="-1,49" pivot="0.5,0.5" size="80,34" group="n9_chp9" font="ui://ph0nop4vkbdwsojyq" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" bold="true" strokeColor="#a54b00" strokeSize="2" shadowColor="#a54b00" shadowOffset="1,1" singleLine="true" text="fsdfds">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n7_cpqu" name="n7" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="52,8" group="n9_chp9" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+    </component>
+    <group id="n9_chp9" name="n9" xy="-1,0" size="81,83" advanced="true"/>
+  </displayList>
+  <Button/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="XY" target="n9_chp9" tween="true" startValue="-180,0,-2.25,0" endValue="-1,0" duration="12"/>
+  </transition>
+</component>

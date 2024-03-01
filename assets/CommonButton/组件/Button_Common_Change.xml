@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,56" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_mfmk" name="n0" src="mfmk7sok5r" fileName="不发布图片/xx_btn3.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="scale" downEffectValue=".8"/>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n0_mfmk" tween="true" startValue="0" endValue="0" duration="4"/>
+    <item time="4" type="Alpha" target="n0_mfmk" tween="true" startValue="0" endValue="1" duration="20"/>
+  </transition>
+</component>

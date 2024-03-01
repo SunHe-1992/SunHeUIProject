@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,59" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" exported="true" pages="0,,1," selected="0"/>
+  <controller name="buttonColor" exported="true" pages="0,yellow,1,blue" selected="1"/>
+  <displayList>
+    <image id="n3_ina8" name="n3" src="ina81r" fileName="素材/黄色按钮.png" xy="0,0">
+      <gearDisplay controller="buttonColor" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_1025o" name="n4" src="1025o55" fileName="素材/蓝色按钮.png" xy="0,0" size="184,59">
+      <gearDisplay controller="buttonColor" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_9zss" name="title" xy="0,4" size="184,50" font="ui://b6ljs3rfg4vv0" fontSize="36" color="#383478" align="center" vAlign="middle" autoSize="shrink" bold="true" singleLine="true" autoClearText="true" text="￥30">
+      <gearColor controller="buttonColor" pages="1" values="#383478,#000000" default="#87481f,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n2_odr9" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" pkg="z2dx9rj5" xy="153,8" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

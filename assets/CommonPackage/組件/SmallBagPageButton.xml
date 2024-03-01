@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="91,91" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="light" pages="0,,1," selected="1">
+    <remark page="0" value="未选中灰色"/>
+    <remark page="1" value="选中亮起"/>
+  </controller>
+  <controller name="smallButtonType" pages="0,,1,,2,,3,,4,,5,,15,,14,,6,,7,,8,,9,,10,,11,,12," selected="6">
+    <remark page="0" value="时装-全部"/>
+    <remark page="1" value="时装-衣服"/>
+    <remark page="2" value="时装-头饰"/>
+    <remark page="3" value="时装-鞋子"/>
+    <remark page="4" value="头像-头像"/>
+    <remark page="5" value="头像-头像框"/>
+    <remark page="6" value="牌桌-牌桌按钮"/>
+    <remark page="7" value="牌桌-牌背"/>
+    <remark page="8" value="手-手套"/>
+    <remark page="9" value="手-戒指"/>
+    <remark page="10" value="手-美甲"/>
+    <remark page="11" value="手-贴纸"/>
+    <remark page="12" value="手-首饰"/>
+    <remark page="13" value="特效-胡"/>
+    <remark page="14" value="特效-碰"/>
+  </controller>
+  <displayList>
+    <loader id="n11_l3im" name="gray" xy="0,0" size="91,91" url="ui://080sa613l3imv" autoSize="true">
+      <gearDisplay controller="light" pages="0"/>
+      <gearIcon controller="smallButtonType" pages="0,1,2,3,4,5,15,14,6,7,8,9,10,11,12" values="ui://080sa613f4qr8|ui://080sa613f4qrf|ui://080sa613f4qrj|ui://080sa613f4qrm|ui://080sa613l3ims|ui://080sa613l3imr|ui://080sa613l3imv|ui://080sa613l3imx|ui://080sa613f9jcy|ui://080sa613f9jc10|ui://080sa613f9jc12|ui://080sa613f9jc14|ui://080sa613f9jc17|ui://080sa613f9jc19|ui://080sa613f9jc1b"/>
+    </loader>
+    <loader id="n12_l3im" name="light" xy="0,0" size="91,91" url="ui://080sa613l3imw" autoSize="true">
+      <gearDisplay controller="light" pages="1"/>
+      <gearIcon controller="smallButtonType" pages="0,1,2,3,4,5,15,14,6,7,8,9,10,11,12" values="ui://080sa613f4qr9|ui://080sa613f4qrg|ui://080sa613f4qrk|ui://080sa613f4qrn|ui://080sa613l3imt|ui://080sa613l3imq|ui://080sa613l3imw|ui://080sa613l3imu|ui://080sa613f9jcz|ui://080sa613f9jc11|ui://080sa613f9jc13|ui://080sa613f9jc15|ui://080sa613f9jc16|ui://080sa613f9jc18|ui://080sa613f9jc1a"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

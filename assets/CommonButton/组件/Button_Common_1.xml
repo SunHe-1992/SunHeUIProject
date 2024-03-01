@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,92" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="red" pages="0,,1," selected="0"/>
+  <controller name="type" exported="true" pages="0,蓝色,1,黄色" selected="0"/>
+  <displayList>
+    <image id="n0_cenm" name="n0" src="cenmojtp" fileName="不发布图片/common_btn5.png" xy="0,0">
+      <gearDisplay controller="type" pages="0"/>
+      <gearColor controller="button" pages="1,3" values="#808080|#808080" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_cenm" name="n3" src="cenmojto" fileName="不发布图片/common_btn4.png" xy="0,0">
+      <gearDisplay controller="type" pages="1"/>
+      <gearColor controller="button" pages="1,3" values="#808080|#808080" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_cenm" name="n1" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="193,-1" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <richtext id="n2_cenm" name="title" xy="0,0" size="224,82" fontSize="33" color="#e7faff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fsdfsd">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3"/>
+</component>

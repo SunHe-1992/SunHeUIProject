@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,44" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_hm4w" name="n0" src="hm4wo76" fileName="切片/切片/个人信息_切页未选中.png" xy="0,0">
+      <gearDisplay controller="choose" pages="0"/>
+    </image>
+    <image id="n1_hm4w" name="n1" src="hm4wo77" fileName="切片/切片/个人信息_切页选中.png" xy="-1,0">
+      <gearDisplay controller="choose" pages="1"/>
+    </image>
+    <richtext id="n2_hm4w" name="title" xy="16,6" size="111,32" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fdsfds">
+      <gearColor controller="choose" pages="0,1" values="#515967,#000000|#a56a3d,#000000"/>
+    </richtext>
+  </displayList>
+  <Button/>
+</component>

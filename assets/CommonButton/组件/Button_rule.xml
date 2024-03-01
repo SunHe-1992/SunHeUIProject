@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="38,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_a0ks" name="n0" src="pm7eo" fileName="通用图/公用_帮助说明.png" xy="0,0" pkg="ph0nop4v">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3"/>
+</component>

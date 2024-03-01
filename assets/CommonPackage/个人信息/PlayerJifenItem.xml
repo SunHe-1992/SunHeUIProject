@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="633,104">
+  <controller name="winType" pages="0,,1," selected="0"/>
+  <controller name="shoucang" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n69_hm4w" name="n69" src="hm4wo7f" fileName="切片/切片/个人信息_战绩底框.png" xy="0,0"/>
+    <richtext id="n70_hm4w" name="txt_name" xy="26,16" size="150,32" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#515967" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fdsfds"/>
+    <richtext id="n71_hm4w" name="txt_time" xy="26,48" size="150,32" font="ui://b6ljs3rfc4lz2" fontSize="18" color="#a56a3d" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fdsfds"/>
+    <image id="n73_hm4w" name="n73" src="hm4wo7i" fileName="切片/切片/个人信息_败.png" xy="198,26">
+      <gearDisplay controller="winType" pages="0"/>
+    </image>
+    <image id="n74_hm4w" name="n74" src="hm4wo7g" fileName="切片/切片/个人信息_蓝色爱心.png" xy="509,35" visible="false">
+      <gearDisplay controller="shoucang" pages="0"/>
+    </image>
+    <image id="n72_hm4w" name="n72" src="hm4wo7j" fileName="切片/切片/好感_2.png" xy="507,33">
+      <gearDisplay controller="shoucang" pages="1"/>
+    </image>
+    <image id="n75_hm4w" name="n75" src="hm4wo7h" fileName="切片/切片/个人信息_胜.png" xy="199,27">
+      <gearDisplay controller="winType" pages="1"/>
+    </image>
+    <richtext id="n76_hm4w" name="txt_jifen" xy="346,32" size="128,32" font="ui://b6ljs3rfc4lz2" fontSize="22" color="#5d97d8" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fdsfds"/>
+    <loader id="n77_hm4w" name="loader_icon" xy="310,29" size="35,35" align="center" vAlign="middle" fill="scale"/>
+    <component id="n78_hm4w" name="btn_shoucang" src="a0kssojwc" fileName="组件/Button_empty.xml" pkg="z2dx9rj5" xy="490,24" size="80,50" visible="false" touchable="false"/>
+  </displayList>
+</component>

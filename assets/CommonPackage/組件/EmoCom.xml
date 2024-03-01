@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120">
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <controller name="red" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n0_rtax" name="loader_icon" xy="0,0" size="120,120" url="ui://080sa613rtaxo5g" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n1_rtax" name="n1" src="rtaxo5c" fileName="素材/品质底/道具选中框.png" xy="-13,-13">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_evpl" name="n2" src="latbojsw" fileName="组件/Com_RedPoint.xml" pkg="z2dx9rj5" xy="97,-2" controller="redpoint,1,c1,1">
+      <gearDisplay controller="red" pages="1"/>
+    </component>
+  </displayList>
+</component>

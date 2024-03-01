@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="456,491" opaque="false">
+  <displayList>
+    <image id="n0_rtax" name="kuang" src="rtaxo5h" fileName="通用素材/通用_弹窗2.png" xy="0,0" size="456,491">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_rtax" name="btn_close" src="rtaxo5k" fileName="組件/commonClose.xml" xy="406,-1">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

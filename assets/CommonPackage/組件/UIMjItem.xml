@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,100" designImage="ui://w116fitvjjga69" designImageOffsetX="-347" designImageOffsetY="-433">
+  <controller name="ctrl_LT" alias="corner_left_top" pages="0,,1,show" selected="0"/>
+  <controller name="ctrl_dir" pages="0,vertical,1,horizontal" selected="0"/>
+  <controller name="isBack" pages="0,,1," selected="0"/>
+  <controller name="choose" pages="0,,1," selected="0"/>
+  <controller name="grayMask" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n6_g481" name="loader_hor" xy="0,25" size="93,74" aspect="true" url="ui://080sa613pluco68" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="ctrl_dir" pages="1"/>
+      <gearDisplay2 controller="isBack" pages="0" condition="0"/>
+    </loader>
+    <loader id="n7_fxuf" name="loader_hor_back" xy="0,25" size="93,74" aspect="true" url="ui://080sa613pluco68" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="ctrl_dir" pages="1"/>
+      <gearDisplay2 controller="isBack" pages="1" condition="0"/>
+    </loader>
+    <loader id="n5_g481" name="loader_ver" xy="0,0" size="64,100" url="ui://080sa613pluco69" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="ctrl_dir" pages="0"/>
+      <gearDisplay2 controller="isBack" pages="0" condition="0"/>
+    </loader>
+    <loader id="n8_fxuf" name="loader_ver_back" xy="0,0" size="64,100" url="ui://080sa613pluco69" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="ctrl_dir" pages="0"/>
+      <gearDisplay2 controller="isBack" pages="1" condition="0"/>
+    </loader>
+    <loader id="n0_yvwe" name="mjLoader" xy="2,13" size="64,92" scale="0.92,0.92" url="ui://080sa613yvwe4m" fill="scaleFree" clearOnPublish="true">
+      <gearDisplay controller="isBack" pages="0"/>
+      <gearXY controller="ctrl_dir" pages="0,1" values="2,13|0,100"/>
+      <gearLook controller="ctrl_dir" pages="1" values="1,-90,0,1" default="1,0,0,1"/>
+    </loader>
+    <image id="n3_yvwe" name="n3" src="yvwe3z" fileName="麻将切图/角标赖.png" xy="0,11" size="46,46" aspect="true">
+      <gearDisplay controller="ctrl_LT" pages="1"/>
+      <relation target="n0_yvwe" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n9_qmnz" name="n9" src="rtaxo5c" fileName="素材/品质底/道具选中框.png" xy="-15,-14" size="95,128">
+      <gearDisplay controller="choose" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n10_wxek" name="n10" xy="1,11" size="62,88" type="rect" lineSize="0" fillColor="#59000000" corner="4">
+      <gearDisplay controller="grayMask" pages="1"/>
+    </graph>
+  </displayList>
+</component>

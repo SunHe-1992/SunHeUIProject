@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30">
+  <controller name="lightType" pages="0,,1," selected="1">
+    <remark page="0" value="没有亮起"/>
+    <remark page="1" value="亮起"/>
+  </controller>
+  <controller name="colorType" pages="0,,1,,2," selected="0">
+    <remark page="0" value="绿色"/>
+    <remark page="1" value="橙色"/>
+    <remark page="2" value="红色"/>
+  </controller>
+  <displayList>
+    <image id="n1_inae" name="n1" src="sgoisojyj" fileName="通用图/公用_点亮槽.png" xy="0,0" pkg="ph0nop4v"/>
+    <loader id="n2_mx0s" name="img_green" xy="4,4" size="22,22" url="ui://ph0nop4vsgoisojyk" autoSize="true">
+      <gearDisplay controller="lightType" pages="1"/>
+      <gearIcon controller="colorType" pages="1,2" values="ui://ph0nop4vmx0s7sok8w|ui://ph0nop4vmx0s7sok8v" default="ui://ph0nop4vsgoisojyk"/>
+    </loader>
+  </displayList>
+</component>

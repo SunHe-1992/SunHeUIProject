@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,70" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="red" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_g9xt" name="n0" src="cenmojuj" fileName="不发布图片/common_tab2.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_g9xt" name="n1" src="cenmojui" fileName="不发布图片/common_tab1.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_g9xt" name="title" xy="0,0" size="164,70" fontSize="24" color="#9ddbff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="fdsfsfd">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_g9xt" name="n3" src="latbojsw" fileName="组件/Com_RedPoint.xml" xy="133,-1" controller="redpoint,1">
+      <gearDisplay controller="red" pages="1"/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+  <Button mode="Radio" sound="ui://g2fjgz25od3r3"/>
+</component>

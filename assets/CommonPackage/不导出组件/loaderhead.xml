@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,106" mask="n19_zwck" designImageLayer="1">
+  <displayList>
+    <loader id="n18_ku0w" name="loader_head" xy="9,8" size="88,88" aspect="true" url="ui://080sa613j9d9o86" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <graph id="n19_zwck" name="n19" xy="8,8" size="89,89" aspect="true" type="eclipse">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+</component>

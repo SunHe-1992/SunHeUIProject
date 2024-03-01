@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,86" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n3_wvr9" name="n3" src="wvr9hhk0qv" fileName="通用图/道行_阎王宝藏入口图标.png" xy="0,0"/>
+    <richtext id="n4_wvr9" name="title" xy="2,63" pivot="0.5,0.5" size="81,29" font="ui://3qaaq8woeztcojw3" fontSize="20" color="#f8f3d2" align="center" vAlign="middle" letterSpacing="-1" ubb="true" strokeColor="#79534e" strokeSize="2" singleLine="true" autoClearText="true" text="活动名称">
+      <relation target="" sidePair="center-center,top-top"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

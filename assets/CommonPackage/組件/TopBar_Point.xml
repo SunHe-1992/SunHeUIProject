@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="224,65" opaque="false" extention="Button">
+  <controller name="hasTime" exported="true" pages="0,,1," selected="0"/>
+  <controller name="hasAddBtn" pages="0,,1," selected="0">
+    <remark page="0" value="有加号"/>
+    <remark page="1" value="没有加号"/>
+  </controller>
+  <displayList>
+    <image id="n8_10d3s" name="n8" src="c4lz15" fileName="素材/货币底框.png" xy="27,17" size="178,41">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n4_cenm" name="loader_pic" xy="8,5" size="56,56" aspect="true" url="ui://080sa613c4lz14" align="center" vAlign="middle" fill="scaleMatchHeight" clearOnPublish="true"/>
+    <richtext id="n5_cenm" name="txt_num" xy="47,19" size="132,32" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#fff7eb" align="center" vAlign="middle" leading="2" letterSpacing="-1" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="100">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <richtext id="n6_ku0w" name="txt_time" xy="69,41" size="92,24" fontSize="16" color="#3dda9a" align="center" vAlign="bottom" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#093c27" singleLine="true" text="fdsfsd">
+      <gearDisplay controller="hasTime" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <loader id="n11_muwr" name="n11" xy="178,11" size="46,47" visible="false" touchable="false" url="ui://080sa613c4lz16" autoSize="true"/>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3"/>
+</component>

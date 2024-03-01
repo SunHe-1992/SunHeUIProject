@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="44,44" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n1_ku0w" name="n1" src="pm7esojxb" fileName="通用图/公用_勾选框2.png" xy="2,2">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_ku0w" name="n0" src="pm7em" fileName="通用图/公用_勾选2.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check" sound="ui://g2fjgz25od3r3"/>
+</component>

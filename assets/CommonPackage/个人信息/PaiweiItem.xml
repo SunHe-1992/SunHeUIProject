@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="95,103">
+  <displayList>
+    <image id="n65_hm4w" name="n65" src="hm4wo7d" fileName="切片/切片/个人信息_荣耀底.png" xy="10,10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n66_hm4w" name="loader_icon" xy="0,0" size="95,95" url="ui://080sa613hm4wo7a" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n67_hm4w" name="txt_num" xy="8,71" size="80,32" fontSize="22" color="#515967" align="center" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="x33"/>
+  </displayList>
+</component>

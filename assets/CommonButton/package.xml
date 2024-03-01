@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z2dx9rj5">
+  <resources>
+    <component id="ef5a7sokh8" name="Button3.xml" path="/组件/" exported="true"/>
+    <component id="y5n47sok0l" name="ButtonSuitIcon.xml" path="/组件/" exported="true"/>
+    <component id="cenmojv1" name="Button_Close.xml" path="/组件/" exported="true"/>
+    <component id="cenmojv6" name="Button_Close_2.xml" path="/组件/" exported="true"/>
+    <component id="latbojsu" name="Button_Common_0.xml" path="/组件/" exported="true"/>
+    <component id="cenmojuq" name="Button_Common_1.xml" path="/组件/" exported="true"/>
+    <component id="lxd07sok1q" name="Button_Common_11.xml" path="/组件/" exported="true"/>
+    <component id="l2mn7sok1r" name="Button_Common_12.xml" path="/组件/" exported="true"/>
+    <component id="lwwu7sok1x" name="Button_Common_13.xml" path="/组件/" exported="true"/>
+    <component id="uij17sok2s" name="Button_Common_14.xml" path="/组件/" exported="true"/>
+    <component id="avem7sok94" name="Button_Common_15.xml" path="/组件/" exported="true"/>
+    <component id="hsr07sokh0" name="Button_Common_16.xml" path="/组件/" exported="true"/>
+    <component id="ef5a7sokh7" name="Button_Common_17.xml" path="/组件/" exported="true"/>
+    <component id="ef5a7sokha" name="Button_Common_18.xml" path="/组件/" exported="true"/>
+    <component id="lnzc7sokhb" name="Button_Common_19.xml" path="/组件/" exported="true"/>
+    <component id="ku0wojv8" name="Button_Common_2.xml" path="/组件/" exported="true"/>
+    <component id="wvr9hhk0qu" name="Button_Common_20.xml" path="/组件/" exported="true"/>
+    <component id="dqljhhk0rh" name="Button_Common_21.xml" path="/组件/" exported="true"/>
+    <component id="j4k6hhk0sn" name="Button_Common_22.xml" path="/组件/" exported="true"/>
+    <component id="ckcthhk0sx" name="Button_Common_23.xml" path="/组件/" exported="true"/>
+    <component id="eztcojw4" name="Button_Common_3.xml" path="/组件/" exported="true"/>
+    <component id="ijmisojwh" name="Button_Common_4.xml" path="/组件/" exported="true"/>
+    <component id="ijmisojwi" name="Button_Common_5.xml" path="/组件/" exported="true"/>
+    <component id="ijmisojwj" name="Button_Common_6.xml" path="/组件/" exported="true"/>
+    <component id="o5kasojwt" name="Button_Common_7.xml" path="/组件/" exported="true"/>
+    <component id="awsdsojy8" name="Button_Common_8.xml" path="/组件/" exported="true"/>
+    <component id="etaxsojzw" name="Button_Common_9.xml" path="/组件/" exported="true"/>
+    <component id="mfmk7sok5s" name="Button_Common_Change.xml" path="/组件/" exported="true"/>
+    <component id="g9xtojv7" name="Button_Equip.xml" path="/组件/" exported="true"/>
+    <component id="kbdwsojyp" name="Button_Page.xml" path="/组件/" exported="true"/>
+    <component id="inae7sok8s" name="Button_Tags.xml" path="/组件/" exported="true"/>
+    <component id="p6k07sok8o" name="Button_beizhan.xml" path="/组件/" exported="true"/>
+    <component id="ku0wojvo" name="Button_chooseSex.xml" path="/组件/" exported="true"/>
+    <component id="mfmk7sok5q" name="Button_common_rule.xml" path="/组件/" exported="true"/>
+    <component id="a1ue7sok49" name="Button_detail.xml" path="/组件/" exported="true"/>
+    <component id="a0kssojwc" name="Button_empty.xml" path="/组件/" exported="true"/>
+    <component id="fa3ahhk0rq" name="Button_gray_rule.xml" path="/组件/" exported="true"/>
+    <component id="urissah" name="Button_myMagic.xml" path="/组件/" exported="true"/>
+    <component id="qpk9hhk0r7" name="Button_rideYuanFen.xml" path="/组件/" exported="true"/>
+    <component id="latbojsw" name="Com_RedPoint.xml" path="/组件/" exported="true"/>
+    <image id="l2uo7sok3e" name="公用-文字底.png" path="/素材/" exported="true" scale="9grid" scale9grid="81,9,162,18"/>
+    <image id="ef5a7sokh9" name="ywbz_btn1.png" path="/素材/不导出/"/>
+    <image id="m0gq2" name="角色_套装属性.png" path="/素材/不导出/"/>
+    <image id="o5kasojwo" name="common_btn6.png" path="/素材/不导出/"/>
+    <image id="cenmojtn" name="common_btn3.png" path="/素材/不导出/"/>
+    <image id="latbojss" name="图层 3.png" path="/素材/不导出/"/>
+    <image id="latbojst" name="图层 4.png" path="/素材/不导出/"/>
+    <image id="cenmojto" name="common_btn4.png" path="/素材/不导出/"/>
+    <image id="cenmojtp" name="common_btn5.png" path="/素材/不导出/"/>
+    <image id="etaxsojzy" name="xx_btn1.png" path="/素材/不导出/" scale="9grid" scale9grid="39,24,81,18"/>
+    <image id="etaxsojzx" name="xx_btn2.png" path="/素材/不导出/" scale="9grid" scale9grid="39,24,81,18"/>
+    <image id="l2mn7sok1s" name="lyh_qy1.png" path="/素材/不导出/"/>
+    <image id="l2mn7sok1t" name="lyh_qy2.png" path="/素材/不导出/"/>
+    <image id="pm7e1j" name="宠物_箭头3.png" path="/素材/不导出/"/>
+    <image id="avem7sok92" name="gy_btn1.png" path="/素材/不导出/"/>
+    <image id="avem7sok91" name="gy_btn2.png" path="/素材/不导出/"/>
+    <image id="ijmisojwe" name="公用按钮1.png" path="/素材/不导出/"/>
+    <image id="ijmisojwf" name="公用按钮2.png" path="/素材/不导出/"/>
+    <image id="ijmisojwg" name="公用按钮3.png" path="/素材/不导出/"/>
+    <image id="mzd67sok2p" name="lyh_bg1.png" path="/素材/不导出/" scale="9grid" scale9grid="11,9,22,18"/>
+    <image id="cenmojtk" name="common_btn1.png" path="/素材/不导出/"/>
+    <image id="cenmojtl" name="common_btn1s.png" path="/素材/不导出/"/>
+    <image id="wvr9hhk0qv" name="道行_阎王宝藏入口图标.png" path="/素材/不导出/"/>
+    <image id="dqljhhk0ri" name="公用按钮4.png" path="/素材/不导出/"/>
+    <image id="eztc1f" name="战斗_按钮1.png" path="/素材/不导出/"/>
+    <image id="pm7esojxf" name="公用_二级按钮1.png" path="/素材/不导出/" exported="true"/>
+    <image id="pm7esojxg" name="公用_二级按钮2.png" path="/素材/不导出/" exported="true"/>
+    <image id="o5kasojwq" name="公用_二级按钮3.png" path="/素材/不导出/" exported="true"/>
+    <image id="jko0sojxt" name="公用_翻页箭头.png" path="/素材/不导出/" exported="true"/>
+    <image id="mfmk7sok5r" name="xx_btn3.png" path="/素材/不导出/"/>
+    <image id="cenmojui" name="common_tab1.png" path="/素材/不导出/"/>
+    <image id="cenmojuj" name="common_tab2.png" path="/素材/不导出/"/>
+    <image id="s7zd7sok21" name="藏宝阁-按钮1.png" path="/素材/不导出/"/>
+    <image id="s7zd7sok22" name="藏宝阁-按钮2.png" path="/素材/不导出/"/>
+    <image id="s7zd7sok23" name="藏宝阁-按钮残卷未选中.png" path="/素材/不导出/"/>
+    <image id="s7zd7sok24" name="藏宝阁-按钮残卷选中.png" path="/素材/不导出/"/>
+    <image id="cenmojtx" name="common_fanhui.png" path="/素材/不导出/"/>
+    <image id="p6k07sok8p" name="备战控件.png" path="/素材/不导出/"/>
+    <image id="pm7em" name="公用_勾选2.png" path="/素材/不导出/" exported="true"/>
+    <image id="pm7esojxb" name="公用_勾选框2.png" path="/素材/不导出/"/>
+    <image id="mfmk7sok5p" name="转盘-规则按钮.png" path="/素材/不导出/"/>
+    <image id="a1ue7sok4a" name="详细按钮.png" path="/素材/不导出/"/>
+    <image id="fa3ahhk0rp" name="icn_规则.png" path="/素材/不导出/"/>
+    <image id="urissa2" name="我的魂器术按钮.png" path="/素材/不导出/"/>
+    <image id="qpk9hhk0r8" name="坐骑_缘分.png" path="/素材/不导出/"/>
+    <image id="onhs7sokh6" name="common_red2.png" path="/素材/不导出/"/>
+    <component id="guux7sok1p" name="IconPointCom.xml" path="/组件/" exported="true"/>
+    <component id="i41chhk0sy" name="Button_Common_30.xml" path="/组件/" exported="true"/>
+    <image id="odw3hhk0sz" name="小控件时装.png" path="/素材/不导出/"/>
+    <image id="odw3hhk0t1" name="小控件底框.png" path="/素材/不导出/"/>
+    <image id="jjgahhk0t2" name="通用_返回按钮.png" path="/素材/不导出/"/>
+    <image id="rtaxhhk0t3" name="通用按钮_1.png" path="/素材/" scale="9grid" scale9grid="55,17,110,34"/>
+    <image id="rtaxhhk0t4" name="通用按钮_2.png" path="/素材/"/>
+    <component id="rtaxhhk0t5" name="Button_Common_32.xml" path="/组件/" exported="true"/>
+    <component id="tjzyhhk0t6" name="Button_Common_33.xml" path="/组件/" exported="true"/>
+    <component id="tjzyhhk0t7" name="Button_add.xml" path="/组件/" exported="true"/>
+    <component id="tjzyhhk0t8" name="Button_reduced.xml" path="/组件/" exported="true"/>
+    <component id="tjzyhhk0t9" name="Button_up.xml" path="/组件/" exported="true"/>
+    <component id="ptvyhhk0ta" name="Button_Common_34.xml" path="/组件/" exported="true"/>
+    <image id="ptvyhhk0tb" name="商城_选中切页.png" path="/素材/不导出/"/>
+    <component id="ptvyhhk0tc" name="Button_Common_35.xml" path="/组件/" exported="true"/>
+    <image id="ptvyhhk0td" name="商城_上选中切页.png" path="/素材/不导出/"/>
+    <image id="hm4whhk0te" name="通用_关闭按钮.png" path="/素材/"/>
+    <component id="hm4whhk0tf" name="Button_close3.xml" path="/组件/" exported="true"/>
+    <image id="hm4whhk0tg" name="通用_按钮购买.png" path="/素材/不导出/"/>
+    <component id="hm4whhk0th" name="Button_Common_36.xml" path="/组件/" exported="true"/>
+    <image id="xde5hhk0ti" name="商城_牌友hl.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tj" name="商城_牌友.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tk" name="图标_道具.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tl" name="图标_道具1.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tm" name="图标_福袋.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tn" name="图标_福袋hl.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0to" name="图标_牌局.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tp" name="图标_牌局hl.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tq" name="图标_装扮.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tr" name="图标_装扮hl.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0ts" name="图标_资源.png" path="/素材/不导出/商城按钮/"/>
+    <image id="xde5hhk0tt" name="图标_资源hl.png" path="/素材/不导出/商城按钮/"/>
+    <component id="pf6ahhk0tu" name="Button_Common_37.xml" path="/组件/" exported="true"/>
+    <component id="d2s5hhk0tv" name="Button_Common_38.xml" path="/组件/" exported="true"/>
+    <image id="d2s5hhk0tw" name="通用_切页选中.png" path="/素材/不导出/" scale="9grid" scale9grid="9,12,18,24"/>
+    <image id="d2s5hhk0tx" name="通用_切页未选中.png" path="/素材/不导出/" scale="9grid" scale9grid="9,12,18,24"/>
+    <image id="o0nehhk0ty" name="红点.png" path="/素材/不导出/" exported="true" scale9grid="5,5,10,10"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

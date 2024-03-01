@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,41" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_hm4w" name="n0" src="hm4wo74" fileName="切片/切片/商城_按钮刷新.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_hm4w" name="n1" src="hm4wo73" fileName="切片/切片/个人信息_改名.png" xy="14,9"/>
+    <richtext id="n2_hm4w" name="title" xy="37,2" size="85,36" font="ui://b6ljs3rfg4vv0" fontSize="20" color="#2c3156" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" text="ffds"/>
+  </displayList>
+  <Button/>
+</component>

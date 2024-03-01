@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1440,720">
+  <displayList>
+    <component id="n0_n9l8" name="btn_test" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="632,647" size="175,73" aspect="true">
+      <Button title="测试按钮"/>
+    </component>
+  </displayList>
+</component>
