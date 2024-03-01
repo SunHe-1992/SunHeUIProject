@@ -1,5 +1,5 @@
 {
-  "path": "C:\\Work\\SunHeSLG\\Assets\\GameRes\\FGUIRes",
+  "path": "D:\\Work\\SunHeSLG\\Assets\\GameRes\\FGUIRes",
   "branchPath": "",
   "fileExtension": "bytes",
   "packageCount": 2,
@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "C:\\Work\\SunHeSLG\\Assets\\GameScript\\FGUIGen",
+    "codePath": "D:\\Work\\SunHeSLG\\Assets\\GameScript\\FGUIGen",
     "classNamePrefix": "UI_",
     "memberNamePrefix": "",
     "packageName": null,

@@ -3,6 +3,20 @@
   <resources>
     <component id="r35z0" name="MonopolyMain.xml" path="/comp/" exported="true"/>
     <image id="r35z2" name="setting-two.png" path="/images/"/>
+    <image id="w6ez3" name="MONOPOLY主界面.png" path="/designImage/"/>
+    <component id="w6ez4" name="DiceFactor.xml" path="/comp/"/>
+    <image id="w6ez8" name="dotBlue.png" path="/images/"/>
+    <image id="w6ez9" name="dotGreen.png" path="/images/"/>
+    <image id="w6eza" name="dotRed.png" path="/images/"/>
+    <image id="w6ezb" name="dotWhite.png" path="/images/"/>
+    <image id="w6ezc" name="dotYellow.png" path="/images/"/>
+    <image id="w6ezd" name="dot_shadow.png" path="/images/"/>
+    <image id="w6eze" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
+    <image id="w6ezf" name="squareGreen.png" path="/images/"/>
+    <image id="w6ezg" name="squareRed.png" path="/images/"/>
+    <image id="w6ezh" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
+    <image id="w6ezi" name="squareYellow.png" path="/images/"/>
+    <component id="w6ezj" name="ProgressBar1.xml" path="/comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720">
+<component size="1280,720" designImage="ui://dxvwggiww6ez3" designImageOffsetX="280" designImageOffsetY="-180">
   <displayList>
     <component id="n1_r35z" name="btn_Test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="16,536">
       <Button title="btnTest"/>
     </component>
-    <component id="n2_r35z" name="btn_Jump" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="10,610">
-      <Button title="test jump"/>
+    <component id="n2_r35z" name="btn_RollDice" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="220,594" size="95,75">
+      <Button title="Roll Dice"/>
     </component>
-    <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="1067,24"/>
+    <image id="n4_r35z" name="n4" src="r35z2" fileName="images/setting-two.png" xy="202,306" size="64,64" aspect="true">
+      <relation target="n5_fmio" sidePair="right-right,bottom-bottom"/>
+    </image>
     <graph id="n5_fmio" name="n5" xy="9,13" size="274,370" type="rect" lineSize="0" fillColor="#7f000000"/>
     <text id="n6_fmio" name="txt_hud" xy="20,24" size="249,347" fontSize="24" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="123123&#xA;123123&#xA;123123">
       <relation target="n5_fmio" sidePair="width-width,height-height,center-center,middle-middle"/>
     </text>
+    <component id="n7_w6ez" name="compFactor" src="w6ez4" fileName="comp/DiceFactor.xml" xy="322,596">
+      <relation target="n2_r35z" sidePair="left-right,top-top"/>
+      <Button title="x3"/>
+    </component>
+    <component id="n8_w6ez" name="diceBar" src="w6ezj" fileName="comp/ProgressBar1.xml" xy="204,673" size="136,26">
+      <relation target="n2_r35z" sidePair="center-center,top-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
   </displayList>
 </component>
