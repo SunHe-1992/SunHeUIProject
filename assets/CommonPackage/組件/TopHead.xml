@@ -4,8 +4,8 @@
   <displayList>
     <image id="n16_odw3" name="n16" src="odw317" fileName="不导出素材/头像框_1.png" xy="85,19"/>
     <component id="n13_10d3s" name="headCom" src="g4vvv" fileName="組件/Com_Herohead.xml" xy="0,0" controller="isTop,0"/>
-    <richtext id="n4_cenm" name="txt_lvName" xy="114,25" size="182,39" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#ffffff" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="玩家名字"/>
-    <richtext id="n17_odw3" name="txt_UID" xy="114,62" size="182,39" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#ece4d9" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="玩家名字">
+    <richtext id="n4_cenm" name="txt_lvName" xy="114,25" size="182,39" font="ui://b6ljs3rfg4vv0" fontSize="24" color="#ffffff" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="player name"/>
+    <richtext id="n17_odw3" name="txt_UID" xy="114,62" size="182,39" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#ece4d9" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="player name">
       <gearDisplay controller="topType" pages="0"/>
     </richtext>
     <richtext id="n18_hm4w" name="txt_name" xy="114,60" size="182,39" font="SourceHanSerifSC-Heavy" fontSize="24" color="#ffffff" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="玩家名字">

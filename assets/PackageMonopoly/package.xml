@@ -12,11 +12,23 @@
     <image id="w6ezc" name="dotYellow.png" path="/images/"/>
     <image id="w6ezd" name="dot_shadow.png" path="/images/"/>
     <image id="w6eze" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
-    <image id="w6ezf" name="squareGreen.png" path="/images/"/>
-    <image id="w6ezg" name="squareRed.png" path="/images/"/>
+    <image id="w6ezf" name="squareGreen.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
+    <image id="w6ezg" name="squareRed.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <image id="w6ezh" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
     <image id="w6ezi" name="squareYellow.png" path="/images/"/>
     <component id="w6ezj" name="ProgressBar1.xml" path="/comp/"/>
+    <image id="ei10k" name="效果图construction.png" path="/designImage/"/>
+    <component id="ei10l" name="Construction.xml" path="/comp/building/" exported="true"/>
+    <component id="ei10m" name="BuildingItem.xml" path="/comp/building/"/>
+    <component id="ei10n" name="DotItem.xml" path="/comp/building/"/>
+    <image id="ei10o" name="铜钱临时资源.png" path="/不导出素材/"/>
+    <image id="ei10p" name="EvilMushroom.png" path="/images/buildingImages/"/>
+    <image id="po5fq" name="land1.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="po5fr" name="land2.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="po5fs" name="land3.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="po5ft" name="land4.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="po5fu" name="land5.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="po5fv" name="land6.jpg" path="/images/buildingImages/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

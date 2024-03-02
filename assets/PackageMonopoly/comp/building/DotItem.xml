@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,19" designImage="ui://dxvwggiwei10k" designImageOffsetX="-29" designImageOffsetY="-980">
+  <controller name="ctrl_tier" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n1_ei10" name="n1" src="w6ezb" fileName="images/dotWhite.png" xy="5,6" size="12,12" aspect="true"/>
+    <image id="n2_ei10" name="n2" src="w6ezb" fileName="images/dotWhite.png" xy="19,6" size="12,12" aspect="true"/>
+    <image id="n3_ei10" name="n3" src="w6ezb" fileName="images/dotWhite.png" xy="33,6" size="12,12" aspect="true"/>
+    <image id="n4_ei10" name="n4" src="w6ezb" fileName="images/dotWhite.png" xy="47,6" size="12,12" aspect="true"/>
+    <image id="n5_ei10" name="n5" src="w6ezb" fileName="images/dotWhite.png" xy="61,6" size="12,12" aspect="true"/>
+    <image id="n0_ei10" name="n0" src="w6ez8" fileName="images/dotBlue.png" xy="5,6" size="12,12" aspect="true">
+      <gearDisplay controller="ctrl_tier" pages="1,2,3,4,5,6"/>
+    </image>
+    <image id="n7_ei10" name="n7" src="w6ez8" fileName="images/dotBlue.png" xy="19,6" size="12,12" aspect="true">
+      <gearDisplay controller="ctrl_tier" pages="2,3,4,5,6"/>
+    </image>
+    <image id="n8_ei10" name="n8" src="w6ez8" fileName="images/dotBlue.png" xy="33,6" size="12,12" aspect="true">
+      <gearDisplay controller="ctrl_tier" pages="3,4,5,6"/>
+    </image>
+    <image id="n9_ei10" name="n9" src="w6ez8" fileName="images/dotBlue.png" xy="47,6" size="12,12" aspect="true">
+      <gearDisplay controller="ctrl_tier" pages="4,5,6"/>
+    </image>
+    <image id="n10_ei10" name="n10" src="w6ez8" fileName="images/dotBlue.png" xy="61,6" size="12,12" aspect="true">
+      <gearDisplay controller="ctrl_tier" pages="5,6"/>
+    </image>
+  </displayList>
+</component>

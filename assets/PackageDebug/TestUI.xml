@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720" opaque="false">
+<component size="640,1280" opaque="false">
   <displayList>
-    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="192,50" size="895,619">
-      <relation target="" sidePair="center-center,middle-middle"/>
+    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="33,32" size="579,1220">
+      <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n3_7rh7" name="n3" xy="232,59" size="720,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
+    <text id="n3_7rh7" name="n3" xy="73,41" size="474,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
     </text>
-    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="882,156">
-      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="407,138">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="TEST"/>
     </component>
-    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="259,229" size="248,56">
+    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,211" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="Test Fire Emblem Battle"/>
     </component>
-    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1030,40">
+    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="555,22">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
-    <component id="n6_ldl8" name="btn_monopoly" src="em5i3" fileName="comp/ButtonBlue.xml" xy="259,140" size="248,56">
+    <component id="n6_ldl8" name="btn_monopoly" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,122" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="Test monopoly"/>
     </component>
-    <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="886,250">
-      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+    <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,232">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 50 dices"/>
     </component>
-    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="886,331">
-      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,313">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
     </component>
   </displayList>

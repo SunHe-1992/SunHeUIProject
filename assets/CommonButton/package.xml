@@ -124,6 +124,8 @@
     <image id="d2s5hhk0tw" name="通用_切页选中.png" path="/素材/不导出/" scale="9grid" scale9grid="9,12,18,24"/>
     <image id="d2s5hhk0tx" name="通用_切页未选中.png" path="/素材/不导出/" scale="9grid" scale9grid="9,12,18,24"/>
     <image id="o0nehhk0ty" name="红点.png" path="/素材/不导出/" exported="true" scale9grid="5,5,10,10"/>
+    <component id="ei10hhk0tz" name="Button_Arrow.xml" path="/组件/"/>
+    <component id="ei10hhk0u0" name="Button_rule.xml" path="/组件/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

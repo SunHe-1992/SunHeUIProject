@@ -248,6 +248,10 @@
     <image id="s6wmo8h" name="道行_进度条黄.png" path="/素材/" scale="9grid" scale9grid="22,7,44,14"/>
     <image id="s6wmo8i" name="道行_进度条底.png" path="/素材/" scale="9grid" scale9grid="22,7,44,14"/>
     <component id="s6wmo8j" name="ProgressBar_vip.xml" path="/組件/" exported="true"/>
+    <image id="ei10o8k" name="1656674831463.jpg" path="/"/>
+    <component id="ei10o8l" name="HomePage.xml" path="/"/>
+    <component id="ei10o8m" name="MahjongPage.xml" path="/"/>
+    <image id="ei10o8n" name="背景图.jpg" path="/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

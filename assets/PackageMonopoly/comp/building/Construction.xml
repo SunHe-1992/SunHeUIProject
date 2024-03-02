@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://dxvwggiwei10k">
+  <displayList>
+    <component id="n5_po5f" name="topBar" src="g4vvr" fileName="組件/TopbarCom.xml" pkg="080sa613" xy="14,1" size="606,119">
+      <relation target="" sidePair="width-width,left-left,top-top"/>
+    </component>
+    <image id="n3_po5f" name="n3" src="w6ezg" fileName="images/squareRed.png" xy="7,1154" size="703,126">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <list id="n0_ei10" name="list_building" xy="92,978" size="566,172" layout="row" colGap="5" defaultItem="ui://dxvwggiwei10m" autoClearItems="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_po5f" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="330,1203">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <text id="n2_po5f" name="txt_count" xy="201,1166" size="318,43" fontSize="24" color="#333345" align="center" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="INDUSTRIES: 20/30">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n4_po5f" name="txt_story" xy="26,923" size="318,43" fontSize="24" color="#333345" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="chapter story">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>
