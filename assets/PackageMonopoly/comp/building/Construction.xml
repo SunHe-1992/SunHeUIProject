@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280" designImage="ui://dxvwggiwei10k">
   <displayList>
+    <image id="n6_mnvh" name="n6" src="mnvhw" fileName="images/buildingImages/construction1.png" xy="-207,2" size="1135,1135" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
     <component id="n5_po5f" name="topBar" src="g4vvr" fileName="組件/TopbarCom.xml" pkg="080sa613" xy="14,1" size="606,119">
       <relation target="" sidePair="width-width,left-left,top-top"/>
     </component>

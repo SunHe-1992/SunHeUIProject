@@ -311,6 +311,22 @@
     <image id="g0n5i7" name="wood-axe.png" path="/Images/WeaponIcons/"/>
     <component id="g0n5i8" name="ButtonArrow.xml" path="/buttons/" exported="true"/>
     <image id="g0n5ia" name="attack hud.jpg" path="/效果图/"/>
+    <component id="mnvhib" name="HintPage.xml" path="/Comp/" exported="true"/>
+    <image id="mnvhic" name="公用_战力数字+.png" path="/NumberFont/"/>
+    <image id="mnvhid" name="公用_战力数字-.png" path="/NumberFont/"/>
+    <image id="mnvhie" name="公用_战力数字0.png" path="/NumberFont/"/>
+    <image id="mnvhif" name="公用_战力数字1.png" path="/NumberFont/"/>
+    <image id="mnvhig" name="公用_战力数字2.png" path="/NumberFont/"/>
+    <image id="mnvhih" name="公用_战力数字3.png" path="/NumberFont/"/>
+    <image id="mnvhii" name="公用_战力数字4.png" path="/NumberFont/"/>
+    <image id="mnvhij" name="公用_战力数字5.png" path="/NumberFont/"/>
+    <image id="mnvhik" name="公用_战力数字6.png" path="/NumberFont/"/>
+    <image id="mnvhil" name="公用_战力数字7.png" path="/NumberFont/"/>
+    <image id="mnvhim" name="公用_战力数字8.png" path="/NumberFont/"/>
+    <image id="mnvhin" name="公用_战力数字9.png" path="/NumberFont/"/>
+    <font id="mnvhio" name="FontYellow.fnt" path="/NumberFont/" exported="true"/>
+    <component id="mnvhip" name="NumberItem.xml" path="/Comp/"/>
+    <image id="mnvhiq" name="MONOPOLY主界面.png" path="/效果图/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

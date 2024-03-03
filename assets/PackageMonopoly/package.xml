@@ -29,6 +29,10 @@
     <image id="po5ft" name="land4.jpg" path="/images/buildingImages/" exported="true"/>
     <image id="po5fu" name="land5.jpg" path="/images/buildingImages/" exported="true"/>
     <image id="po5fv" name="land6.jpg" path="/images/buildingImages/" exported="true"/>
+    <image id="mnvhw" name="construction1.png" path="/images/buildingImages/"/>
+    <image id="mnvhx" name="construction2.png" path="/images/buildingImages/"/>
+    <image id="mnvhy" name="construction3.png" path="/images/buildingImages/"/>
+    <image id="mnvhz" name="construction4.png" path="/images/buildingImages/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
