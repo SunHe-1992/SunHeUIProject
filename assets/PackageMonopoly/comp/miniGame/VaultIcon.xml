@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="70,70" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="-60" designImageOffsetY="-300" designImageLayer="1">
+<component size="70,70" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="-60" designImageOffsetY="-300">
   <controller name="ctrl_active" pages="0,,1," selected="0"/>
-  <controller name="ctrl_icon" pages="0,apple,1,coin,2,diamond" selected="2"/>
+  <controller name="ctrl_icon" pages="0,apple,1,coin,2,diamond" selected="0"/>
   <displayList>
     <graph id="n2_lhbz" name="n2" xy="0,0" size="70,70" aspect="true" type="rect" lineSize="0" fillColor="#ffe4c83a" corner="12">
       <gearDisplay controller="ctrl_active" pages="1"/>
@@ -11,7 +11,7 @@
       <gearDisplay controller="ctrl_active" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <loader id="n1_lhbz" name="iconLoader" xy="12,12" size="50,50" url="ui://dxvwggiwlhbz1c" fill="scaleMatchWidth">
+    <loader id="n1_lhbz" name="iconLoader" xy="12,12" size="50,50" url="ui://dxvwggiwlhbz1a" fill="scaleMatchWidth">
       <gearIcon controller="ctrl_icon" pages="0,1,2" values="ui://dxvwggiwlhbz1a|ui://dxvwggiwlhbz1b|ui://dxvwggiwlhbz1c"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
