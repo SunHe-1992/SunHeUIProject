@@ -33,6 +33,19 @@
     <image id="mnvhx" name="construction2.png" path="/images/buildingImages/"/>
     <image id="mnvhy" name="construction3.png" path="/images/buildingImages/"/>
     <image id="mnvhz" name="construction4.png" path="/images/buildingImages/"/>
+    <image id="lhbz10" name="bank1.jpg" path="/designImage/"/>
+    <image id="lhbz11" name="bank2.jpg" path="/designImage/"/>
+    <image id="lhbz12" name="chance1.jpg" path="/designImage/"/>
+    <image id="lhbz13" name="get_reward.jpg" path="/designImage/"/>
+    <component id="lhbz14" name="BankHeist.xml" path="/comp/miniGame/" exported="true"/>
+    <component id="lhbz15" name="VaultItem.xml" path="/comp/miniGame/"/>
+    <image id="lhbz16" name="card1.png" path="/images/miniGameImages/"/>
+    <image id="lhbz17" name="card2.png" path="/images/miniGameImages/"/>
+    <component id="lhbz18" name="VaultIcon.xml" path="/comp/miniGame/"/>
+    <component id="lhbz19" name="VaultBar.xml" path="/comp/miniGame/"/>
+    <image id="lhbz1a" name="apple1.png" path="/images/miniGameImages/"/>
+    <image id="lhbz1b" name="coin1.png" path="/images/miniGameImages/"/>
+    <image id="lhbz1c" name="diamond1.png" path="/images/miniGameImages/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

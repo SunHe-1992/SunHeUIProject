@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="467,76" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="-65" designImageOffsetY="-294">
+  <controller name="ctrl_size" pages="0,super,1,large,2,small" selected="0"/>
+  <displayList>
+    <image id="n3_lhbz" name="n3" src="rtaxo5w" fileName="通用素材/通用_弹窗3.png" pkg="080sa613" xy="11,5" size="455,75"/>
+    <component id="n0_lhbz" name="item1" src="lhbz18" fileName="comp/miniGame/VaultIcon.xml" xy="-1,9"/>
+    <component id="n1_lhbz" name="item2" src="lhbz18" fileName="comp/miniGame/VaultIcon.xml" xy="74,8"/>
+    <component id="n2_lhbz" name="item3" src="lhbz18" fileName="comp/miniGame/VaultIcon.xml" xy="149,8"/>
+    <text id="n4_lhbz" name="txt_des" xy="234,18" size="229,49" fontSize="28" color="#333345" align="center" vAlign="middle" ubb="true" autoSize="shrink" bold="true" singleLine="true" autoClearText="true" text="SUPER HEIST">
+      <gearText controller="ctrl_size" pages="0,2" values="SUPER HEIST|SMALL HEIST" default="LARGE HEIST"/>
+    </text>
+  </displayList>
+</component>
