@@ -19,16 +19,16 @@
       <item/>
       <item/>
     </list>
-    <component id="n2_lhbz" name="bar1" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="117,290" touchable="false">
+    <component id="n2_lhbz" name="bar1" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,262" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n3_lhbz" name="bar2" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="168,372" scale="0.772,0.85" touchable="false">
+    <component id="n3_lhbz" name="bar2" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,346" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n4_lhbz" name="bar3" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="169,442" scale="0.75,0.75" touchable="false">
+    <component id="n4_lhbz" name="bar3" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,430" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <text id="n5_lhbz" name="n5" xy="224,245" size="328,51" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" text="MATCH 3 TO STEAL">
+    <text id="n5_lhbz" name="n5" xy="205,214" size="328,51" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" text="MATCH 3 TO STEAL">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
   </displayList>

@@ -10,4 +10,9 @@
       <gearText controller="ctrl_size" pages="0,2" values="SUPER HEIST|SMALL HEIST" default="LARGE HEIST"/>
     </text>
   </displayList>
+  <transition name="anim_shake">
+    <item time="0" type="Scale" tween="true" startValue="0.7,0.7" endValue="1.1,1.1" duration="6"/>
+    <item time="6" type="Scale" tween="true" startValue="1.1,1.1" endValue="1,1" duration="6"/>
+    <item time="24" type="Scale" value="1,1"/>
+  </transition>
 </component>
