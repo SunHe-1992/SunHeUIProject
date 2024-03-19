@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <controller name="ctrl_icon" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <graph id="n1_kbjb" name="n1" xy="0,0" size="64,64" type="rect" lineSize="4" lineColor="#ff333333" corner="16">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n0_7irf" name="n0" xy="0,0" size="64,64" url="ui://dxvwggiw7irf1f" fill="scaleMatchWidth" clearOnPublish="true">
+      <gearIcon controller="ctrl_icon" pages="0,1,2,3,4,5" values="ui://dxvwggiw7irf1f|ui://dxvwggiw7irf1g|ui://dxvwggiw7irf1h|ui://dxvwggiw7irf1i|ui://dxvwggiw7irf1j|ui://dxvwggiw7irf1k"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,256">
+  <displayList>
+    <list id="n0_7irf" name="list_icons" xy="0,0" size="64,255" touchable="false" selectionMode="none" overflow="hidden" defaultItem="ui://dxvwggiw7irf1l" autoClearItems="true" scrollItemToViewOnClick="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

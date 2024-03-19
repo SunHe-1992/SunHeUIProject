@@ -37,15 +37,25 @@
     <image id="lhbz11" name="bank2.jpg" path="/designImage/"/>
     <image id="lhbz12" name="chance1.jpg" path="/designImage/"/>
     <image id="lhbz13" name="get_reward.jpg" path="/designImage/"/>
-    <component id="lhbz14" name="BankHeist.xml" path="/comp/miniGame/" exported="true"/>
-    <component id="lhbz15" name="VaultItem.xml" path="/comp/miniGame/"/>
+    <component id="lhbz14" name="BankHeist.xml" path="/comp/miniGame/BankHeist/" exported="true"/>
+    <component id="lhbz15" name="VaultItem.xml" path="/comp/miniGame/BankHeist/"/>
     <image id="lhbz16" name="card1.png" path="/images/miniGameImages/"/>
     <image id="lhbz17" name="card2.png" path="/images/miniGameImages/"/>
-    <component id="lhbz18" name="VaultIcon.xml" path="/comp/miniGame/"/>
-    <component id="lhbz19" name="VaultBar.xml" path="/comp/miniGame/"/>
+    <component id="lhbz18" name="VaultIcon.xml" path="/comp/miniGame/BankHeist/"/>
+    <component id="lhbz19" name="VaultBar.xml" path="/comp/miniGame/BankHeist/"/>
     <image id="lhbz1a" name="apple1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1b" name="coin1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1c" name="diamond1.png" path="/images/miniGameImages/"/>
+    <component id="7irf1d" name="SlotGame.xml" path="/comp/miniGame/SLOTgame/" exported="true"/>
+    <image id="7irf1e" name="slotBG.png" path="/images/miniGameImages/"/>
+    <image id="7irf1f" name="apple.png" path="/images/SlotGame/"/>
+    <image id="7irf1g" name="banana.png" path="/images/SlotGame/"/>
+    <image id="7irf1h" name="grapes.png" path="/images/SlotGame/"/>
+    <image id="7irf1i" name="lemon.png" path="/images/SlotGame/"/>
+    <image id="7irf1j" name="potionRed.png" path="/images/SlotGame/"/>
+    <image id="7irf1k" name="strawberry.png" path="/images/SlotGame/"/>
+    <component id="7irf1l" name="SlotIconCom.xml" path="/comp/miniGame/SLOTgame/"/>
+    <component id="7irf1m" name="SlotWheel.xml" path="/comp/miniGame/SLOTgame/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

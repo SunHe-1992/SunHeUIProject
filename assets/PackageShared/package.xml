@@ -327,6 +327,13 @@
     <font id="mnvhio" name="FontYellow.fnt" path="/NumberFont/" exported="true"/>
     <component id="mnvhip" name="NumberItem.xml" path="/Comp/"/>
     <image id="mnvhiq" name="MONOPOLY主界面.png" path="/效果图/"/>
+    <misc id="7irfir" name="desktop.ini" path="/Images/Arrow/"/>
+    <misc id="7irfis" name="desktop.ini" path="/Images/Button/"/>
+    <misc id="7irfit" name="desktop.ini" path="/Images/CheckBox/"/>
+    <misc id="7irfiu" name="desktop.ini" path="/Images/Cursor/"/>
+    <misc id="7irfiv" name="desktop.ini" path="/Images/Dot/"/>
+    <misc id="7irfiw" name="desktop.ini" path="/Images/Panel/"/>
+    <misc id="7irfix" name="desktop.ini" path="/Images/Slider/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

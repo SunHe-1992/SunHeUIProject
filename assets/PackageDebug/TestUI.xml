@@ -13,14 +13,14 @@
     </component>
     <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,211" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Test Fire Emblem Battle"/>
+      <Button title="Game Fire Emblem Battle"/>
     </component>
     <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="555,22">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
     <component id="n6_ldl8" name="btn_monopoly" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,122" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Test monopoly"/>
+      <Button title="Game Monopoly"/>
     </component>
     <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,232">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
@@ -29,6 +29,14 @@
     <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,313">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
+    </component>
+    <component id="n9_7irf" name="btn_bank" src="em5i3" fileName="comp/ButtonBlue.xml" xy="410,405">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="Bank Heist"/>
+    </component>
+    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="409,494">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="SLOT minigame"/>
     </component>
   </displayList>
 </component>
