@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="64,256">
+<component size="64,194">
   <displayList>
-    <list id="n0_7irf" name="list_icons" xy="0,0" size="64,255" touchable="false" selectionMode="none" overflow="hidden" defaultItem="ui://dxvwggiw7irf1l" autoClearItems="true" scrollItemToViewOnClick="false">
+    <list id="n0_7irf" name="list_icons" xy="0,1" size="64,193" touchable="false" selectionMode="none" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" defaultItem="ui://dxvwggiw7irf1l" autoClearItems="true" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
       <item/>
       <item/>
       <item/>

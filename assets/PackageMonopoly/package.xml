@@ -11,11 +11,10 @@
     <image id="w6ezb" name="dotWhite.png" path="/images/"/>
     <image id="w6ezc" name="dotYellow.png" path="/images/"/>
     <image id="w6ezd" name="dot_shadow.png" path="/images/"/>
-    <image id="w6eze" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
     <image id="w6ezf" name="squareGreen.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <image id="w6ezg" name="squareRed.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <image id="w6ezh" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
-    <image id="w6ezi" name="squareYellow.png" path="/images/"/>
+    <image id="w6ezi" name="squareYellow.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <component id="w6ezj" name="ProgressBar1.xml" path="/comp/"/>
     <image id="ei10k" name="效果图construction.png" path="/designImage/"/>
     <component id="ei10l" name="Construction.xml" path="/comp/building/" exported="true"/>
@@ -47,7 +46,6 @@
     <image id="lhbz1b" name="coin1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1c" name="diamond1.png" path="/images/miniGameImages/"/>
     <component id="7irf1d" name="SlotGame.xml" path="/comp/miniGame/SLOTgame/" exported="true"/>
-    <image id="7irf1e" name="slotBG.png" path="/images/miniGameImages/"/>
     <image id="7irf1f" name="apple.png" path="/images/SlotGame/"/>
     <image id="7irf1g" name="banana.png" path="/images/SlotGame/"/>
     <image id="7irf1h" name="grapes.png" path="/images/SlotGame/"/>
@@ -56,6 +54,9 @@
     <image id="7irf1k" name="strawberry.png" path="/images/SlotGame/"/>
     <component id="7irf1l" name="SlotIconCom.xml" path="/comp/miniGame/SLOTgame/"/>
     <component id="7irf1m" name="SlotWheel.xml" path="/comp/miniGame/SLOTgame/"/>
+    <image id="pvzh1n" name="slotBG.jpg" path="/images/miniGameImages/"/>
+    <component id="jw4z1o" name="Button1.xml" path="/comp/"/>
+    <image id="jw4z1p" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

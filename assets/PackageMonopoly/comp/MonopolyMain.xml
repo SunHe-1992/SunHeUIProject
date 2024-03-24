@@ -4,11 +4,11 @@
     <component id="n9_ei10" name="topBar" src="g4vvr" fileName="組件/TopbarCom.xml" pkg="080sa613" xy="0,2" size="606,119">
       <relation target="" sidePair="width-width,left-left,top-top"/>
     </component>
-    <component id="n1_r35z" name="btn_Construction" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="103,1118" size="101,111">
+    <component id="n1_r35z" name="btn_Construction" src="jw4z1o" fileName="comp/Button1.xml" xy="103,1118" size="101,111">
       <relation target="" sidePair="center-center,bottom-bottom%"/>
       <Button title="BUILD" titleFontSize="26"/>
     </component>
-    <component id="n2_r35z" name="btn_RollDice" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="216,962" size="191,188">
+    <component id="n2_r35z" name="btn_RollDice" src="jw4z1o" fileName="comp/Button1.xml" xy="216,962" size="191,188">
       <relation target="" sidePair="center-center,bottom-bottom%"/>
       <Button title="Roll Dice" titleFontSize="40"/>
     </component>
@@ -27,7 +27,7 @@
       <relation target="n2_r35z" sidePair="center-center,top-bottom"/>
       <ProgressBar value="50" max="100"/>
     </component>
-    <component id="n10_mnvh" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="50,965" size="104,120">
+    <component id="n10_mnvh" name="btn_test" src="jw4z1o" fileName="comp/Button1.xml" xy="50,965" size="104,120" visible="false">
       <relation target="" sidePair="center-center,bottom-bottom%"/>
       <Button title="test"/>
     </component>

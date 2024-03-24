@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="640,1280">
   <displayList>
-    <image id="n0_7irf" name="n0" src="7irf1e" fileName="images/miniGameImages/slotBG.png" xy="13,355" size="607,607" aspect="true" color="#666666">
+    <image id="n0_7irf" name="n0" src="pvzh1n" fileName="images/miniGameImages/slotBG.jpg" xy="-3,338" size="640,640" aspect="true" color="#666666">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <component id="n1_kbjb" name="wheel1" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="196,541">
+    <component id="n1_kbjb" name="wheel1" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="114,549">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n2_kbjb" name="wheel2" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="384,541">
+    <component id="n2_kbjb" name="wheel2" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="289,549">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n3_kbjb" name="wheel3" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="290,541">
+    <component id="n3_kbjb" name="wheel3" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="461,549">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
+    <component id="n5_jw4z" name="btn_slot" src="jw4z1o" fileName="comp/Button1.xml" xy="259,849" size="110,75">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="SLOT!"/>
+    </component>
+    <graph id="n6_jw4z" name="n6" xy="88,605" size="478,82" touchable="false" type="rect" lineSize="12" lineColor="#ff66cc99" fillColor="#00ffffff" corner="16">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
   </displayList>
 </component>
