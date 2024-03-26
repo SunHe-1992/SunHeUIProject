@@ -22,21 +22,45 @@
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="Game Monopoly"/>
     </component>
-    <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,232">
+    <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,316">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 50 dices"/>
     </component>
-    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="411,313">
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,372">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
     </component>
-    <component id="n9_7irf" name="btn_bank" src="em5i3" fileName="comp/ButtonBlue.xml" xy="410,405">
+    <component id="n9_7irf" name="btn_bank" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,428">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="Bank Heist"/>
     </component>
-    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="409,494">
+    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,484">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="SLOT minigame"/>
+    </component>
+    <component id="n11_kt6k" name="btn_dice1" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,316">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 1"/>
+    </component>
+    <component id="n12_kt6k" name="btn_dice2" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,372">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 2"/>
+    </component>
+    <component id="n13_kt6k" name="btn_dice3" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,428">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 3"/>
+    </component>
+    <component id="n14_kt6k" name="btn_dice4" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,484">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 4"/>
+    </component>
+    <component id="n15_kt6k" name="btn_dice5" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,540">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 5"/>
+    </component>
+    <component id="n16_kt6k" name="btn_dice6" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,596">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="DICE 6"/>
     </component>
   </displayList>
 </component>

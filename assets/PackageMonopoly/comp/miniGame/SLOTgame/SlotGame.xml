@@ -17,8 +17,12 @@
       <relation target="" sidePair="center-center,middle-middle"/>
       <Button title="SLOT!"/>
     </component>
-    <graph id="n6_jw4z" name="n6" xy="88,605" size="478,82" touchable="false" type="rect" lineSize="12" lineColor="#ff66cc99" fillColor="#00ffffff" corner="16">
+    <graph id="n6_jw4z" name="n6" xy="327,646" pivot="0.5,0.5" anchor="true" size="478,82" touchable="false" type="rect" lineSize="12" lineColor="#ff66cc99" fillColor="#00ffffff" corner="16">
       <relation target="" sidePair="center-center,middle-middle"/>
     </graph>
   </displayList>
+  <transition name="anim_frame">
+    <item time="0" type="Scale" target="n6_jw4z" tween="true" startValue="1,0.8" endValue="1,1.2" duration="6"/>
+    <item time="6" type="Scale" target="n6_jw4z" tween="true" startValue="1,1.2" endValue="1,1" duration="6"/>
+  </transition>
 </component>
