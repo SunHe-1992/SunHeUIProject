@@ -57,6 +57,35 @@
     <image id="pvzh1n" name="slotBG.jpg" path="/images/miniGameImages/"/>
     <component id="jw4z1o" name="Button1.xml" path="/comp/"/>
     <image id="jw4z1p" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
+    <component id="pkni1q" name="Fishing.xml" path="/comp/miniGame/FishingGame/" exported="true"/>
+    <image id="pkni1r" name="fishing_mod.png" path="/images/FishingGame/"/>
+    <component id="pkni1s" name="FishingCircle.xml" path="/comp/miniGame/FishingGame/"/>
+    <image id="pkni1t" name="GOOD.PNG" path="/images/FishingGame/"/>
+    <image id="pkni1u" name="BAD.PNG" path="/images/FishingGame/"/>
+    <image id="pkni1v" name="BITE.PNG" path="/images/FishingGame/"/>
+    <image id="pkni1w" name="EXCELLENT.PNG" path="/images/FishingGame/"/>
+    <image id="pkni1x" name="fish.248x256.png" path="/images/FishingGame/"/>
+    <image id="pkni1y" name="scfShine2_c94142[1] 00012.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni1z" name="scfShine2_c94142[1] 00001.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni20" name="scfShine2_c94142[1] 00002.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni21" name="scfShine2_c94142[1] 00003.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni22" name="scfShine2_c94142[1] 00004.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni23" name="scfShine2_c94142[1] 00005.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni24" name="scfShine2_c94142[1] 00006.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni25" name="scfShine2_c94142[1] 00007.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni26" name="scfShine2_c94142[1] 00008.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni27" name="scfShine2_c94142[1] 00009.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni28" name="scfShine2_c94142[1] 00010.png" path="/images/effectGoldCircle/"/>
+    <image id="pkni29" name="scfShine2_c94142[1] 00011.png" path="/images/effectGoldCircle/"/>
+    <movieclip id="pkni2a" name="goldCircle.jta" path="/images/effectGoldCircle/"/>
+    <image id="pkni2b" name="effect_zj_circle_junior_06.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2c" name="effect_zj_circle_junior_00.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2d" name="effect_zj_circle_junior_01.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2e" name="effect_zj_circle_junior_02.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2f" name="effect_zj_circle_junior_03.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2g" name="effect_zj_circle_junior_04.png" path="/images/effectBlueCircle/"/>
+    <image id="pkni2h" name="effect_zj_circle_junior_05.png" path="/images/effectBlueCircle/"/>
+    <movieclip id="pkni2i" name="blueCircle.jta" path="/images/effectBlueCircle/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

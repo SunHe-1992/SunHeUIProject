@@ -62,5 +62,9 @@
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="DICE 6"/>
     </component>
+    <component id="n17_pkni" name="btn_fishing" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,540">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="Fishing game&#xA;"/>
+    </component>
   </displayList>
 </component>

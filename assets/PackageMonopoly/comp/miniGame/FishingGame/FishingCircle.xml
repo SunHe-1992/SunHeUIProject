@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300">
+  <controller name="ctrl_status" exported="true" pages="0,,1,waiting,2,fishing" selected="2"/>
+  <displayList>
+    <graph id="n0_pkni" name="n0" xy="150,150" pivot="0.5,0.5" anchor="true" size="300,300" aspect="true" type="eclipse" lineSize="20" lineColor="#ffffffff" fillColor="#00ffffff">
+      <gearDisplay controller="ctrl_status" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n1_pkni" name="n1" src="pkni1x" fileName="images/FishingGame/fish.248x256.png" xy="107,106" size="105,108" aspect="true">
+      <gearDisplay controller="ctrl_status" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <graph id="n2_pkni" name="n2" xy="150,150" pivot="0.5,0.5" anchor="true" size="300,300" aspect="true" type="eclipse" lineSize="88" lineColor="#66ffffff" fillColor="#00ffffff">
+      <gearDisplay controller="ctrl_status" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n3_pkni" name="targetCircle" xy="150,150" pivot="0.5,0.5" anchor="true" size="244,244" aspect="true" type="eclipse" lineSize="20" lineColor="#663300cc" fillColor="#00ffffff">
+      <gearDisplay controller="ctrl_status" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n4_pkni" name="motionCircle" xy="150,150" pivot="0.5,0.5" anchor="true" size="340,340" aspect="true" type="eclipse" lineSize="20" lineColor="#663300cc" fillColor="#00ffffff">
+      <gearDisplay controller="ctrl_status" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <movieclip id="n5_pkni" name="effect_gold" src="pkni2a" fileName="images/effectGoldCircle/goldCircle.jta" xy="-20,-43" size="340,358" aspect="true" visible="false"/>
+    <movieclip id="n6_pkni" name="effect_blue" src="pkni2i" fileName="images/effectBlueCircle/blueCircle.jta" xy="150,150" pivot="0.5,0.5" anchor="true" size="349,349" aspect="true" visible="false"/>
+    <image id="n7_pkni" name="n7" src="pkni1u" fileName="images/FishingGame/BAD.PNG" xy="77,110" visible="false"/>
+    <image id="n8_pkni" name="n8" src="pkni1v" fileName="images/FishingGame/BITE.PNG" xy="50,107" visible="false"/>
+    <image id="n9_pkni" name="n9" src="pkni1w" fileName="images/FishingGame/EXCELLENT.PNG" xy="-47,105" visible="false"/>
+    <image id="n10_pkni" name="n10" src="pkni1t" fileName="images/FishingGame/GOOD.PNG" xy="42,109" visible="false"/>
+  </displayList>
+  <transition name="anim_waiting">
+    <item time="0" type="Size" target="n0_pkni" tween="true" startValue="300,300" endValue="120,120" duration="6"/>
+    <item time="6" type="Size" target="n0_pkni" tween="true" startValue="120,120" endValue="300,300" duration="6"/>
+    <item time="12" type="Size" target="n0_pkni" tween="true" startValue="300,300" endValue="180,180" duration="6"/>
+    <item time="18" type="Size" target="n0_pkni" tween="true" startValue="180,180" endValue="300,300" duration="6"/>
+  </transition>
+  <transition name="anim_good" options="4">
+    <item time="0" type="Visible" target="n10_pkni" value="true"/>
+    <item time="0" type="Visible" target="n6_pkni" value="true"/>
+    <item time="12" type="Visible" target="n10_pkni" value="false"/>
+    <item time="12" type="Visible" target="n6_pkni" value="false"/>
+  </transition>
+  <transition name="anim_excellent">
+    <item time="0" type="Visible" target="n5_pkni" value="true"/>
+    <item time="0" type="Visible" target="n9_pkni" value="true"/>
+    <item time="12" type="Visible" target="n5_pkni" value="false"/>
+    <item time="12" type="Visible" target="n9_pkni" value="false"/>
+  </transition>
+  <transition name="anim_bad">
+    <item time="0" type="Visible" target="n7_pkni" value="true"/>
+    <item time="12" type="Visible" target="n7_pkni" value="false"/>
+  </transition>
+</component>
