@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="640,1280">
+<component size="640,1280" designImageLayer="1">
   <displayList>
-    <image id="n0_7irf" name="n0" src="pvzh1n" fileName="images/miniGameImages/slotBG.jpg" xy="-3,338" size="640,640" aspect="true" color="#666666">
-      <relation target="" sidePair="center-center,middle-middle"/>
+    <image id="n7_c6ng" name="n7" src="c6ng2s" fileName="images/SlotGame/命运商店_bg.png" xy="-39,20" size="725,1318">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_7irf" name="n0" src="pvzh1n" fileName="images/miniGameImages/slotBG.jpg" xy="0,338" size="640,640" aspect="true" color="#666666">
+      <relation target="" sidePair="width-width,center-center,middle-middle"/>
     </image>
     <component id="n1_kbjb" name="wheel1" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="114,549">
       <relation target="" sidePair="center-center,middle-middle"/>
@@ -13,7 +16,7 @@
     <component id="n3_kbjb" name="wheel3" src="7irf1m" fileName="comp/miniGame/SLOTgame/SlotWheel.xml" xy="461,549">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n5_jw4z" name="btn_slot" src="jw4z1o" fileName="comp/Button1.xml" xy="259,849" size="110,75">
+    <component id="n5_jw4z" name="btn_slot" src="c6ng2m" fileName="comp/Button2.xml" xy="264,827" size="110,110">
       <relation target="" sidePair="center-center,middle-middle"/>
       <Button title="SLOT!"/>
     </component>

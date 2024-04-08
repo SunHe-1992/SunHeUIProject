@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="60">
   <displayList>
-    <image id="n1_lhbz" name="n1" src="mnvhw" fileName="images/buildingImages/construction1.png" xy="-204,47" size="1184,1184" aspect="true" color="#666666">
+    <image id="n1_lhbz" name="n1" src="mnvhw" fileName="images/buildingImages/construction1.png" xy="-286,-3" size="1292,1292" aspect="true" color="#666666">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <list id="n0_lhbz" name="list_vault" xy="96,527" size="533,568" layout="flow_hz" lineGap="59" colGap="4" defaultItem="ui://dxvwggiwlhbz15">
+    <list id="n0_lhbz" name="list_vault" xy="69,527" size="614,619" layout="flow_hz" lineGap="50" colGap="20" defaultItem="ui://dxvwggiwlhbz15" align="center" vAlign="middle">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
@@ -19,13 +19,13 @@
       <item/>
       <item/>
     </list>
-    <component id="n2_lhbz" name="bar1" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,262" touchable="false">
+    <component id="n2_lhbz" name="bar1" src="lhbz19" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="128,262" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n3_lhbz" name="bar2" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,346" touchable="false">
+    <component id="n3_lhbz" name="bar2" src="lhbz19" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="128,346" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n4_lhbz" name="bar3" src="lhbz19" fileName="comp/miniGame/VaultBar.xml" xy="128,430" touchable="false">
+    <component id="n4_lhbz" name="bar3" src="lhbz19" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="128,430" touchable="false">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
     <text id="n5_lhbz" name="n5" xy="205,214" size="328,51" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" text="MATCH 3 TO STEAL">

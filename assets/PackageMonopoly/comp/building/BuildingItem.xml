@@ -5,14 +5,14 @@
     <graph id="n0_ei10" name="n0" xy="0,0" size="100,172" type="rect" lineSize="0" corner="14">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <loader id="n5_ei10" name="loader_pic" xy="4,29" size="93,93" aspect="true" touchable="false" url="ui://dxvwggiwpo5fq" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_ei10" name="loader_pic" xy="0,15" size="100,100" aspect="true" touchable="false" url="ui://dxvwggiwpo5fq" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
     <text id="n1_ei10" name="txt_price" xy="40,138" size="56,32" fontSize="22" color="#333345" align="center" vAlign="middle" bold="true" autoClearText="true" text="888K"/>
-    <image id="n3_ei10" name="n3" src="w6ezf" fileName="images/squareGreen.png" xy="3,4" size="93,25">
+    <image id="n3_ei10" name="n3" src="w6ezf" fileName="images/squareGreen.png" xy="-1,0" size="101,25">
       <relation target="" sidePair="width-width,center-center"/>
     </image>
-    <component id="n2_ei10" name="dotItem" src="ei10n" fileName="comp/building/DotItem.xml" xy="10,6"/>
-    <loader id="n4_ei10" name="n8" xy="2,135" size="36,36" aspect="true" url="ui://dxvwggiwei10o" align="center" vAlign="middle" fill="scaleMatchHeight"/>
-    <text id="n6_po5f" name="txt_name" xy="1,116" size="94,32" fontSize="22" color="#00a632" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="coffee shop"/>
+    <component id="n2_ei10" name="dotItem" src="ei10n" fileName="comp/building/DotItem.xml" xy="10,1"/>
+    <loader id="n4_ei10" name="n8" xy="0,137" size="36,36" aspect="true" url="ui://dxvwggiwei10o" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n6_po5f" name="txt_name" xy="4,110" size="94,32" fontSize="22" color="#00a632" align="center" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="coffee shop"/>
   </displayList>
-  <Button downEffect="scale" downEffectValue=".8"/>
+  <Button sound="ui://g2fjgz25ibyu9" downEffect="scale" downEffectValue=".8"/>
 </component>

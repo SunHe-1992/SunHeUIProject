@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="640,1280">
   <displayList>
-    <image id="n0_pkni" name="n0" src="pkni1r" fileName="images/FishingGame/fishing_mod.png" xy="-62,0" size="764,1280" aspect="true">
+    <image id="n0_pkni" name="n0" src="pkni1r" fileName="images/FishingGame/fishing_mod.png" xy="-62,0" size="764,1280" aspect="true" color="#999999">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <component id="n1_pkni" name="compCircle" src="pkni1s" fileName="comp/miniGame/FishingGame/FishingCircle.xml" xy="170,490" touchable="false" controller="ctrl_status,1">

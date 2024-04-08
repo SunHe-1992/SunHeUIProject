@@ -4,7 +4,7 @@
   <displayList>
     <component id="n2_g4vv" name="head" src="g4vvz" fileName="組件/TopHead.xml" xy="6,5">
       <gearDisplay controller="showHead" pages="0"/>
-      <relation target="" sidePair="left-left"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
     </component>
     <image id="n3_i2ia" name="n3" src="i2ia2r" fileName="素材/选房间/抬头底框.png" xy="-1,0" size="334,53" group="n7_i2ia"/>
     <image id="n4_i2ia" name="n4" src="i2ia2s" fileName="素材/选房间/返回按钮.png" xy="209,9" group="n7_i2ia"/>
@@ -15,7 +15,8 @@
     <group id="n7_i2ia" name="n7" xy="-1,-1" size="403,78" advanced="true">
       <gearDisplay controller="showHead" pages="1,2"/>
     </group>
-    <component id="n8_xde5" name="goldComp" src="g4vvs" fileName="組件/TopBar_Point.xml" xy="318,39">
+    <component id="n8_xde5" name="goldComp" src="g4vvs" fileName="組件/TopBar_Point.xml" xy="530,27">
+      <relation target="" sidePair="middle-middle,right-right"/>
       <Button sound="ui://g2fjgz25od3r3"/>
     </component>
   </displayList>

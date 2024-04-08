@@ -86,6 +86,17 @@
     <image id="pkni2g" name="effect_zj_circle_junior_04.png" path="/images/effectBlueCircle/"/>
     <image id="pkni2h" name="effect_zj_circle_junior_05.png" path="/images/effectBlueCircle/"/>
     <movieclip id="pkni2i" name="blueCircle.jta" path="/images/effectBlueCircle/"/>
+    <image id="c6ng2j" name="功能底框1.png" path="/images/"/>
+    <image id="c6ng2k" name="战斗_按钮.png" path="/images/"/>
+    <image id="c6ng2l" name="结缘-按钮.png" path="/images/"/>
+    <component id="c6ng2m" name="Button2.xml" path="/comp/"/>
+    <image id="c6ng2n" name="聚魂.png" path="/images/"/>
+    <image id="c6ng2o" name="暂停和结算_中间圆.png" path="/images/buildingImages/"/>
+    <image id="c6ng2p" name="公用道具框_元宝专属.png" path="/images/miniGameImages/"/>
+    <image id="c6ng2q" name="公用道具框_白.png" path="/images/miniGameImages/"/>
+    <image id="c6ng2r" name="common_ding3.png" path="/images/miniGameImages/"/>
+    <image id="c6ng2s" name="命运商店_bg.png" path="/images/SlotGame/"/>
+    <image id="c6ng2t" name="公用道具框_紫金.png" path="/images/SlotGame/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

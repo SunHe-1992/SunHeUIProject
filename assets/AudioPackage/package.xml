@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g2fjgz25">
+  <resources>
+    <sound id="od3r0" name="diamond.mp3" path="/UI音效/" exported="true"/>
+    <sound id="od3r1" name="close.wav" path="/UI音效/" exported="true"/>
+    <sound id="od3r2" name="clickfailed.wav" path="/UI音效/" exported="true"/>
+    <sound id="od3r3" name="click.wav" path="/UI音效/" exported="true"/>
+    <sound id="od3r4" name="dropcoin_2.mp3" path="/UI音效/" exported="true"/>
+    <sound id="od3r5" name="dropcoin.mp3" path="/UI音效/" exported="true"/>
+    <sound id="od3r6" name="ChangeTab.wav" path="/UI音效/" exported="true"/>
+    <sound id="od3r7" name="Money.wav" path="/UI音效/" exported="true"/>
+    <sound id="od3r8" name="SkillUp.wav" path="/UI音效/" exported="true"/>
+    <sound id="ibyu9" name="enter.wav" path="/UI音效/" exported="true"/>
+  </resources>
+  <publish name="AudioPackage" genCode="true"/>
+</packageDescription>

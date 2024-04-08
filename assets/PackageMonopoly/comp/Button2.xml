@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="93,93" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_jw4z" name="n0" src="c6ng2n" fileName="images/聚魂.png" xy="46,46" pivot="0.5,0.5" anchor="true" size="136,136" aspect="true">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_jw4z" name="title" xy="46,46" pivot="0.5,0.5" anchor="true" size="93,92" aspect="true" fontSize="24" color="#e4c83a" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" singleLine="true" text="test button">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="dark" downEffectValue=".8"/>
+</component>
