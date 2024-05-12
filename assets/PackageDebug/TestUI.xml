@@ -1,68 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="640,1280" opaque="false">
+<component size="1280,640" opaque="false">
   <displayList>
-    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="33,32" size="579,1220">
+    <image id="n2_7rh7" name="frame" src="7rh75" fileName="images/bgImage.png" xy="33,32" size="1219,580">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n3_7rh7" name="n3" xy="73,41" size="474,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
     </text>
-    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="407,138">
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="400,151">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="TEST"/>
+      <Button title="btn TEST"/>
     </component>
-    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,211" size="248,56">
+    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="86,146" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Game Fire Emblem Battle"/>
+      <Button title="Fire Emblem Battle"/>
     </component>
-    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="555,22">
+    <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1195,22">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
-    <component id="n6_ldl8" name="btn_monopoly" src="em5i3" fileName="comp/ButtonBlue.xml" xy="100,122" size="248,56">
-      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Game Monopoly"/>
-    </component>
-    <component id="n7_w6ez" name="btn_addDice50" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,316">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="+ 50 dices"/>
-    </component>
-    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,372">
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="112,402">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
     </component>
-    <component id="n9_7irf" name="btn_bank" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,428">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="Bank Heist"/>
-    </component>
-    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,484">
+    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,256">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="SLOT minigame"/>
     </component>
-    <component id="n11_kt6k" name="btn_dice1" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,316">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 1"/>
-    </component>
-    <component id="n12_kt6k" name="btn_dice2" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,372">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 2"/>
-    </component>
-    <component id="n13_kt6k" name="btn_dice3" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,428">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 3"/>
-    </component>
-    <component id="n14_kt6k" name="btn_dice4" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,484">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 4"/>
-    </component>
-    <component id="n15_kt6k" name="btn_dice5" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,540">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 5"/>
-    </component>
-    <component id="n16_kt6k" name="btn_dice6" src="em5i3" fileName="comp/ButtonBlue.xml" xy="99,596">
-      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
-      <Button title="DICE 6"/>
-    </component>
-    <component id="n17_pkni" name="btn_fishing" src="em5i3" fileName="comp/ButtonBlue.xml" xy="303,540">
+    <component id="n17_pkni" name="btn_fishing" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,312">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="Fishing game&#xA;"/>
     </component>

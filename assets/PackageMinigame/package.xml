@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="dxvwggiw">
   <resources>
-    <component id="r35z0" name="MonopolyMain.xml" path="/comp/" exported="true"/>
     <image id="r35z2" name="setting-two.png" path="/images/"/>
-    <image id="w6ez3" name="MONOPOLY主界面.png" path="/designImage/"/>
-    <component id="w6ez4" name="DiceFactor.xml" path="/comp/"/>
     <image id="w6ez8" name="dotBlue.png" path="/images/"/>
     <image id="w6ez9" name="dotGreen.png" path="/images/"/>
     <image id="w6eza" name="dotRed.png" path="/images/"/>
@@ -15,33 +12,7 @@
     <image id="w6ezg" name="squareRed.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <image id="w6ezh" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
     <image id="w6ezi" name="squareYellow.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
-    <component id="w6ezj" name="ProgressBar1.xml" path="/comp/"/>
-    <image id="ei10k" name="效果图construction.png" path="/designImage/"/>
-    <component id="ei10l" name="Construction.xml" path="/comp/building/" exported="true"/>
-    <component id="ei10m" name="BuildingItem.xml" path="/comp/building/"/>
-    <component id="ei10n" name="DotItem.xml" path="/comp/building/"/>
     <image id="ei10o" name="铜钱临时资源.png" path="/不导出素材/"/>
-    <image id="ei10p" name="EvilMushroom.png" path="/images/buildingImages/"/>
-    <image id="po5fq" name="land1.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="po5fr" name="land2.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="po5fs" name="land3.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="po5ft" name="land4.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="po5fu" name="land5.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="po5fv" name="land6.jpg" path="/images/buildingImages/" exported="true"/>
-    <image id="mnvhw" name="construction1.png" path="/images/buildingImages/"/>
-    <image id="mnvhx" name="construction2.png" path="/images/buildingImages/"/>
-    <image id="mnvhy" name="construction3.png" path="/images/buildingImages/"/>
-    <image id="mnvhz" name="construction4.png" path="/images/buildingImages/"/>
-    <image id="lhbz10" name="bank1.jpg" path="/designImage/"/>
-    <image id="lhbz11" name="bank2.jpg" path="/designImage/"/>
-    <image id="lhbz12" name="chance1.jpg" path="/designImage/"/>
-    <image id="lhbz13" name="get_reward.jpg" path="/designImage/"/>
-    <component id="lhbz14" name="BankHeist.xml" path="/comp/miniGame/BankHeist/" exported="true"/>
-    <component id="lhbz15" name="VaultItem.xml" path="/comp/miniGame/BankHeist/"/>
-    <image id="lhbz16" name="card1.png" path="/images/miniGameImages/"/>
-    <image id="lhbz17" name="card2.png" path="/images/miniGameImages/"/>
-    <component id="lhbz18" name="VaultIcon.xml" path="/comp/miniGame/BankHeist/"/>
-    <component id="lhbz19" name="VaultBar.xml" path="/comp/miniGame/BankHeist/"/>
     <image id="lhbz1a" name="apple1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1b" name="coin1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1c" name="diamond1.png" path="/images/miniGameImages/"/>
@@ -55,7 +26,6 @@
     <component id="7irf1l" name="SlotIconCom.xml" path="/comp/miniGame/SLOTgame/"/>
     <component id="7irf1m" name="SlotWheel.xml" path="/comp/miniGame/SLOTgame/"/>
     <image id="pvzh1n" name="slotBG.jpg" path="/images/miniGameImages/"/>
-    <component id="jw4z1o" name="Button1.xml" path="/comp/"/>
     <image id="jw4z1p" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <component id="pkni1q" name="Fishing.xml" path="/comp/miniGame/FishingGame/" exported="true"/>
     <image id="pkni1r" name="fishing_mod.png" path="/images/FishingGame/"/>
@@ -91,7 +61,6 @@
     <image id="c6ng2l" name="结缘-按钮.png" path="/images/"/>
     <component id="c6ng2m" name="Button2.xml" path="/comp/"/>
     <image id="c6ng2n" name="聚魂.png" path="/images/"/>
-    <image id="c6ng2o" name="暂停和结算_中间圆.png" path="/images/buildingImages/"/>
     <image id="c6ng2p" name="公用道具框_元宝专属.png" path="/images/miniGameImages/"/>
     <image id="c6ng2q" name="公用道具框_白.png" path="/images/miniGameImages/"/>
     <image id="c6ng2r" name="common_ding3.png" path="/images/miniGameImages/"/>
