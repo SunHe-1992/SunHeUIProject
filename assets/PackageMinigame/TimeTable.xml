@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,80" extention="Button" designImageOffsetX="-80" designImageOffsetY="-80">
+  <controller name="room" exported="true" pages="0,ZOOM,1,A3 72,2,A1 46,3,A1 04,4,A1 22,5,E3 16" selected="0"/>
+  <controller name="course_name" exported="true" pages="0,C++ GAME,1,WEB GAME,2,SOFTWARE TEST,3,MATH,4,DATA STRUCTURE,5,ENGLISH,6,GP1" selected="0"/>
+  <controller name="button" pages="2,up,3,down" selected="0"/>
+  <displayList>
+    <graph id="n3_r7dl" name="n3" xy="0,0" size="170,80" type="rect" lineSize="2" lineColor="#ff333345" fillColor="#ffa7bcd3" corner="4">
+      <gearColor controller="room" pages="1,2,3,4,5" values="#ffcc00|#ffcc00|#ffcc00|#ffcc00|#ffcc00" default="#a7bcd3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_r7dl" name="n0" xy="6,2" size="158,39" fontSize="20" color="#333345" align="center" vAlign="middle" autoSize="shrink" bold="true" text="C++ GAME">
+      <gearText controller="course_name" pages="0,1,2,3,4,5,6" values="C++ GAME|WEB GAME|SOFTWARE TEST|MATH|DATA STRUCTURE|ENGLISH|GP1"/>
+      <relation target="" sidePair="width-width,center-center,top-top"/>
+    </text>
+    <text id="n1_r7dl" name="title" xy="9,41" size="91,39" fontSize="24" color="#333345" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="8:30AM&#xA;10:20AM">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n2_r7dl" name="n2" xy="94,45" size="69,34" fontSize="20" color="#333345" align="center" vAlign="middle" autoSize="shrink" bold="true" text="ZOOM">
+      <gearText controller="room" pages="0,2,3,4,5" values="ZOOM|A1 46|A1 04|A1 22|E3 16" default="A3 72"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

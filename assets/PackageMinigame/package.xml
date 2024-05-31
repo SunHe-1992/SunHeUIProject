@@ -66,6 +66,8 @@
     <image id="c6ng2r" name="common_ding3.png" path="/images/miniGameImages/"/>
     <image id="c6ng2s" name="命运商店_bg.png" path="/images/SlotGame/"/>
     <image id="c6ng2t" name="公用道具框_紫金.png" path="/images/SlotGame/"/>
+    <component id="r7dl2v" name="TimeTableCell.xml" path="/"/>
+    <component id="r7dl2w" name="TimeTable.xml" path="/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
