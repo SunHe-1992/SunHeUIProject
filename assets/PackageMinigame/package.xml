@@ -68,6 +68,13 @@
     <image id="c6ng2t" name="公用道具框_紫金.png" path="/images/SlotGame/"/>
     <component id="r7dl2v" name="TimeTableCell.xml" path="/"/>
     <component id="r7dl2w" name="TimeTable.xml" path="/"/>
+    <component id="xjmq2x" name="BankHeist.xml" path="/comp/miniGame/BankHeist/" exported="true"/>
+    <component id="xjmq2y" name="VaultBar.xml" path="/comp/miniGame/BankHeist/"/>
+    <component id="xjmq2z" name="VaultIcon.xml" path="/comp/miniGame/BankHeist/"/>
+    <component id="xjmq30" name="VaultItem.xml" path="/comp/miniGame/BankHeist/"/>
+    <image id="xjmq31" name="card1.png" path="/images/miniGameImages/"/>
+    <image id="xjmq32" name="card2.png" path="/images/miniGameImages/"/>
+    <image id="xjmq34" name="pokerBG (2).jpg" path="/images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="60">
+  <displayList>
+    <image id="n1_lhbz" name="n1" src="xjmq34" fileName="images/pokerBG (2).jpg" xy="0,0" size="1280,640" color="#666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n0_lhbz" name="list_vault" xy="595,15" size="614,619" layout="flow_hz" lineGap="50" colGap="20" defaultItem="ui://dxvwggiwxjmq30" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_lhbz" name="bar1" src="xjmq2y" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="8,66" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_lhbz" name="bar2" src="xjmq2y" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="8,150" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_lhbz" name="bar3" src="xjmq2y" fileName="comp/miniGame/BankHeist/VaultBar.xml" xy="8,234" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n5_lhbz" name="n5" xy="11,8" size="328,51" fontSize="24" color="#ffffff" align="center" autoSize="none" bold="true" text="MATCH 3 TO HARVEST">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

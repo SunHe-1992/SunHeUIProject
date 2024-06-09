@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,150" designImage="ui://dxvwggiwlhbz10" designImageOffsetX="-26" designImageOffsetY="-534">
+  <controller name="ctrl_opened" pages="0,,1," selected="0"/>
+  <controller name="ctrl_icon" pages="0,apple,1,coin,2,diamond" selected="2"/>
+  <displayList>
+    <image id="n1_lhbz" name="n1" src="xjmq31" fileName="images/miniGameImages/card1.png" xy="-2,0" size="123,151">
+      <gearDisplay controller="ctrl_opened" pages="1"/>
+    </image>
+    <image id="n0_lhbz" name="n0" src="xjmq32" fileName="images/miniGameImages/card2.png" xy="8,-1" size="118,156">
+      <gearDisplay controller="ctrl_opened" pages="0"/>
+    </image>
+    <loader id="n2_lhbz" name="iconLoader" xy="19,34" size="82,81" url="ui://dxvwggiwlhbz1c" fill="scaleMatchWidth">
+      <gearDisplay controller="ctrl_opened" pages="1"/>
+      <gearIcon controller="ctrl_icon" pages="0,1,2" values="ui://dxvwggiwlhbz1a|ui://dxvwggiwlhbz1b|ui://dxvwggiwlhbz1c"/>
+    </loader>
+  </displayList>
+</component>
