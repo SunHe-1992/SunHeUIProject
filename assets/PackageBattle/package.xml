@@ -47,6 +47,7 @@
     <component id="tjjs17" name="CombatBar.xml" path="/Comp/"/>
     <component id="tjjs18" name="CombatBar1.xml" path="/Comp/"/>
     <component id="tjjs19" name="CombatHpBar.xml" path="/Comp/"/>
+    <component id="py0fhw" name="WorldPanel.xml" path="/UIPanels/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

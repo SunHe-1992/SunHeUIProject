@@ -28,7 +28,7 @@
     <image id="pvzh1n" name="slotBG.jpg" path="/images/miniGameImages/"/>
     <image id="jw4z1p" name="squareBlue.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <component id="pkni1q" name="Fishing.xml" path="/comp/miniGame/FishingGame/" exported="true"/>
-    <image id="pkni1r" name="fishing_mod.png" path="/images/FishingGame/"/>
+    <image id="pkni1r" name="fishing_mod.jpg" path="/images/FishingGame/"/>
     <component id="pkni1s" name="FishingCircle.xml" path="/comp/miniGame/FishingGame/"/>
     <image id="pkni1t" name="GOOD.PNG" path="/images/FishingGame/"/>
     <image id="pkni1u" name="BAD.PNG" path="/images/FishingGame/"/>

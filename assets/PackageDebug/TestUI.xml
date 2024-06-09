@@ -7,18 +7,18 @@
     <text id="n3_7rh7" name="n3" xy="73,41" size="474,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
     </text>
-    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="400,151">
+    <component id="n0_em5i" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" xy="373,153">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="btn TEST"/>
     </component>
     <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="86,146" size="248,56">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
-      <Button title="Fire Emblem Battle"/>
+      <Button title="World1"/>
     </component>
     <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1195,22">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
-    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="112,402">
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,368">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
     </component>
