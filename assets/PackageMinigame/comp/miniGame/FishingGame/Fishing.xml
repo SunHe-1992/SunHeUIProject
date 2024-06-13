@@ -10,8 +10,8 @@
     <text id="n2_pkni" name="txt_rodCount" xy="370,-41" size="555,124" fontSize="40" color="#e7faff" align="center" autoSize="shrink" bold="true" autoClearText="true" text="Fish Rod Count: 5&#xA;Progress 88%">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <loader id="n3_pkni" name="clickLoader" xy="1,399" size="1272,522">
-      <relation target="" sidePair="width-width,center-center"/>
+    <loader id="n3_pkni" name="clickLoader" xy="0,0" size="1272,522">
+      <relation target="" sidePair="width-width,height-height"/>
     </loader>
   </displayList>
 </component>
