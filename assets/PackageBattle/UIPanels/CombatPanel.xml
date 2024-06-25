@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720" designImage="ui://fstosj6iscq56">
+<component size="1280,720" designImage="ui://fstosj6icl3jhx">
   <displayList>
-    <component id="n0_tjjs" name="weaponLeft" src="tjjs16" fileName="Comp/PawnWeaponCom.xml" xy="0,413" controller="color,0">
-      <relation target="" sidePair="middle-middle,left-left"/>
-    </component>
-    <component id="n1_tjjs" name="weaponRight" src="tjjs16" fileName="Comp/PawnWeaponCom.xml" xy="1059,408" controller="color,1">
-      <relation target="" sidePair="middle-middle,right-right"/>
-    </component>
-    <component id="n6_tjjs" name="infoLeft" src="tjjs17" fileName="Comp/CombatBar.xml" xy="478,568">
-      <relation target="n12_tjjs" sidePair="center-center,bottom-top"/>
-    </component>
-    <component id="n7_tjjs" name="infoRight" src="tjjs17" fileName="Comp/CombatBar.xml" xy="658,568">
-      <relation target="n12_tjjs" sidePair="center-center,bottom-top"/>
-    </component>
-    <component id="n12_tjjs" name="hpbar" src="tjjs18" fileName="Comp/CombatBar1.xml" xy="264,518">
-      <relation target="" sidePair="center-center,bottom-bottom"/>
-    </component>
-    <text id="n8_tjjs" name="n8" xy="615,561" size="54,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Dmg">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
+    <loader id="n11_vaj1" name="bg" xy="0,0" size="1280,720" touchable="false" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_vaj1" name="stat0" src="vaj1hz" fileName="Comp/RPGCombat/RPGStatsCom.xml" xy="1094,12"/>
+    <component id="n2_vaj1" name="stat1" src="vaj1hz" fileName="Comp/RPGCombat/RPGStatsCom.xml" xy="1094,100"/>
+    <component id="n3_vaj1" name="stat2" src="vaj1hz" fileName="Comp/RPGCombat/RPGStatsCom.xml" xy="1094,188"/>
+    <component id="n0_vaj1" name="stat3" src="vaj1hz" fileName="Comp/RPGCombat/RPGStatsCom.xml" xy="1094,276"/>
+    <list id="n4_vaj1" name="actionList" xy="17,29" size="549,82" layout="flow_hz" lineGap="4" colGap="8" defaultItem="ui://fstosj6ivaj1i0" autoClearItems="true">
+      <relation target="" sidePair="left-left,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n5_vaj1" name="txt_turn" xy="577,9" size="126,46" fontSize="24" color="#ffffff" autoSize="none" autoClearText="true" text="Turn 999">
+      <relation target="" sidePair="center-center,top-top"/>
     </text>
-    <text id="n9_tjjs" name="n9" xy="625,588" size="33,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Hit">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
-    </text>
-    <text id="n10_tjjs" name="n10" xy="621,616" size="41,34" fontSize="24" color="#ffffff" align="center" strokeColor="#4b8be3" text="Crit">
-      <relation target="n6_tjjs" sidePair="left-right,top-top"/>
-    </text>
+    <component id="n6_vaj1" name="actionCom" src="lay8l" fileName="Comp/ActionMenuComp.xml" xy="739,93" size="302,424"/>
+    <component id="n10_vaj1" name="villian0" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="291,260"/>
+    <component id="n7_vaj1" name="villian1" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="337,448"/>
+    <component id="n8_vaj1" name="villian2" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="86,300"/>
+    <component id="n9_vaj1" name="villian3" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="81,493"/>
   </displayList>
-  <transition name="anim_hide">
-    <item time="0" type="Alpha" target="n0_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
-    <item time="0" type="Alpha" target="n12_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
-    <item time="0" type="Alpha" target="n1_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
-    <item time="0" type="Alpha" target="n6_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
-    <item time="0" type="Alpha" target="n7_tjjs" tween="true" startValue="1" endValue="0.3" duration="9"/>
-  </transition>
+  <transition name="anim_hide"/>
 </component>

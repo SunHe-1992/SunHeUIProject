@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="149,39">
+  <displayList>
+    <component id="n0_vaj1" name="stats" src="vaj1hy" fileName="Comp/RPGCombat/RPGStatsBar.xml" xy="0,0"/>
+  </displayList>
+</component>

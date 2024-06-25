@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,88" designImage="ui://fstosj6icl3jhx" designImageOffsetX="-1063" designImageOffsetY="-102">
+  <controller name="ctrl_highlight" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n4_vaj1" name="n4" src="scq5c" fileName="Images/bg_2.png" xy="-1,0" size="153,87">
+      <gearDisplay controller="ctrl_highlight" pages="1"/>
+    </image>
+    <text id="n0_vaj1" name="txt_name" xy="-1,1" size="82,26" fontSize="18" color="#ffffff" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="Scaracci"/>
+    <component id="n2_vaj1" name="HPCom" src="vaj1hy" fileName="Comp/RPGCombat/RPGStatsBar.xml" xy="1,23"/>
+    <component id="n3_vaj1" name="SPCom" src="vaj1hy" fileName="Comp/RPGCombat/RPGStatsBar.xml" xy="20,52" size="132,39"/>
+  </displayList>
+</component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="314,314" designImage="ui://fstosj6iscq52" designImageOffsetX="-859" designImageOffsetY="-111">
+<component size="314,314" designImage="ui://fstosj6ivaj1i1" designImageLayer="1">
   <displayList>
     <image id="n1_lay8" name="n1" src="lay8ab" fileName="Images/Panel/blue_panel.png" pkg="9bv6j664" xy="1,4" size="261,323">
       <relation target="n2_lay8" sidePair="top-top,bottomext-bottom"/>

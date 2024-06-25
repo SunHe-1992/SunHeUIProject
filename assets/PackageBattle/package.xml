@@ -48,6 +48,12 @@
     <component id="tjjs18" name="CombatBar1.xml" path="/Comp/"/>
     <component id="tjjs19" name="CombatHpBar.xml" path="/Comp/"/>
     <component id="py0fhw" name="WorldPanel.xml" path="/UIPanels/" exported="true"/>
+    <image id="cl3jhx" name="八方旅人战斗1.png" path="/效果图/"/>
+    <component id="vaj1hy" name="RPGStatsBar.xml" path="/Comp/RPGCombat/"/>
+    <component id="vaj1hz" name="RPGStatsCom.xml" path="/Comp/RPGCombat/"/>
+    <component id="vaj1i0" name="RPGPawnBlock.xml" path="/Comp/RPGCombat/"/>
+    <image id="vaj1i1" name="操作菜单.png" path="/效果图/"/>
+    <component id="vaj1i2" name="VillianStatsCom.xml" path="/Comp/RPGCombat/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
