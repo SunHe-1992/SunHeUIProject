@@ -30,5 +30,9 @@
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="Fishing game&#xA;"/>
     </component>
+    <component id="n18_krpd" name="btn_damageVillian" src="em5i3" fileName="comp/ButtonBlue.xml" xy="308,258">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="damage to villians"/>
+    </component>
   </displayList>
 </component>

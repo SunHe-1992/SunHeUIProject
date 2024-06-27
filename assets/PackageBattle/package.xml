@@ -83,6 +83,16 @@
     <image id="lvtsit" name="治疗_3.png" path="/ArtFont/green/"/>
     <font id="lvtsiu" name="Font_Green.fnt" path="/ArtFont/" exported="true"/>
     <component id="lvtsiv" name="DamagePane.xml" path="/Comp/Damage/" exported="true"/>
+    <image id="krpdiw" name="Ico_dead.jpg" path="/Images/"/>
+    <component id="krpdix" name="CombatEndUI.xml" path="/UIPanels/" exported="true"/>
+    <image id="krpdiy" name="sl_3_kuangEffect_00.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdiz" name="sl_3_kuangEffect_01.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdj0" name="sl_3_kuangEffect_02.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdj1" name="sl_3_kuangEffect_03.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdj2" name="sl_3_kuangEffect_04.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdj3" name="sl_3_kuangEffect_05.png" path="/Images/边框-中 红蓝/"/>
+    <image id="krpdj4" name="sl_3_kuangEffect_06.png" path="/Images/边框-中 红蓝/"/>
+    <movieclip id="krpdj5" name="frameRedBlue.jta" path="/Images/边框-中 红蓝/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

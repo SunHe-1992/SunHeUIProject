@@ -12,7 +12,6 @@
     <image id="w6ezg" name="squareRed.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
     <image id="w6ezh" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="6,0,7,26"/>
     <image id="w6ezi" name="squareYellow.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
-    <image id="ei10o" name="铜钱临时资源.png" path="/不导出素材/"/>
     <image id="lhbz1a" name="apple1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1b" name="coin1.png" path="/images/miniGameImages/"/>
     <image id="lhbz1c" name="diamond1.png" path="/images/miniGameImages/"/>

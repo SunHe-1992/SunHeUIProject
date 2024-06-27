@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" designImage="ui://fstosj6ilvtsii" designImageOffsetY="-30" designImageLayer="1">
+  <displayList>
+    <image id="n0_krpd" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,0" size="1280,640" alpha="0.7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_krpd" name="txt_result" xy="384,46" size="511,73" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Victory">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n2_krpd" name="n1" xy="384,431" size="511,73" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="click to continue">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n3_krpd" name="clickLoader" xy="383,357" size="513,200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>
