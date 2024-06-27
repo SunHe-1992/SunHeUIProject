@@ -27,6 +27,10 @@
     <component id="n7_vaj1" name="villian1" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="337,448"/>
     <component id="n8_vaj1" name="villian2" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="86,300"/>
     <component id="n9_vaj1" name="villian3" src="vaj1i2" fileName="Comp/RPGCombat/VillianStatsCom.xml" xy="81,493"/>
+    <component id="n13_lvts" name="ComIndicator" src="lvtsiv" fileName="Comp/Damage/DamagePane.xml" xy="0,0" touchable="false"/>
+    <component id="n14_lvts" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="850,24">
+      <Button title="test"/>
+    </component>
   </displayList>
   <transition name="anim_hide"/>
 </component>

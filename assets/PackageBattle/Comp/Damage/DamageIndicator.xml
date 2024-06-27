@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" opaque="false">
+  <displayList>
+    <loader id="n2_byya" name="pivot" xy="49,0" size="1,1" touchable="false"/>
+    <text id="n3_i04n" name="txt_yellow" xy="0,0" pivot="0.5,0.5" anchor="true" size="157,65" font="ui://fstosj6ilvtsif" fontSize="24" singleLine="true" autoClearText="true" text="123">
+      <relation target="n2_byya" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n5_i04n" name="txt_green" xy="0,0" pivot="0.5,0.5" anchor="true" size="127,52" font="ui://fstosj6ilvtsiu" fontSize="24" singleLine="true" autoClearText="true" text="123">
+      <relation target="n2_byya" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n3_i04n" value="1"/>
+    <item time="0" type="Alpha" target="n5_i04n" value="1"/>
+    <item time="0" type="Scale" target="n3_i04n" tween="true" startValue="2,2" endValue="0.8,0.8" duration="2"/>
+    <item time="10" type="Alpha" target="n5_i04n" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+    <item time="13" type="Alpha" target="n3_i04n" tween="true" startValue="1" endValue="0" duration="3" ease="Linear"/>
+  </transition>
+</component>

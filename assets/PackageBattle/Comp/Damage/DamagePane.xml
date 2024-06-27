@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" opaque="false">
+  <displayList>
+    <list id="n0_byya" name="list_pool" xy="0,3" size="300,300" visible="false" layout="flow_hz" defaultItem="ui://fstosj6ilvtsig" autoClearItems="true"/>
+  </displayList>
+</component>

@@ -54,6 +54,35 @@
     <component id="vaj1i0" name="RPGPawnBlock.xml" path="/Comp/RPGCombat/"/>
     <image id="vaj1i1" name="操作菜单.png" path="/效果图/"/>
     <component id="vaj1i2" name="VillianStatsCom.xml" path="/Comp/RPGCombat/"/>
+    <image id="lvtsi3" name="主角暴击_9.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi4" name="主角暴击_-.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi5" name="主角暴击_+.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi6" name="主角暴击_0.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi7" name="主角暴击_1.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi8" name="主角暴击_2.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsi9" name="主角暴击_3.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsia" name="主角暴击_4.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsib" name="主角暴击_5.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsic" name="主角暴击_6.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsid" name="主角暴击_7.png" path="/ArtFont/yellow/"/>
+    <image id="lvtsie" name="主角暴击_8.png" path="/ArtFont/yellow/"/>
+    <font id="lvtsif" name="Font_Yellow.fnt" path="/ArtFont/" exported="true"/>
+    <component id="lvtsig" name="DamageIndicator.xml" path="/Comp/Damage/" exported="true"/>
+    <image id="lvtsih" name="八方旅人存档界面.png" path="/效果图/"/>
+    <image id="lvtsii" name="八方旅人战斗结算.png" path="/效果图/"/>
+    <image id="lvtsij" name="治疗_4.png" path="/ArtFont/green/"/>
+    <image id="lvtsik" name="治疗_5.png" path="/ArtFont/green/"/>
+    <image id="lvtsil" name="治疗_6.png" path="/ArtFont/green/"/>
+    <image id="lvtsim" name="治疗_7.png" path="/ArtFont/green/"/>
+    <image id="lvtsin" name="治疗_8.png" path="/ArtFont/green/"/>
+    <image id="lvtsio" name="治疗_9.png" path="/ArtFont/green/"/>
+    <image id="lvtsip" name="治疗_+.png" path="/ArtFont/green/"/>
+    <image id="lvtsiq" name="治疗_0.png" path="/ArtFont/green/"/>
+    <image id="lvtsir" name="治疗_1.png" path="/ArtFont/green/"/>
+    <image id="lvtsis" name="治疗_2.png" path="/ArtFont/green/"/>
+    <image id="lvtsit" name="治疗_3.png" path="/ArtFont/green/"/>
+    <font id="lvtsiu" name="Font_Green.fnt" path="/ArtFont/" exported="true"/>
+    <component id="lvtsiv" name="DamagePane.xml" path="/Comp/Damage/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

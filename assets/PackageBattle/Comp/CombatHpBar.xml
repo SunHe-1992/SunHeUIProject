@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="116,10" extention="ProgressBar">
-  <controller name="color" exported="true" pages="0,,1,,2," selected="2">
+  <controller name="color" exported="true" pages="0,,1,,2," selected="0">
     <remark page="0" value="blue"/>
     <remark page="1" value="red"/>
     <remark page="2" value="green"/>
@@ -9,12 +9,12 @@
     <graph id="n0_scq5" name="n0" xy="0,0" size="116,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff202040">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_scq5" name="barFade" xy="1,1" size="114,8" type="rect" lineSize="0" fillColor="#ff66ff00">
-      <gearColor controller="color" pages="0,1,2" values="#6bc8ff|#fc5a5b|#66ff00"/>
+    <graph id="n2_cmpo" name="n1" xy="1,1" pivot="1,0" size="114,8" alpha="0.5" type="rect" lineSize="0" fillColor="#ff6bc8ff">
+      <gearColor controller="color" pages="0,1,2" values="#6bc8ff|#fc5a5b|#00cc00"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_cmpo" name="bar" xy="1,1" pivot="1,0" size="114,8" alpha="0.5" type="rect" lineSize="0" fillColor="#ff00cc00">
-      <gearColor controller="color" pages="0,1,2" values="#6bc8ff|#fc5a5b|#00cc00"/>
+    <graph id="n1_scq5" name="bar" xy="1,1" size="114,8" type="rect" lineSize="0" fillColor="#ff6bc8ff">
+      <gearColor controller="color" pages="0,1,2" values="#6bc8ff|#fc5a5b|#66ff00"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
   </displayList>
