@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="60,60" designImage="ui://fstosj6icl3jhx" designImageOffsetX="-9" designImageOffsetY="-12">
+  <controller name="ctrl_side" pages="0,player,1,villian" selected="1"/>
   <displayList>
-    <image id="n0_vaj1" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,-1" size="60,60" aspect="true">
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <loader id="n1_vaj1" name="headLoader" xy="17,13" size="27,24" fill="scaleMatchWidth" useResize="true">
+    <graph id="n3_hcxn" name="n3" xy="0,0" size="60,60" type="rect" lineSize="0" fillColor="#ff990000">
+      <gearColor controller="ctrl_side" pages="0,1" values="#66cc99|#990000"/>
+    </graph>
+    <loader id="n1_vaj1" name="headLoader" xy="6,6" size="49,37" fill="scaleMatchWidth" useResize="true">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </loader>
-    <text id="n2_vaj1" name="txt_name" xy="-1,25" size="60,34" fontSize="24" color="#e7faff" autoSize="shrink" autoClearText="true" text="villian, pawn1">
+    <text id="n2_vaj1" name="txt_name" xy="0,26" size="81,34" fontSize="24" color="#e7faff" vAlign="bottom" autoSize="shrink" bold="true" strokeColor="#000000" autoClearText="true" text="villian, pawn1">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </text>
   </displayList>
