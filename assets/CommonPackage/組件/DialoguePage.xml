@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" designImage="ui://9bv6j664ensiiz" designImageOffsetX="169">
+  <displayList>
+    <image id="n0_ensi" name="bg" src="odw31c" fileName="素材/功能底框1.png" xy="147,0" size="988,626">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n1_ensi" name="portraitLoader" xy="209,41" size="192,272" touchable="false" url="ui://080sa613v5lee" fill="scaleFree" clearOnPublish="true">
+      <relation target="n0_ensi" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n2_ensi" name="txt_name" xy="521,24" size="582,50" fontSize="20" color="#de5900" align="right" autoSize="shrink" bold="true" autoClearText="true" text="john smith -123123 123123123">
+      <relation target="n0_ensi" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n3_ensi" name="txt_content" xy="435,73" size="678,284" fontSize="22" color="#de5900" leading="1" ubb="true" vars="true" autoSize="shrink" autoClearText="true" text="john smith -123123 123123123&#xA;john smith -123123 123123123&#xA;john smith -123123 123123123">
+      <relation target="n0_ensi" sidePair="right-right,top-top"/>
+    </text>
+    <list id="n4_ensi" name="list_options" xy="433,381" size="664,221" defaultItem="ui://080sa613ensio8o" vAlign="bottom" autoClearItems="true">
+      <relation target="n0_ensi" sidePair="center-center,bottom-bottom"/>
+      <item title="232"/>
+      <item title="444"/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n5_ensi" name="bgLoader" xy="207,15" size="911,356">
+      <relation target="n0_ensi" sidePair="width-width,height-height,left-left,top-top"/>
+    </loader>
+  </displayList>
+</component>
