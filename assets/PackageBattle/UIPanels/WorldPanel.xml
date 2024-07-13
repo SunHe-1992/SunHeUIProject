@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
-  <controller name="showMiniGame" alias="按钮:小游戏入口" pages="0,,1," selected="1"/>
+  <controller name="showMiniGame" alias="按钮:小游戏入口" pages="0,,1," selected="0"/>
   <controller name="showNPCBtn" alias="按钮:NPC入口" pages="0,hide,1,show" selected="0"/>
   <displayList>
     <component id="n2_ag5l" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="20,641">
@@ -18,6 +18,10 @@
       <gearDisplay controller="showNPCBtn" pages="1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
       <Button title="NPC"/>
+    </component>
+    <component id="n7_gm4t" name="btn_inventory" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="18,573">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="Inventory"/>
     </component>
   </displayList>
 </component>

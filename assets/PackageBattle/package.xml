@@ -93,6 +93,17 @@
     <image id="krpdj3" name="sl_3_kuangEffect_05.png" path="/Images/边框-中 红蓝/"/>
     <image id="krpdj4" name="sl_3_kuangEffect_06.png" path="/Images/边框-中 红蓝/"/>
     <movieclip id="krpdj5" name="frameRedBlue.jta" path="/Images/边框-中 红蓝/"/>
+    <component id="gm4tj6" name="InventoryUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="gm4tj7" name="InventoryItem.xml" path="/Comp/"/>
+    <image id="gm4tj8" name="公用道具框_蓝.png" path="/Images/Inventory/"/>
+    <image id="gm4tj9" name="公用道具框_选中.png" path="/Images/Inventory/"/>
+    <image id="gm4tja" name="公用道具框_黄.png" path="/Images/Inventory/"/>
+    <image id="gm4tjb" name="道具选中框.png" path="/Images/Inventory/"/>
+    <image id="gm4tjc" name="公用道具框_最低级.png" path="/Images/Inventory/"/>
+    <image id="gm4tjd" name="公用道具框_紫.png" path="/Images/Inventory/"/>
+    <image id="gm4tje" name="公用道具框_红.png" path="/Images/Inventory/"/>
+    <image id="gm4tjf" name="公用道具框_绿.png" path="/Images/Inventory/"/>
+    <component id="gm4tlv" name="ItemDetail.xml" path="/UIPanels/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

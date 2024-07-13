@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,479">
+  <displayList>
+    <image id="n0_gm4t" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="25,0" size="662,479" color="#66ffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_gm4t" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="599,9" size="86,56">
+      <Button title="close"/>
+    </component>
+    <component id="n3_gm4t" name="btn_use" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="266,374" size="191,46">
+      <Button title="Use"/>
+    </component>
+    <text id="n4_gm4t" name="txt_detail" xy="296,83" size="362,244" fontSize="30" color="#ffffff" autoSize="none" autoClearText="true" text="this is item detail"/>
+    <component id="n5_gm4t" name="itemCom" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="62,38"/>
+  </displayList>
+</component>

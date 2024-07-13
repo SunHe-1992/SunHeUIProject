@@ -31,6 +31,9 @@
     <component id="n14_lvts" name="btn_test" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="850,24">
       <Button title="test"/>
     </component>
+    <text id="n15_t789" name="txt_hud" xy="16,618" size="1248,86" fontSize="24" color="#ffffff" autoSize="none" autoClearText="true" text="test this is hud">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </text>
   </displayList>
   <transition name="anim_hide"/>
 </component>

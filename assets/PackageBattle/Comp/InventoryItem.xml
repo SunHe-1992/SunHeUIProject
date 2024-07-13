@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150">
+  <controller name="ctrl_quality" pages="0,白色,1,绿,2,蓝,3,紫,4,黄,5,红" selected="0"/>
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n0_gm4t" name="n0" xy="0,0" size="150,150" url="ui://fstosj6igm4tjc" align="center" vAlign="middle" fill="scaleFree">
+      <gearIcon controller="ctrl_quality" pages="0,1,2,3,4,5" values="ui://fstosj6igm4tjc|ui://fstosj6igm4tjf|ui://fstosj6igm4tj8|ui://fstosj6igm4tjd|ui://fstosj6igm4tja|ui://fstosj6igm4tje"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n1_gm4t" name="n1" src="gm4tjb" fileName="Images/Inventory/道具选中框.png" xy="-13,-13" size="176,176" aspect="true">
+      <gearDisplay controller="button" pages="3,5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_gm4t" name="iconLoader" xy="75,75" pivot="0.5,0.5" anchor="true" size="130,130" aspect="true" url="ui://fstosj6igm4tkc" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_gm4t" name="txt_count" xy="37,97" size="99,44" fontSize="24" color="#ffffff" align="right" vAlign="bottom" autoSize="none" strokeColor="#000000" autoClearText="true" text="x888"/>
+    <text id="n4_gm4t" name="txt_name" xy="5,0" size="140,44" fontSize="24" color="#ffffff" align="center" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="item name"/>
+  </displayList>
+</component>

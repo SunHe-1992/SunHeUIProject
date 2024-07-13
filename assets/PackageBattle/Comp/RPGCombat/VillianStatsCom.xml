@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="149,39">
-  <controller name="ctrl_dead" pages="0,,1," selected="1"/>
-  <controller name="ctrl_selected" pages="0,,1,已选中为目标" selected="1"/>
+  <controller name="ctrl_dead" pages="0,,1," selected="0"/>
+  <controller name="ctrl_selected" pages="0,,1,已选中为目标" selected="0"/>
   <displayList>
     <graph id="n5_hcxn" name="n5" xy="0,-23" size="154,62" type="rect" lineSize="0" lineColor="#03000000" fillColor="#b2000000" corner="3"/>
     <component id="n0_vaj1" name="stats" src="vaj1hy" fileName="Comp/RPGCombat/RPGStatsBar.xml" xy="0,0"/>
@@ -12,5 +12,7 @@
       <gearDisplay controller="ctrl_selected" pages="1"/>
     </movieclip>
     <text id="n4_hcxn" name="txt_name" xy="1,-23" size="157,35" fontSize="20" color="#ffffff" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="john smith"/>
+    <graph id="n6_t789" name="n6" xy="119,-52" size="30,30" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff3366ff" corner="6"/>
+    <text id="n7_t789" name="txt_number" xy="124,-54" size="19,34" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="3"/>
   </displayList>
 </component>
