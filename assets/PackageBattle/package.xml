@@ -104,6 +104,7 @@
     <image id="gm4tje" name="公用道具框_红.png" path="/Images/Inventory/"/>
     <image id="gm4tjf" name="公用道具框_绿.png" path="/Images/Inventory/"/>
     <component id="gm4tlv" name="ItemDetail.xml" path="/UIPanels/" exported="true"/>
+    <component id="7ot0lw" name="StoreUI.xml" path="/UIPanels/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
