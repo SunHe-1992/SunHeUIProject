@@ -74,6 +74,7 @@
     <image id="xjmq31" name="card1.png" path="/images/miniGameImages/"/>
     <image id="xjmq32" name="card2.png" path="/images/miniGameImages/"/>
     <image id="xjmq34" name="pokerBG (2).jpg" path="/images/"/>
+    <image id="x2oh35" name="S3timetable.png" path="/images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
