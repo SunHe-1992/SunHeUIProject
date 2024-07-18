@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="170,80" extention="Button" designImageOffsetX="-80" designImageOffsetY="-80">
   <controller name="room" exported="true" pages="0,Online,1,A1 46,2,A1 62,3,A3 74" selected="0"/>
-  <controller name="course_name" exported="true" pages="0,MGD,1,Mobile Apps,2,GDP1,3,Game Design,4,ITPM,5,GNED,6,GP2,7,English" selected="7"/>
+  <controller name="course_name" exported="true" pages="0,MGD,1,Mobile Apps,2,GDP1,3,Game Design,4,ITPM,5,GNED,6,GP2,7,English" selected="2"/>
   <controller name="button" pages="2,up,3,down" selected="0"/>
   <displayList>
     <graph id="n3_r7dl" name="n3" xy="0,0" size="170,80" type="rect" lineSize="2" lineColor="#ff333345" fillColor="#ffa7bcd3" corner="4">
       <gearColor controller="room" pages="1,2,3" values="#ffcc00|#ffcc00|#ffcc00" default="#a7bcd3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n0_r7dl" name="n0" xy="6,2" size="158,39" fontSize="20" color="#333345" align="center" vAlign="middle" autoSize="shrink" bold="true" text="English">
-      <gearText controller="course_name" pages="0,1,2,3,4,5,6,7" values="Multiplayer Game|Mobile Apps|GDP1|Game Design|IT Project|GNED|Game Prog2|English"/>
+    <text id="n0_r7dl" name="n0" xy="3,1" size="164,39" fontSize="20" color="#333345" align="center" autoSize="shrink" bold="true" text="Game Dev Project1">
+      <gearText controller="course_name" pages="0,1,2,3,4,5,6,7" values="Multiplayer Game|Mobile Apps|Game Dev Project1|Game Design|IT Project|GNED|Game Prog2|English"/>
       <relation target="" sidePair="width-width,center-center,top-top"/>
     </text>
-    <text id="n1_r7dl" name="title" xy="1,42" size="91,39" fontSize="24" color="#333345" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="8:30AM&#xA;10:20AM">
+    <text id="n1_r7dl" name="title" xy="2,29" size="91,52" fontSize="16" vAlign="bottom" leading="0" autoSize="shrink" autoClearText="true" text="8:30AM&#xA;10:20AM">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </text>
-    <text id="n2_r7dl" name="n2" xy="101,48" size="69,34" fontSize="19" color="#333345" align="right" vAlign="bottom" autoSize="shrink" bold="true" text="Online">
+    <text id="n2_r7dl" name="n2" xy="97,44" size="69,34" fontSize="19" align="right" vAlign="bottom" autoSize="shrink" text="Online">
       <gearText controller="room" pages="0,1,2,3" values="Online|A1 46|A1 62|A3 74"/>
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </text>

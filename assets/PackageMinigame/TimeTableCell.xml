@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="879,548" designImage="ui://dxvwggiwx2oh35" designImageOffsetX="-46" designImageOffsetY="-97" designImageAlpha="29" designImageLayer="1">
+<component size="619,548" designImage="ui://dxvwggiwx2oh35" designImageOffsetX="-46" designImageOffsetY="-97" designImageAlpha="58">
   <displayList>
-    <graph id="n2_r7dl" name="n2" xy="0,0" size="879,548" type="rect" lineSize="0" fillColor="#54ffccff">
+    <graph id="n2_r7dl" name="n2" xy="0,0" size="619,548" type="rect" lineSize="0" fillColor="#d9ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_r7dl" name="n1" xy="55,-1" size="69,34" fontSize="24" color="#333345" autoSize="none" bold="true" text="MON"/>
-    <text id="n4_r7dl" name="n4" xy="200,-1" size="69,34" fontSize="24" color="#333345" autoSize="none" bold="true" text="TUE"/>
-    <text id="n5_r7dl" name="n5" xy="359,-1" size="69,34" fontSize="24" color="#333345" autoSize="none" bold="true" text="WED"/>
-    <text id="n6_r7dl" name="n6" xy="500,-1" size="69,34" fontSize="24" color="#333345" autoSize="none" bold="true" text="THU"/>
+    <text id="n1_r7dl" name="n1" xy="46,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="MON"/>
+    <text id="n4_r7dl" name="n4" xy="195,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="TUE"/>
+    <text id="n5_r7dl" name="n5" xy="344,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="WED"/>
+    <text id="n6_r7dl" name="n6" xy="493,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="THU"/>
     <component id="n0_r7dl" name="n0" src="r7dl2w" fileName="TimeTable.xml" xy="3,35" size="150,75" controller="room,1,course_name,6">
       <Button title="10:30-12:20"/>
     </component>
@@ -41,7 +41,7 @@
     <component id="n17_r7dl" name="n17" src="r7dl2w" fileName="TimeTable.xml" xy="306,327" size="150,114" controller="room,5,course_name,4">
       <Button title="5:30-8:20"/>
     </component>
-    <component id="n18_r7dl" name="n18" src="r7dl2w" fileName="TimeTable.xml" xy="459,244" size="150,110" controller="room,2,course_name,7">
+    <component id="n18_r7dl" name="n18" src="r7dl2w" fileName="TimeTable.xml" xy="459,244" size="150,118" controller="room,2,course_name,7">
       <Button title="3:30-6:20"/>
     </component>
   </displayList>
