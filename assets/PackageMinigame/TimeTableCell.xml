@@ -11,7 +11,7 @@
     <component id="n0_r7dl" name="n0" src="r7dl2w" fileName="TimeTable.xml" xy="3,35" size="150,75" controller="room,1,course_name,6">
       <Button title="10:30-12:20"/>
     </component>
-    <component id="n7_r7dl" name="n7" src="r7dl2w" fileName="TimeTable.xml" xy="3,200" size="150,75" controller="room,1,course_name,0">
+    <component id="n7_r7dl" name="n7" src="r7dl2w" fileName="TimeTable.xml" xy="3,200" size="150,75" controller="room,4,course_name,0">
       <Button title="2:30-4:20"/>
     </component>
     <component id="n8_r7dl" name="n8" src="r7dl2w" fileName="TimeTable.xml" xy="3,367" size="150,155" controller="room,3,course_name,1">

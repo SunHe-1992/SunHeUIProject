@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <controller name="ctrl_mode" pages="0,RPG game,1,3d game" selected="0"/>
+  <displayList>
+    <image id="n0_v94b" name="n0" src="v94bly" fileName="Images/Main Menu Backgroud.png" xy="0,0" size="1280,813">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_v94b" name="btn_newGame" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,307">
+      <gearDisplay controller="ctrl_mode" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="NEW GAME" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n3_v94b" name="btn_RPGGame" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,307">
+      <gearDisplay controller="ctrl_mode" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="RPG GAME" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n2_v94b" name="btn_loadGame" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,381">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="LOAD GAME" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n4_v94b" name="btn_options" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,455">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="OPTIONS" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n5_v94b" name="btn_exit" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,529">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="EXIT" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <text id="n7_v94b" name="txt_title" xy="387,136" size="505,134" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="JRPG DEMO">
+      <gearText controller="ctrl_mode" pages="0,1" values="JRPG DEMO|Platform Runner"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

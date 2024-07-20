@@ -105,6 +105,15 @@
     <image id="gm4tjf" name="公用道具框_绿.png" path="/Images/Inventory/"/>
     <component id="gm4tlv" name="ItemDetail.xml" path="/UIPanels/" exported="true"/>
     <component id="7ot0lw" name="StoreUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="v94blx" name="MenuScreenUI.xml" path="/UIPanels/" exported="true"/>
+    <image id="v94bly" name="Main Menu Backgroud.png" path="/Images/"/>
+    <component id="v94blz" name="SettingUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="gwn6m2" name="Slider2_grip.xml" path="/Comp/"/>
+    <component id="gwn6m3" name="Slider2.xml" path="/Comp/"/>
+    <component id="73rdm4" name="QuestUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="73rdm5" name="QuestEntry.xml" path="/Comp/"/>
+    <image id="73rdm6" name="questUI.webp" path="/Images/"/>
+    <image id="73rdm7" name="questUI.png" path="/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

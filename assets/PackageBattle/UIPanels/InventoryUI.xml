@@ -5,7 +5,7 @@
       <relation target="" sidePair="height-height,left-left,top-top"/>
     </image>
     <component id="n2_ag5l" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1046,81">
-      <Button title="close"/>
+      <Button title="close" sound="ui://g2fjgz25od3r3"/>
     </component>
     <list id="n3_gm4t" name="inventory_list" xy="121,77" size="840,575" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://fstosj6igm4tj7" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>

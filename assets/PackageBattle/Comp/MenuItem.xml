@@ -2,20 +2,20 @@
 <component size="240,58" extention="Button" designImage="ui://fstosj6iscq52" designImageOffsetX="-859" designImageOffsetY="-158">
   <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
   <displayList>
-    <image id="n0_lay8" name="n0" src="lay8ac" fileName="Images/Panel/glassPanel.png" pkg="9bv6j664" xy="31,0" size="209,56">
+    <image id="n0_lay8" name="n0" src="lay8ac" fileName="效果图/Images/Panel/glassPanel.png" pkg="9bv6j664" xy="31,0" size="209,56">
       <gearDisplay controller="button" pages="3,4,5"/>
       <relation target="n2_lay8" sidePair="rightext-right"/>
     </image>
-    <image id="n3_lay8" name="n3" src="lay8f5" fileName="Images/Arrow/arrowSilver_right.png" pkg="9bv6j664" xy="10,17">
+    <image id="n3_lay8" name="n3" src="lay8f5" fileName="效果图/Images/Arrow/arrowSilver_right.png" pkg="9bv6j664" xy="10,17">
       <gearDisplay controller="button" pages="3,4,5"/>
     </image>
-    <text id="n1_lay8" name="title" xy="41,11" size="71,34" fontSize="24" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="Attack"/>
-    <text id="n2_lay8" name="txt_des" xy="121,14" size="108,29" fontSize="20" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="attack 2323">
+    <text id="n1_lay8" name="title" xy="41,11" size="70,34" fontSize="24" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="Attack"/>
+    <text id="n2_lay8" name="txt_des" xy="121,14" size="109,29" fontSize="20" color="#ffffff" ubb="true" singleLine="true" autoClearText="true" text="attack 2323">
       <relation target="n1_lay8" sidePair="left-right"/>
     </text>
     <loader id="n4_izmj" name="clickLoader" xy="3,3" size="234,50">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
   </displayList>
-  <Button mode="Radio" downEffect="dark" downEffectValue=".8"/>
+  <Button mode="Radio" sound="ui://g2fjgz25od3r3" downEffect="dark" downEffectValue=".8"/>
 </component>

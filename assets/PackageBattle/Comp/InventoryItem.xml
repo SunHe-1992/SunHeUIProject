@@ -14,7 +14,11 @@
     <loader id="n2_gm4t" name="iconLoader" xy="75,75" pivot="0.5,0.5" anchor="true" size="130,130" aspect="true" url="ui://fstosj6igm4tkc" align="center" vAlign="middle" fill="scaleFree">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n3_gm4t" name="txt_count" xy="37,97" size="99,44" fontSize="24" color="#ffffff" align="right" vAlign="bottom" autoSize="none" strokeColor="#000000" autoClearText="true" text="x888"/>
-    <text id="n4_gm4t" name="txt_name" xy="5,0" size="140,44" fontSize="24" color="#ffffff" align="center" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="item name"/>
+    <text id="n3_gm4t" name="txt_count" xy="37,97" size="99,44" fontSize="24" color="#ffffff" align="right" vAlign="bottom" autoSize="none" strokeColor="#000000" autoClearText="true" text="x888">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="n4_gm4t" name="txt_name" xy="5,0" size="140,44" fontSize="24" color="#ffffff" align="center" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="item name">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
   </displayList>
 </component>

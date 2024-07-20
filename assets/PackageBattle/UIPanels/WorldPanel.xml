@@ -12,16 +12,20 @@
     <component id="n5_py0f" name="btn_minigame" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="527,545">
       <gearDisplay controller="showMiniGame" pages="1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
-      <Button title="mini game"/>
+      <Button title="mini game" sound="ui://g2fjgz25od3r3"/>
     </component>
     <component id="n6_cl3j" name="btn_NPC" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="529,606">
       <gearDisplay controller="showNPCBtn" pages="1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
-      <Button title="NPC"/>
+      <Button title="NPC" sound="ui://g2fjgz25od3r3"/>
     </component>
     <component id="n7_gm4t" name="btn_inventory" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="18,573">
       <relation target="" sidePair="left-left,top-top"/>
-      <Button title="Inventory"/>
+      <Button title="Inventory" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n8_gwn6" name="btn_quest" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="20,504">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="Quests" sound="ui://g2fjgz25od3r3"/>
     </component>
   </displayList>
 </component>
