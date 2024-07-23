@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="170,80" extention="Button" designImageOffsetX="-80" designImageOffsetY="-80">
-  <controller name="room" exported="true" pages="0,Online,1,A1 46,2,A1 62,3,A3 74,4,A1 16" selected="4"/>
+  <controller name="room" exported="true" pages="0,Online,1,A1 46,2,E2 12,3,A3 74,4,A1 16" selected="2"/>
   <controller name="course_name" exported="true" pages="0,MGD,1,Mobile Apps,2,GDP1,3,Game Design,4,ITPM,5,GNED,6,GP2,7,English" selected="0"/>
   <controller name="button" pages="2,up,3,down" selected="0"/>
   <displayList>
@@ -15,8 +15,8 @@
     <text id="n1_r7dl" name="title" xy="2,29" size="91,52" fontSize="16" vAlign="bottom" leading="0" autoSize="shrink" autoClearText="true" text="8:30AM&#xA;10:20AM">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </text>
-    <text id="n2_r7dl" name="n2" xy="97,44" size="69,34" fontSize="19" align="right" vAlign="bottom" autoSize="shrink" text="A1 16">
-      <gearText controller="room" pages="0,1,2,3,4" values="Online|A1 46|A1 62|A3 74|A1 16"/>
+    <text id="n2_r7dl" name="n2" xy="97,44" size="69,34" fontSize="19" align="right" vAlign="bottom" autoSize="shrink" text="E2 12">
+      <gearText controller="room" pages="0,1,2,3,4" values="Online|A1 46|E2 12|A3 74|A1 16"/>
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </text>
   </displayList>
