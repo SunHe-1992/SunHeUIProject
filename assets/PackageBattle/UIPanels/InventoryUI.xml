@@ -19,5 +19,7 @@
     <component id="n4_gm4t" name="itemDetailCom" src="gm4tlv" fileName="UIPanels/ItemDetail.xml" xy="284,120">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
+    <image id="n5_p8p4" name="n5" src="fim7nw" fileName="Images/ItemIcons/icon_coin.png" xy="185,20"/>
+    <text id="n6_p8p4" name="txt_gold" xy="237,20" size="263,46" fontSize="24" color="#ffffff" autoSize="none" bold="true" autoClearText="true" text="Gold: 123123"/>
   </displayList>
 </component>

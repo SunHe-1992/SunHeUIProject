@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n1_ag5l" name="n1" src="scq59" fileName="Images/common_notice1.png" xy="-59,0" size="1337,722">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_ag5l" name="btn_restart" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,476">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="restart"/>
+    </component>
+    <text id="n3_l1lh" name="txt_hint" xy="149,71" size="895,252" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="Game over reason is 2222"/>
+    <component id="n4_l1lh" name="btn_mainmenu" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,416">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="main menu"/>
+    </component>
+  </displayList>
+</component>

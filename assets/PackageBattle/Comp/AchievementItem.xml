@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,120">
+  <displayList>
+    <graph id="n0_p8p4" name="n0" xy="0,0" size="200,120" type="rect" lineSize="2" fillColor="#ff6699cc">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n1_p8p4" name="iconLoader" xy="139,63" size="58,56" url="ui://fstosj6ifim7oc" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <text id="n3_p8p4" name="txt_des" xy="6,57" size="186,55" fontSize="18" color="#ffffff" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="kill 111 villians"/>
+    <text id="n4_p8p4" name="txt_name" xy="8,5" size="183,47" fontSize="22" color="#ffffff" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="Hit Man"/>
+  </displayList>
+</component>

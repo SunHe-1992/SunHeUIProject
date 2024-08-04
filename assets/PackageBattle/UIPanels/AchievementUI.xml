@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_p8p4" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,0" size="1280,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_p8p4" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1084,59">
+      <Button title="close" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <list id="n2_p8p4" name="list_achi" xy="49,49" size="994,579" layout="flow_hz" overflow="scroll" lineGap="12" colGap="12" defaultItem="ui://fstosj6ip8p4ox" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

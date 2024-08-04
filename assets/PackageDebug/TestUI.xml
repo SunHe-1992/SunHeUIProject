@@ -11,26 +11,26 @@
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="btn TEST"/>
     </component>
-    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="86,146" size="248,56">
+    <component id="n4_7rh7" name="btn_slg" src="em5i3" fileName="comp/ButtonBlue.xml" xy="86,146" size="248,56" visible="false">
       <relation target="n2_7rh7" sidePair="left-left,top-top"/>
       <Button title="World1"/>
     </component>
     <component id="n5_ag5l" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1195,22">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
     </component>
-    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,368">
+    <component id="n8_ei10" name="btn_addGold100" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,368" visible="false">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="+ 10K gold"/>
     </component>
-    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,256">
+    <component id="n10_7irf" name="btn_slot" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,256" visible="false">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="SLOT minigame"/>
     </component>
-    <component id="n17_pkni" name="btn_fishing" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,312">
+    <component id="n17_pkni" name="btn_fishing" src="em5i3" fileName="comp/ButtonBlue.xml" xy="107,312" visible="false">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="Fishing game&#xA;"/>
     </component>
-    <component id="n18_krpd" name="btn_damageVillian" src="em5i3" fileName="comp/ButtonBlue.xml" xy="308,258">
+    <component id="n18_krpd" name="btn_damageVillian" src="em5i3" fileName="comp/ButtonBlue.xml" xy="308,258" visible="false">
       <relation target="n2_7rh7" sidePair="right-right,top-top"/>
       <Button title="damage to villians"/>
     </component>

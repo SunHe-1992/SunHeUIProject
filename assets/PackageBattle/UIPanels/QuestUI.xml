@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <image id="n0_genv" name="bg" src="73rdm7" fileName="Images/questUI.png" xy="0,0" size="1280,720"/>
-    <component id="n2_genv" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1179,29">
+    <image id="n0_genv" name="bg" src="73rdm7" fileName="Images/questUI.png" xy="-87,-86" size="1424,987"/>
+    <component id="n2_genv" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1116,103">
       <relation target="" sidePair="right-right,top-top"/>
       <Button sound="ui://g2fjgz25od3r3"/>
     </component>
-    <list id="n3_73rd" name="list_board" xy="194,187" size="452,361" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
+    <list id="n3_73rd" name="list_board" xy="137,209" size="478,434" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <list id="n4_73rd" name="list_myQuests" xy="678,186" size="450,351" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
+    <list id="n4_73rd" name="list_myQuests" xy="686,199" size="450,442" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
