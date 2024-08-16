@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <image id="n1_ag5l" name="n1" src="scq59" fileName="Images/common_notice1.png" xy="-59,0" size="1337,722">
-      <relation target="" sidePair="width-width,height-height"/>
+    <image id="n1_ag5l" name="n1" src="rtaxo60" fileName="通用素材/雀士_时装展示框.png" pkg="080sa613" xy="246,91" size="787,537">
+      <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <component id="n2_ag5l" name="btn_restart" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,476">
+    <component id="n2_ag5l" name="btn_restart" src="rtaxhhk0t5" fileName="组件/Button_Common_32.xml" pkg="z2dx9rj5" xy="530,496">
       <relation target="" sidePair="center-center,middle-middle"/>
-      <Button title="restart"/>
+      <Button title="Restart"/>
     </component>
-    <text id="n3_l1lh" name="txt_hint" xy="149,71" size="895,252" fontSize="60" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="Game over reason is 2222"/>
-    <component id="n4_l1lh" name="btn_mainmenu" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,416">
+    <text id="n3_l1lh" name="txt_hint" xy="285,111" size="710,253" fontSize="60" color="#333345" align="center" vAlign="middle" autoSize="shrink" bold="true" autoClearText="true" text="Game over reason is 2222">
       <relation target="" sidePair="center-center,middle-middle"/>
-      <Button title="main menu"/>
+    </text>
+    <component id="n4_l1lh" name="btn_mainmenu" src="rtaxhhk0t5" fileName="组件/Button_Common_32.xml" pkg="z2dx9rj5" xy="530,416">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="Main Menu"/>
     </component>
   </displayList>
 </component>

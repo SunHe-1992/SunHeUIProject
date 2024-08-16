@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <controller name="ctrl_showInstruction" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n1_mu6b" name="maskCom" src="mu6bp0" fileName="Comp/GuideMask.xml" xy="0,3" pivot="0.5,0.5" anchor="true" size="5000,5000"/>
+    <text id="n2_mu6b" name="txt_hint" xy="295,292" size="689,135" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="use this joystick to move"/>
+    <component id="n3_mu6b" name="instructionCom" src="mu6bp6" fileName="Images/Tutorial/ItemInstruction.xml" xy="6,0">
+      <gearDisplay controller="ctrl_showInstruction" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="anim_wheel">
+    <item time="0" type="Visible" target="n1_mu6b" value="true"/>
+    <item time="0" type="XY" target="n1_mu6b" tween="true" startValue="-319,0" endValue="175,550" duration="6"/>
+    <item time="60" type="Visible" target="n1_mu6b" value="false"/>
+  </transition>
+  <transition name="anim_rightTop">
+    <item time="0" type="Visible" target="n1_mu6b" value="true"/>
+    <item time="0" type="XY" target="n1_mu6b" tween="true" startValue="-319,0" endValue="1109,175" duration="6"/>
+    <item time="60" type="Visible" target="n1_mu6b" value="false"/>
+  </transition>
+  <transition name="anim_top">
+    <item time="0" type="Visible" target="n1_mu6b" value="true"/>
+    <item time="0" type="XY" target="n1_mu6b" tween="true" startValue="-319,0" endValue="75,82" duration="6"/>
+    <item time="6" type="XY" target="n1_mu6b" tween="true" startValue="75,82" endValue="744,82" duration="42" ease="Linear"/>
+    <item time="59" type="Visible" target="n1_mu6b" value="false"/>
+  </transition>
+  <transition name="anim_instruction">
+    <item time="0" type="Visible" target="n3_mu6b" value="true"/>
+  </transition>
+</component>

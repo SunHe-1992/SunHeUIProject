@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" mask="n0_mu6b" reversedMask="true">
+  <displayList>
+    <graph id="n0_mu6b" name="n0" xy="640,360" pivot="0.5,0.5" anchor="true" size="360,360" aspect="true" type="eclipse" lineSize="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n2_mu6b" name="n2" xy="0,0" size="1280,720" type="rect" lineSize="0" fillColor="#80006600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

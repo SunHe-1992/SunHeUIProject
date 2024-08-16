@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n6_mu6b" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="080sa613" xy="-2,2" size="1277,717">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_mu6b" name="n0" src="mu6bp3" fileName="Images/Tutorial/goldImage.png" xy="88,115" size="100,100"/>
+    <image id="n1_mu6b" name="n1" src="mu6bp4" fileName="Images/Tutorial/purplePotion.jpg" xy="88,225" size="100,100"/>
+    <image id="n2_mu6b" name="n2" src="mu6bp5" fileName="Images/Tutorial/redPotion.jpeg" xy="88,335" size="100,100"/>
+    <image id="n3_mu6b" name="n3" src="mu6bp1" fileName="Images/Tutorial/star.png" xy="88,445" size="100,100"/>
+    <image id="n4_mu6b" name="n4" src="mu6bp2" fileName="Images/Tutorial/timer.png" xy="88,555" size="100,100"/>
+    <text id="n7_mu6b" name="n7" xy="251,135" size="508,86" fontSize="24" color="#333345" autoSize="none" bold="true" text="Gold Coin: add 10 gold, spend in shop&#xA; "/>
+    <text id="n8_mu6b" name="n8" xy="257,231" size="886,88" fontSize="24" color="#333345" autoSize="none" bold="true" text="Toxic potion: -10 HP"/>
+    <text id="n9_mu6b" name="n9" xy="258,329" size="886,88" fontSize="24" color="#333345" autoSize="none" bold="true" text="Red potion: +10 HP"/>
+    <text id="n10_mu6b" name="n10" xy="258,448" size="886,88" fontSize="24" color="#333345" autoSize="none" bold="true" text="Star: +5 scores"/>
+    <text id="n11_mu6b" name="n11" xy="263,575" size="886,88" fontSize="24" color="#333345" autoSize="none" bold="true" text="Timer: add 5 seconds"/>
+    <component id="n12_mu6b" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1094,46" size="132,67" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="close" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <text id="n13_mu6b" name="n13" xy="641,203" size="576,444" fontSize="31" color="#333345" ubb="true" autoSize="none" bold="true" text="[color=#00ccff][b]Victory Condition[/b][/color]: The game is won when the score accumulates to 100 points.&#xA;&#xA;[color=#ff3300][b]Defeat Conditions[/b][/color]:&#xA;The game is lost if the HP (Health Points) decreases to 0.&#xA;The game is lost if the timer reaches 0."/>
+  </displayList>
+</component>

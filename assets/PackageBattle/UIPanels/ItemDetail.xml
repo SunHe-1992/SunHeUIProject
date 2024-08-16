@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="712,479">
   <displayList>
-    <image id="n0_gm4t" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="25,0" size="662,479" color="#66ffff">
+    <component id="n0_gm4t" name="n0" src="onn9i" fileName="組件/CommonFrame1.xml" pkg="080sa613" xy="1,0" size="711,479">
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <component id="n2_gm4t" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="599,9" size="86,56">
+      <Label title=" "/>
+    </component>
+    <component id="n2_gm4t" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="630,0" size="75,73">
       <Button title="close" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <component id="n3_gm4t" name="btn_use" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="266,374" size="191,46">
+    <component id="n3_gm4t" name="btn_use" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="260,374" size="191,46">
       <Button title="Use" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <text id="n4_gm4t" name="txt_detail" xy="296,83" size="362,244" fontSize="30" color="#ffffff" autoSize="none" autoClearText="true" text="this is item detail"/>
-    <component id="n5_gm4t" name="itemCom" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="62,38"/>
+    <text id="n4_gm4t" name="txt_detail" xy="296,83" size="390,246" fontSize="30" color="#ffffff" autoSize="none" bold="true" autoClearText="true" text="this is item detail"/>
+    <component id="n5_gm4t" name="itemCom" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="44,59"/>
   </displayList>
 </component>

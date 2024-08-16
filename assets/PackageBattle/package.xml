@@ -112,7 +112,6 @@
     <component id="gwn6m3" name="Slider2.xml" path="/Comp/"/>
     <component id="73rdm4" name="QuestUI.xml" path="/UIPanels/" exported="true"/>
     <component id="73rdm5" name="QuestEntry.xml" path="/Comp/"/>
-    <image id="73rdm6" name="questUI.webp" path="/Images/"/>
     <image id="73rdm7" name="questUI.png" path="/Images/"/>
     <component id="l1lhm8" name="RunnerGameUI.xml" path="/UIPanels/" exported="true"/>
     <component id="l1lhm9" name="GameOverUI.xml" path="/UIPanels/" exported="true"/>
@@ -212,6 +211,16 @@
     <image id="fim7ov" name="Taipan.png" path="/Images/ItemIcons/" exported="true"/>
     <component id="p8p4ow" name="AchievementUI.xml" path="/UIPanels/" exported="true"/>
     <component id="p8p4ox" name="AchievementItem.xml" path="/Comp/"/>
+    <image id="80vnoy" name="weblogo.png" path="/Images/"/>
+    <component id="mu6boz" name="TutorialUI.xml" path="/UIPanels/" exported="true"/>
+    <component id="mu6bp0" name="GuideMask.xml" path="/Comp/"/>
+    <image id="mu6bp1" name="star.png" path="/Images/Tutorial/"/>
+    <image id="mu6bp2" name="timer.png" path="/Images/Tutorial/"/>
+    <image id="mu6bp3" name="goldImage.png" path="/Images/Tutorial/"/>
+    <image id="mu6bp4" name="purplePotion.jpg" path="/Images/Tutorial/"/>
+    <image id="mu6bp5" name="redPotion.jpeg" path="/Images/Tutorial/"/>
+    <component id="mu6bp6" name="ItemInstruction.xml" path="/Images/Tutorial/"/>
+    <image id="mu6bp7" name="completed-rubber-stamp-free-png.png" path="/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

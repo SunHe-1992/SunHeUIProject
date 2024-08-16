@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <image id="n1_ag5l" name="n1" src="scq59" fileName="Images/common_notice1.png" xy="19,0" size="1230,720">
-      <relation target="" sidePair="height-height,left-left,top-top"/>
-    </image>
-    <component id="n2_ag5l" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1046,81">
+    <component id="n1_ag5l" name="frame" src="tjzyo65" fileName="組件/common_kuang_1.xml" pkg="080sa613" xy="19,9" size="1230,711">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_ag5l" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="1188,22" visible="false">
+      <relation target="n1_ag5l" sidePair=""/>
       <Button title="close" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <list id="n3_gm4t" name="inventory_list" xy="121,77" size="840,575" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://fstosj6igm4tj7" autoClearItems="true">
+    <list id="n3_gm4t" name="inventory_list" xy="121,195" size="1034,457" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://fstosj6igm4tj7" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
@@ -16,10 +17,14 @@
       <item/>
       <item/>
     </list>
-    <component id="n4_gm4t" name="itemDetailCom" src="gm4tlv" fileName="UIPanels/ItemDetail.xml" xy="284,120">
-      <relation target="" sidePair="center-center,middle-middle"/>
+    <component id="n4_gm4t" name="itemDetailCom" src="gm4tlv" fileName="UIPanels/ItemDetail.xml" xy="284,218">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
-    <image id="n5_p8p4" name="n5" src="fim7nw" fileName="Images/ItemIcons/icon_coin.png" xy="185,20"/>
-    <text id="n6_p8p4" name="txt_gold" xy="237,20" size="263,46" fontSize="24" color="#ffffff" autoSize="none" bold="true" autoClearText="true" text="Gold: 123123"/>
+    <image id="n5_p8p4" name="n5" src="fim7nw" fileName="Images/ItemIcons/icon_coin.png" xy="165,129">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n6_p8p4" name="txt_gold" xy="222,133" size="263,46" fontSize="24" color="#333345" autoSize="none" bold="true" autoClearText="true" text="Gold: 123123">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
   </displayList>
 </component>

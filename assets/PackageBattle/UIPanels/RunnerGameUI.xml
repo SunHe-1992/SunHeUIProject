@@ -2,46 +2,53 @@
 <component size="1280,720">
   <controller name="ctrl_paused" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n2_ag5l" name="btn_jump" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1108,551" size="83,77">
+    <component id="n2_ag5l" name="btn_jump" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="1020,566" size="163,75">
       <relation target="" sidePair="right-right,bottom-bottom"/>
-      <Button title="Jump&#xA;"/>
+      <Button title="JUMP&#xA;"/>
     </component>
-    <component id="n3_l1lh" name="btn_pause" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1111,59" size="120,60">
+    <component id="n3_l1lh" name="btn_pause" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="1124,18" size="120,60">
       <gearDisplay controller="ctrl_paused" pages="0"/>
       <relation target="" sidePair="right-right,top-top"/>
-      <Button title="pause"/>
+      <Button title="Pause"/>
     </component>
-    <component id="n4_l1lh" name="btn_resume" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1111,59" size="120,60">
+    <component id="n4_l1lh" name="btn_resume" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="1124,18" size="120,60">
       <gearDisplay controller="ctrl_paused" pages="1"/>
       <relation target="" sidePair="right-right,top-top"/>
-      <Button title="resume"/>
+      <Button title="Resume"/>
     </component>
-    <text id="n5_l1lh" name="txt_title" xy="12,349" size="239,261" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="Game Play Screen&#xA;move: WASD&#xA;hold right mouse to move camera&#xA;"/>
-    <text id="n6_l1lh" name="txt_HUD" xy="926,197" size="312,266" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="THIS IS HUD">
+    <text id="n5_l1lh" name="txt_title" xy="9,452" size="239,261" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="Game Play Screen&#xA;move: WASD&#xA;hold right mouse to move camera&#xA;"/>
+    <text id="n6_l1lh" name="txt_HUD" xy="6,172" size="312,266" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="THIS IS HUD">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <component id="n7_l1lh" name="btn_save" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="939,48" size="148,77">
+    <component id="n7_l1lh" name="btn_save" src="ijmisojwi" fileName="组件/Button_Common_5.xml" pkg="z2dx9rj5" xy="915,13" size="184,63">
       <relation target="" sidePair="right-right,bottom-bottom"/>
-      <Button title="save  game"/>
+      <Button title="Save Game" titleFontSize="26"/>
     </component>
-    <component id="n9_l1lh" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="82,667" size="243,28">
+    <component id="n9_l1lh" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="518,666" size="243,28">
       <ProgressBar value="50" max="100"/>
     </component>
-    <component id="n10_l1lh" name="btn_inventory" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="122,13" size="128,45">
+    <component id="n10_l1lh" name="btn_inventory" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="122,13" size="128,45">
       <relation target="" sidePair="center-center,top-top"/>
-      <Button title="Inventory"/>
+      <Button title="Inventory" titleFontSize="20"/>
     </component>
-    <component id="n11_fim7" name="btn_store" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="278,13" size="128,45">
+    <component id="n11_fim7" name="btn_store" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="278,13" size="128,45">
       <relation target="" sidePair="center-center,top-top"/>
-      <Button title="Store"/>
+      <Button title="Store" titleFontSize="20"/>
     </component>
-    <component id="n12_p8p4" name="btn_quest" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="434,13" size="128,45">
+    <component id="n12_p8p4" name="btn_quest" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="434,13" size="128,45">
       <relation target="" sidePair="center-center,top-top"/>
-      <Button title="Quest"/>
+      <Button title="Quest" titleFontSize="20"/>
     </component>
-    <component id="n13_p8p4" name="btn_achi" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="590,13" size="128,45">
+    <component id="n13_p8p4" name="btn_achi" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="573,13" size="162,45">
       <relation target="" sidePair="center-center,top-top"/>
-      <Button title="Achievement"/>
+      <Button title="Achievement" titleFontSize="20"/>
     </component>
+    <component id="n14_mu6b" name="btn_help" src="mfmk7sok5q" fileName="组件/Button_common_rule.xml" pkg="z2dx9rj5" xy="777,2" size="80,80" aspect="true">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="HELP"/>
+    </component>
+    <text id="n15_skdg" name="n15" xy="454,663" size="61,43" fontSize="24" color="#ffffff" autoSize="none" bold="true" strokeColor="#000000" text="HP">
+      <relation target="n9_l1lh" sidePair="right-left,top-top"/>
+    </text>
   </displayList>
 </component>

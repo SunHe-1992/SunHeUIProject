@@ -2,7 +2,7 @@
 <component size="1280,720">
   <displayList>
     <image id="n0_genv" name="bg" src="73rdm7" fileName="Images/questUI.png" xy="-87,-86" size="1424,987"/>
-    <component id="n2_genv" name="btn_close" src="ag5lb" fileName="buttons/ButtonClose.xml" pkg="9bv6j664" xy="1116,103">
+    <component id="n2_genv" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="1199,85" size="75,73">
       <relation target="" sidePair="right-right,top-top"/>
       <Button sound="ui://g2fjgz25od3r3"/>
     </component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="505,620">
+<component size="505,620" extention="Label">
   <controller name="hasClose" exported="true" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n1_tjzy" name="n1" src="tjzyo64" fileName="通用素材/通用_弹窗1.png" xy="0,0" size="493,620">

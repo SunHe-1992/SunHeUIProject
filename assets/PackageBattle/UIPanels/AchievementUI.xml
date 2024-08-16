@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <image id="n0_p8p4" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,0" size="1280,720">
+    <component id="n0_p8p4" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="080sa613" xy="0,0" size="1280,720">
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <component id="n1_p8p4" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1084,59">
+    </component>
+    <component id="n1_p8p4" name="btn_close" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="1084,59" visible="false">
       <Button title="close" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <list id="n2_p8p4" name="list_achi" xy="49,49" size="994,579" layout="flow_hz" overflow="scroll" lineGap="12" colGap="12" defaultItem="ui://fstosj6ip8p4ox" autoClearItems="true">
-      <relation target="" sidePair="center-center,middle-middle"/>
+    <list id="n2_p8p4" name="list_achi" xy="172,144" size="936,432" layout="flow_hz" overflow="scroll" lineGap="12" colGap="12" defaultItem="ui://fstosj6ip8p4ox" autoClearItems="true">
+      <relation target="n0_p8p4" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
       <item/>

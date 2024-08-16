@@ -8,10 +8,14 @@
     <component id="n0_73rd" name="itemHead" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="339,56" size="100,100" aspect="true">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
-    <text id="n2_73rd" name="txt_quest" xy="5,4" size="435,85" fontSize="24" color="#e7faff" autoSize="none" strokeColor="#000000" autoClearText="true" text="defeat 1111 villians"/>
+    <text id="n2_73rd" name="txt_quest" xy="5,4" size="435,85" fontSize="24" color="#e7faff" autoSize="none" bold="true" strokeColor="#000000" autoClearText="true" text="defeat 1111 villians"/>
     <component id="n3_73rd" name="btn_accept" src="ef5a7sokh8" fileName="组件/Button3.xml" pkg="z2dx9rj5" xy="12,93" size="171,60">
       <gearDisplay controller="ctrl_status" pages="0"/>
       <Button title="Accept" sound="ui://g2fjgz25od3r3"/>
     </component>
+    <text id="n4_mu6b" name="n4" xy="24,70" size="236,53" fontSize="24" color="#ffffff" autoSize="none" text=""/>
+    <image id="n5_mu6b" name="n5" src="mu6bp7" fileName="Images/completed-rubber-stamp-free-png.png" xy="75,33" size="204,142" aspect="true">
+      <gearDisplay controller="ctrl_status" pages="2"/>
+    </image>
   </displayList>
 </component>

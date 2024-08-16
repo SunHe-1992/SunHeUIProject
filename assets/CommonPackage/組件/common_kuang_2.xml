@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="912,711">
+<component size="912,711" extention="Label">
   <controller name="hasClose" exported="true" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n5_pf6a" name="n5" src="hm4wo6n" fileName="切片/切片/个人信息_bg1.png" xy="0,0" size="912,711">
@@ -8,6 +8,6 @@
     <component id="n7_pf6a" name="btn_close" src="hm4whhk0tf" fileName="组件/Button_close3.xml" pkg="z2dx9rj5" xy="865,35">
       <relation target="" sidePair="right-right"/>
     </component>
-    <text id="n8_d2s5" name="title" xy="50,54" size="139,49" font="ui://b6ljs3rfg4vv0" fontSize="36" color="#ffffff" leading="0" letterSpacing="-3" text="个人信息"/>
+    <text id="n8_d2s5" name="title" xy="50,54" size="139,49" fontSize="36" color="#ffffff" leading="0" letterSpacing="-3" autoClearText="true" text="个人信息"/>
   </displayList>
 </component>

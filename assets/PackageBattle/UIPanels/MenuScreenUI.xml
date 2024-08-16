@@ -5,6 +5,9 @@
     <image id="n0_v94b" name="n0" src="v94bly" fileName="Images/Main Menu Backgroud.png" xy="0,0" size="1280,813">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
+    <image id="n8_80vn" name="n8" src="80vnoy" fileName="Images/weblogo.png" xy="243,139" pivot="0.5,0.5" anchor="true" size="404,269" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
     <component id="n1_v94b" name="btn_newGame" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="565,307">
       <gearDisplay controller="ctrl_mode" pages="1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
@@ -27,9 +30,19 @@
       <relation target="" sidePair="center-center,middle-middle"/>
       <Button title="EXIT" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <text id="n7_v94b" name="txt_title" xy="387,136" size="505,134" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="JRPG DEMO">
+    <text id="n7_v94b" name="txt_title" xy="387,187" size="505,134" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" strokeSize="3" text="JRPG DEMO">
       <gearText controller="ctrl_mode" pages="0,1" values="JRPG DEMO|Platform Runner"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
+    <text id="n9_ldmk" name="txt_names" xy="132,548" size="505,163" fontSize="26" color="#ffffff" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="3" text="Aiden Wong (301219500) &#xA;Fengting Wu (301264494)  &#xA;He Sun (301410195)   &#xA;Rustan Ilagan (301411090) &#xA;">
+      <gearText controller="ctrl_mode" pages="0,1" values="Aiden Wong (301219500) &#xA;Fengting Wu (301264494)  &#xA;He Sun (301410195)   &#xA;Rustan Ilagan (301411090) &#xA;|Platform Runner"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
   </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n8_80vn" tween="true" startValue="1" endValue="0.6" duration="12"/>
+    <item time="0" type="Scale" target="n8_80vn" tween="true" startValue="1,1" endValue="0.8,0.8" duration="12"/>
+    <item time="12" type="Alpha" target="n8_80vn" tween="true" startValue="0.6" endValue="1" duration="11"/>
+    <item time="12" type="Scale" target="n8_80vn" tween="true" startValue="0.8,0.8" endValue="1,1" duration="11"/>
+  </transition>
 </component>
