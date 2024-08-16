@@ -112,7 +112,7 @@
     <component id="gwn6m3" name="Slider2.xml" path="/Comp/"/>
     <component id="73rdm4" name="QuestUI.xml" path="/UIPanels/" exported="true"/>
     <component id="73rdm5" name="QuestEntry.xml" path="/Comp/"/>
-    <image id="73rdm7" name="questUI.png" path="/Images/"/>
+    <image id="73rdm7" name="questUI.png" path="/Images/" scale="9grid" scale9grid="0,207,410,11"/>
     <component id="l1lhm8" name="RunnerGameUI.xml" path="/UIPanels/" exported="true"/>
     <component id="l1lhm9" name="GameOverUI.xml" path="/UIPanels/" exported="true"/>
     <image id="fim7ma" name="icon_759102.png" path="/Images/ItemIcons/" exported="true"/>

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <image id="n0_genv" name="bg" src="73rdm7" fileName="Images/questUI.png" xy="-87,-86" size="1424,987"/>
-    <component id="n2_genv" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="1199,85" size="75,73">
-      <relation target="" sidePair="right-right,top-top"/>
+    <image id="n0_genv" name="bg" src="73rdm7" fileName="Images/questUI.png" xy="0,0" size="1286,718">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_genv" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="1146,74" size="75,73">
+      <relation target="" sidePair="center-center,middle-middle"/>
       <Button sound="ui://g2fjgz25od3r3"/>
     </component>
-    <list id="n3_73rd" name="list_board" xy="137,209" size="478,434" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
+    <list id="n3_73rd" name="list_board" xy="191,188" size="478,434" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <list id="n4_73rd" name="list_myQuests" xy="686,199" size="450,442" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
+    <list id="n4_73rd" name="list_myQuests" xy="679,183" size="450,442" overflow="scroll" defaultItem="ui://fstosj6i73rdm5" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
@@ -21,10 +23,10 @@
       <item/>
       <item/>
     </list>
-    <text id="n5_73rd" name="n5" xy="248,134" size="358,57" fontSize="30" color="#ffffff" align="center" autoSize="none" bold="true" strokeColor="#000000" text="Quest Board">
+    <text id="n5_73rd" name="n5" xy="248,134" size="358,57" fontSize="30" color="#333345" align="center" autoSize="none" bold="true" text="Quest Board">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n6_73rd" name="n6" xy="732,134" size="358,52" fontSize="30" color="#ffffff" align="center" autoSize="none" bold="true" text="My Quests">
+    <text id="n6_73rd" name="n6" xy="721,133" size="358,52" fontSize="30" color="#333345" align="center" autoSize="none" bold="true" text="My Quests">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
   </displayList>
