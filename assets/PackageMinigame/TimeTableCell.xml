@@ -4,10 +4,10 @@
     <graph id="n2_r7dl" name="n2" xy="0,0" size="619,548" type="rect" lineSize="0" fillColor="#d9ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_r7dl" name="n1" xy="46,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="MON"/>
-    <text id="n4_r7dl" name="n4" xy="195,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="TUE"/>
-    <text id="n5_r7dl" name="n5" xy="344,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="WED"/>
-    <text id="n6_r7dl" name="n6" xy="493,4" size="69,34" fontSize="24" color="#00ccff" autoSize="none" strokeColor="#000000" text="THU"/>
+    <text id="n1_r7dl" name="n1" xy="46,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="MON"/>
+    <text id="n4_r7dl" name="n4" xy="195,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="TUE"/>
+    <text id="n5_r7dl" name="n5" xy="344,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="WED"/>
+    <text id="n6_r7dl" name="n6" xy="493,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="THU"/>
     <component id="n0_r7dl" name="n0" src="r7dl2w" fileName="TimeTable.xml" xy="3,35" size="150,75" controller="room,1,course_name,6">
       <Button title="10:30-12:20"/>
     </component>
@@ -44,5 +44,9 @@
     <component id="n18_r7dl" name="n18" src="r7dl2w" fileName="TimeTable.xml" xy="459,244" size="150,118" controller="room,2,course_name,7">
       <Button title="3:30-6:20"/>
     </component>
+    <text id="n19_woen" name="n19" xy="18,57" size="116,34" fontSize="24" color="#3cd3f6" autoSize="none" bold="true" text="lunch PC"/>
+    <text id="n20_woen" name="n20" xy="191,53" size="75,34" fontSize="24" color="#3cd3f6" autoSize="none" bold="true" text="lunch"/>
+    <text id="n21_woen" name="n21" xy="342,55" size="103,34" fontSize="24" color="#3cd3f6" autoSize="none" bold="true" text="lunch"/>
+    <text id="n22_woen" name="n22" xy="493,55" size="103,34" fontSize="24" color="#3cd3f6" autoSize="none" bold="true" text="PC"/>
   </displayList>
 </component>
