@@ -5,7 +5,7 @@
     <component id="n2_rtax" name="btn_add" src="rtaxo5t" fileName="素材/數字設置/BtnNumSet_Add.xml" xy="248,0"/>
     <component id="n3_rtax" name="btn_del" src="rtaxo5u" fileName="素材/數字設置/BtnNumSet_Del.xml" xy="68,0"/>
     <text id="n4_rtax" name="input_num" xy="129,10" size="115,36" font="ui://b6ljs3rfc4lz2" fontSize="24" color="#3a444e" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" singleLine="true" autoClearText="true" text="22" input="true" keyboardType="4"/>
-    <component id="n5_rtax" name="btn_min" src="rtaxo5v" fileName="素材/數字設置/BtnNumSet_All.xml" xy="0,0" controller="upOrDown,1"/>
-    <component id="n6_rtax" name="btn_max" src="rtaxo5v" fileName="素材/數字設置/BtnNumSet_All.xml" xy="338,28" pivot="0.5,0.5" anchor="true" controller="upOrDown,0"/>
+    <component id="n5_rtax" name="btn_min" src="rtaxo5v" fileName="素材/數字設置/BtnNumSet_All.xml" xy="0,0" visible="false" controller="upOrDown,1"/>
+    <component id="n6_rtax" name="btn_max" src="rtaxo5v" fileName="素材/數字設置/BtnNumSet_All.xml" xy="338,28" pivot="0.5,0.5" anchor="true" visible="false" controller="upOrDown,0"/>
   </displayList>
 </component>

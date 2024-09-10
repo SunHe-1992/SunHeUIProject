@@ -2,10 +2,6 @@
 <component size="1280,720">
   <controller name="ctrl_paused" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n2_ag5l" name="btn_jump" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="1020,566" size="163,75">
-      <relation target="" sidePair="right-right,bottom-bottom"/>
-      <Button title="JUMP&#xA;"/>
-    </component>
     <component id="n3_l1lh" name="btn_pause" src="latbojsu" fileName="组件/Button_Common_0.xml" pkg="z2dx9rj5" xy="1124,18" size="120,60">
       <gearDisplay controller="ctrl_paused" pages="0"/>
       <relation target="" sidePair="right-right,top-top"/>
@@ -16,7 +12,6 @@
       <relation target="" sidePair="right-right,top-top"/>
       <Button title="Resume"/>
     </component>
-    <text id="n5_l1lh" name="txt_title" xy="9,452" size="239,261" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="Game Play Screen&#xA;move: WASD&#xA;hold right mouse to move camera&#xA;"/>
     <text id="n6_l1lh" name="txt_HUD" xy="6,172" size="312,266" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="THIS IS HUD">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>

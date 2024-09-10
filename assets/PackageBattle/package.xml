@@ -201,14 +201,6 @@
     <image id="fim7ol" name="icon_190101.png" path="/Images/ItemIcons/" exported="true"/>
     <image id="fim7om" name="icon_200201.png" path="/Images/ItemIcons/" exported="true"/>
     <image id="fim7on" name="icon_759101.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7oo" name="Colobus.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7op" name="Gecko.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7oq" name="Herring.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7or" name="Muskrat.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7os" name="Pudu.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7ot" name="Sparrow.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7ou" name="Squid.png" path="/Images/ItemIcons/" exported="true"/>
-    <image id="fim7ov" name="Taipan.png" path="/Images/ItemIcons/" exported="true"/>
     <component id="p8p4ow" name="AchievementUI.xml" path="/UIPanels/" exported="true"/>
     <component id="p8p4ox" name="AchievementItem.xml" path="/Comp/"/>
     <image id="80vnoy" name="weblogo.png" path="/Images/"/>
@@ -221,6 +213,10 @@
     <image id="mu6bp5" name="redPotion.jpeg" path="/Images/Tutorial/"/>
     <component id="mu6bp6" name="ItemInstruction.xml" path="/Images/Tutorial/"/>
     <image id="mu6bp7" name="completed-rubber-stamp-free-png.png" path="/Images/"/>
+    <component id="ry5ip8" name="BuildingInfo.xml" path="/UIPanels/" exported="true"/>
+    <image id="ry5ip9" name="bgImage.png" path="/images/" scale="9grid" scale9grid="26,71,52,142"/>
+    <component id="fe3qpa" name="OrderInfo.xml" path="/Comp/BuildingComp/"/>
+    <image id="fe3qpb" name="bgImage.png" path="/Images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

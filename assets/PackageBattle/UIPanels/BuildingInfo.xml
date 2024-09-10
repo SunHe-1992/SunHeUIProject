@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n1_ry5i" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="080sa613" xy="1,1" size="1277,717">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="BuildingInfo"/>
+    </component>
+    <list id="n4_fe3q" name="list_order" xy="71,141" size="386,527" overflow="scroll" defaultItem="ui://fstosj6ife3qpa" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

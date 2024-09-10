@@ -1,5 +1,5 @@
 {
-  "path": "E:\\Study\\WebGameAssignment1\\Assets\\Resources\\FGUIRes",
+  "path": "E:\\Study\\DragonWingGroupProject\\Assets\\Resources\\FGUIRes",
   "branchPath": "",
   "fileExtension": "bytes",
   "packageCount": 2,
@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "E:\\Study\\WebGameAssignment1\\Assets\\GameScript\\FGUIGen",
+    "codePath": "E:\\Study\\DragonWingGroupProject\\Assets\\GameScript\\FGUIGen",
     "classNamePrefix": "UI_",
     "memberNamePrefix": "",
     "packageName": null,

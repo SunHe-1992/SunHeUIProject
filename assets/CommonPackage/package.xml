@@ -116,7 +116,7 @@
     <image id="rtaxo5o" name="加按钮.png" path="/素材/數字設置/" exported="true"/>
     <image id="rtaxo5p" name="加减底框1.png" path="/素材/數字設置/" exported="true" scale="9grid" scale9grid="27,0,54,59"/>
     <image id="rtaxo5q" name="减按钮.png" path="/素材/數字設置/" exported="true"/>
-    <component id="rtaxo5s" name="NumSet.xml" path="/組件/"/>
+    <component id="rtaxo5s" name="NumSet.xml" path="/組件/" exported="true"/>
     <component id="rtaxo5t" name="BtnNumSet_Add.xml" path="/素材/數字設置/"/>
     <component id="rtaxo5u" name="BtnNumSet_Del.xml" path="/素材/數字設置/"/>
     <component id="rtaxo5v" name="BtnNumSet_All.xml" path="/素材/數字設置/"/>
