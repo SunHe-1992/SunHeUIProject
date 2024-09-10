@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="BuildingInfo"/>
     </component>
-    <list id="n4_fe3q" name="list_order" xy="71,141" size="386,527" overflow="scroll" defaultItem="ui://fstosj6ife3qpa" autoClearItems="true">
+    <list id="n4_fe3q" name="list_order" xy="69,139" size="386,527" overflow="scroll" defaultItem="ui://fstosj6ife3qpa" autoClearItems="true">
       <item/>
       <item/>
       <item/>

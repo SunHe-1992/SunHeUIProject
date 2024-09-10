@@ -217,6 +217,10 @@
     <image id="ry5ip9" name="bgImage.png" path="/images/" scale="9grid" scale9grid="26,71,52,142"/>
     <component id="fe3qpa" name="OrderInfo.xml" path="/Comp/BuildingComp/"/>
     <image id="fe3qpb" name="bgImage.png" path="/Images/"/>
+    <component id="pw3fpd" name="BuildingUI.xml" path="/Comp/BuildingComp/" exported="true"/>
+    <component id="pw3fpe" name="ComboBox1_item.xml" path="/CompItem/"/>
+    <component id="pw3fpg" name="ComboBox1.xml" path="/CompItem/" exported="true"/>
+    <component id="abonph" name="UserBuildingIcon.xml" path="/Comp/BuildingComp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

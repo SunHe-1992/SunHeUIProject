@@ -42,6 +42,10 @@
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="HELP"/>
     </component>
+    <component id="n16_pw3f" name="btn_building" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="18,22" size="86,39">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Building" titleFontSize="20"/>
+    </component>
     <text id="n15_skdg" name="n15" xy="454,663" size="61,43" fontSize="24" color="#ffffff" autoSize="none" bold="true" strokeColor="#000000" text="HP">
       <relation target="n9_l1lh" sidePair="right-left,top-top"/>
     </text>
