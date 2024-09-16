@@ -5,7 +5,7 @@
     <image id="v5lee" name="1656674831463.jpg" path="/不导出素材/"/>
     <image id="onn9h" name="公用_二级弹窗.png" path="/不导出素材/"/>
     <component id="onn9i" name="CommonFrame1.xml" path="/組件/" exported="true"/>
-    <component id="g4vvr" name="TopbarCom.xml" path="/組件/"/>
+    <component id="g4vvr" name="TopbarCom.xml" path="/組件/" exported="true"/>
     <component id="g4vvs" name="TopBar_Point.xml" path="/組件/"/>
     <image id="g4vvu" name="公用_类别底1.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="19,8,38,16"/>
     <component id="g4vvv" name="Com_Herohead.xml" path="/組件/"/>
@@ -254,6 +254,7 @@
     <image id="ei10o8n" name="背景图.jpg" path="/"/>
     <component id="ensiiy" name="DialoguePage.xml" path="/組件/" exported="true"/>
     <component id="ensio8o" name="DialogueOptionItem.xml" path="/組件/" exported="true"/>
+    <image id="drp9o8p" name="coin1.png" path="/素材/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

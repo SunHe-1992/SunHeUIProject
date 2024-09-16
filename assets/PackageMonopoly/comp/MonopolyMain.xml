@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" designImage="ui://dxvwggiww6ez3" designImageAlpha="51">
+  <displayList>
+    <component id="n9_ei10" name="topBar" src="g4vvr" fileName="組件/TopbarCom.xml" pkg="080sa613" xy="0,2" size="1276,119">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n11_c6ng" name="n11" src="mqct4" fileName="images/功能底框1.png" xy="-32,551" size="1317,88">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+    </image>
+    <component id="n1_r35z" name="btn_Construction" src="mqct0" fileName="comp/Button1.xml" xy="433,534" size="100,100">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+      <Button title="Building"/>
+    </component>
+    <component id="n2_r35z" name="btn_RollDice" src="mqctn" fileName="comp/Button2.xml" xy="589,504" aspect="true">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </component>
+    <graph id="n5_fmio" name="n5" xy="9,163" size="284,418" visible="false" type="rect" lineSize="0" fillColor="#7f000000"/>
+    <text id="n6_fmio" name="txt_hud" xy="20,174" size="259,395" visible="false" fontSize="24" color="#ffffff" ubb="true" autoSize="none" autoClearText="true" text="123123&#xA;123123&#xA;123123">
+      <relation target="n5_fmio" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <component id="n7_w6ez" name="compFactor" src="mqcto" fileName="comp/DiceFactor.xml" xy="658,490" size="41,41" aspect="true">
+      <relation target="n2_r35z" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n8_w6ez" name="diceBar" src="mqctq" fileName="comp/ProgressBar1.xml" xy="550,616" size="173,28">
+      <relation target="n2_r35z" sidePair="center-center,top-bottom"/>
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n10_mnvh" name="btn_back" src="mqct0" fileName="comp/Button1.xml" xy="747,533" size="100,100">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+      <Button title="Back"/>
+    </component>
+  </displayList>
+</component>

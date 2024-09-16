@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="93,84" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_jw4z" name="n0" src="mqct6" fileName="images/结缘-按钮.png" xy="0,0" size="93,84">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_jw4z" name="title" xy="0,0" size="93,83" fontSize="24" color="#c8d0d4" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" singleLine="true" text="test button">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="ui://g2fjgz25od3r3" downEffect="dark" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="on1i1yjt">
+  <resources>
+    <component id="mqct0" name="Button1.xml" path="/comp/"/>
+    <image id="mqct1" name="squareRed.png" path="/images/"/>
+    <image id="mqct2" name="squareWhite.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
+    <image id="mqct3" name="squareYellow.png" path="/images/" scale="9grid" scale9grid="4,6,8,12"/>
+    <image id="mqct4" name="功能底框1.png" path="/images/"/>
+    <image id="mqct5" name="战斗_按钮.png" path="/images/"/>
+    <image id="mqct6" name="结缘-按钮.png" path="/images/"/>
+    <image id="mqct7" name="聚魂.png" path="/images/"/>
+    <image id="mqct8" name="construction1.png" path="/images/buildingImages/"/>
+    <image id="mqct9" name="squareGreen.png" path="/images/"/>
+    <image id="mqcta" name="construction2.png" path="/images/buildingImages/"/>
+    <image id="mqctb" name="construction4.png" path="/images/buildingImages/"/>
+    <image id="mqctc" name="EvilMushroom.png" path="/images/buildingImages/"/>
+    <image id="mqctd" name="land1.jpg" path="/images/buildingImages/"/>
+    <image id="mqcte" name="land2.jpg" path="/images/buildingImages/"/>
+    <image id="mqctf" name="land3.jpg" path="/images/buildingImages/"/>
+    <image id="mqctg" name="land4.jpg" path="/images/buildingImages/"/>
+    <image id="mqcth" name="land5.jpg" path="/images/buildingImages/"/>
+    <image id="mqcti" name="land6.jpg" path="/images/buildingImages/"/>
+    <image id="mqctj" name="construction3.png" path="/images/buildingImages/"/>
+    <image id="mqctk" name="暂停和结算_中间圆.png" path="/images/buildingImages/"/>
+    <image id="mqctl" name="squareBlue.png" path="/images/"/>
+    <image id="mqctm" name="dot_shadow.png" path="/images/"/>
+    <component id="mqctn" name="Button2.xml" path="/comp/"/>
+    <component id="mqcto" name="DiceFactor.xml" path="/comp/"/>
+    <component id="mqctp" name="MonopolyMain.xml" path="/comp/" exported="true"/>
+    <component id="mqctq" name="ProgressBar1.xml" path="/comp/"/>
+    <component id="mqctr" name="BuildingItem.xml" path="/comp/building/"/>
+    <component id="mqcts" name="Construction.xml" path="/comp/building/"/>
+    <component id="mqctt" name="DotItem.xml" path="/comp/building/"/>
+    <image id="mqctu" name="bank1.jpg" path="/designImage/"/>
+    <image id="mqctv" name="setting-two.png" path="/images/"/>
+    <image id="mqctw" name="bank2.jpg" path="/designImage/"/>
+    <image id="mqctx" name="get_reward.jpg" path="/designImage/"/>
+    <image id="mqcty" name="MONOPOLY主界面.png" path="/designImage/"/>
+    <image id="mqctz" name="效果图construction.png" path="/designImage/"/>
+    <image id="mqct10" name="dotBlue.png" path="/images/"/>
+    <image id="mqct11" name="dotGreen.png" path="/images/"/>
+    <image id="mqct12" name="dotRed.png" path="/images/"/>
+    <image id="mqct13" name="dotWhite.png" path="/images/"/>
+    <image id="mqct14" name="dotYellow.png" path="/images/"/>
+    <image id="mqct15" name="chance1.jpg" path="/designImage/"/>
+    <image id="mqct16" name="铜钱临时资源.png" path="/不导出素材/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

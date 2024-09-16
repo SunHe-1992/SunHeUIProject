@@ -9,7 +9,7 @@
     <image id="n8_10d3s" name="n8" src="c4lz15" fileName="素材/货币底框.png" xy="27,17" size="178,41">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <loader id="n4_cenm" name="loader_pic" xy="8,5" size="56,56" aspect="true" url="ui://dxvwggiwlhbz1b" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <loader id="n4_cenm" name="loader_pic" xy="8,5" size="56,56" aspect="true" url="ui://080sa613drp9o8p" align="center" vAlign="middle" fill="scaleMatchHeight"/>
     <richtext id="n5_cenm" name="txt_num" xy="47,19" size="132,32" font="ui://b6ljs3rfc4lz2" fontSize="20" color="#fff7eb" align="center" vAlign="middle" leading="2" letterSpacing="-1" ubb="true" vars="true" autoSize="shrink" singleLine="true" text="100">
       <relation target="" sidePair="width-width"/>
     </richtext>
