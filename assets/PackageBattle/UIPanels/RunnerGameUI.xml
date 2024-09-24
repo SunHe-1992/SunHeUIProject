@@ -53,5 +53,9 @@
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Monopoly" titleFontSize="20"/>
     </component>
+    <component id="n18_txda" name="btn_chapter" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="184,86" size="116,47">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Chapters" titleFontSize="20"/>
+    </component>
   </displayList>
 </component>

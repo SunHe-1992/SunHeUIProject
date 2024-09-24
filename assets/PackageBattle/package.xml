@@ -221,6 +221,9 @@
     <component id="pw3fpe" name="ComboBox1_item.xml" path="/CompItem/"/>
     <component id="pw3fpg" name="ComboBox1.xml" path="/CompItem/" exported="true"/>
     <component id="abonph" name="UserBuildingIcon.xml" path="/Comp/BuildingComp/"/>
+    <component id="txdapi" name="ChapterUI.xml" path="/UIPanels/" exported="true"/>
+    <image id="txdapj" name="dungeon1.png" path="/Images/"/>
+    <component id="txdapk" name="DungeonComp.xml" path="/Comp/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

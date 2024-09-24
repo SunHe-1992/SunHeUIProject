@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_txda" name="n0" src="scq59" fileName="Images/common_notice1.png" xy="0,0" size="1280,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n3_txda" name="list_chapter" xy="58,37" size="1164,513" layout="flow_hz" overflow="scroll" lineGap="18" defaultItem="ui://fstosj6itxdapk" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_txda" name="btn_back" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="95,639">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="Back"/>
+    </component>
+  </displayList>
+</component>
