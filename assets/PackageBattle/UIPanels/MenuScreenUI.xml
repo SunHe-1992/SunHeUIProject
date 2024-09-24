@@ -26,7 +26,7 @@
     <text id="n7_v94b" name="txt_title" xy="292,149" size="696,131" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="3" singleLine="true" text="Dragon Wing Game Demo&#xA;">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n9_ldmk" name="txt_names" xy="132,501" size="505,210" fontSize="26" color="#ffffff" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="3" text="He Sun &#xA;Rustan Ilagan &#xA;Susan Varghese&#xA;Pariket Nagwani&#xA;Dylan Chang Liang&#xA;">
+    <text id="n9_ldmk" name="txt_names" xy="132,501" size="509,215" fontSize="26" color="#ffffff" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="3" text="He Sun &#xA;Rustan Ilagan &#xA;Arpit Savaliya&#xA;Susan Varghese&#xA;Pariket Nagwani&#xA;Dylan Chang Liang&#xA;">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </text>
   </displayList>
