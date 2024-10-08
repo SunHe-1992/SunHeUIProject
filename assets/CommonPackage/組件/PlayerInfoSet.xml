@@ -2,10 +2,10 @@
 <component size="913,711">
   <controller name="playerInfoType" pages="0,资料,2,战绩,1,荣誉" selected="1"/>
   <displayList>
-    <image id="n42_hm4w" name="n42" src="hm4wo6n" fileName="切片/切片/个人信息_bg1.png" xy="0,0" size="912,711" group="n41_di7j"/>
+    <image id="n42_hm4w" name="n42" src="hm4wo6n" fileName="切片/切片/个人信息_bg1.png" xy="0,0" size="912,711" group="n41_di7j" pkg="786ck8sb"/>
     <image id="n43_hm4w" name="n43" src="hm4wo6o" fileName="切片/切片/个人信息_切页栏.png" xy="34,118" group="n41_di7j"/>
     <image id="n44_hm4w" name="n44" src="hm4wo6p" fileName="切片/切片/个人信息_标题.png" xy="52,61" group="n41_di7j"/>
-    <component id="n46_hm4w" name="btn_close" src="hm4whhk0tf" fileName="组件/Button_close3.xml" pkg="z2dx9rj5" xy="865,35" group="n41_di7j">
+    <component id="n46_hm4w" name="btn_close" src="hm4whhk0tf" fileName="组件/Button_close3.xml" pkg="786ck8sb" xy="865,35" group="n41_di7j">
       <relation target="" sidePair="right-right"/>
     </component>
     <list id="n45_hm4w" name="list_page" xy="20,145" size="200,300" group="n41_di7j" overflow="scroll" defaultItem="ui://080sa613hm4wo6q">

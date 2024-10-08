@@ -2,18 +2,17 @@
 <component size="447,160">
   <controller name="ctrl_status" pages="0,未接取 在公告板,1,已接取任务 未完成,2,已完成" selected="0"/>
   <displayList>
-    <image id="n1_73rd" name="n1" src="scq5c" fileName="Images/bg_2.png" xy="0,-6" size="449,164">
+    <image id="n1_73rd" name="n1" src="k1ze0" fileName="Achievement/achi_bg.png" xy="0,-6" size="449,164">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <component id="n0_73rd" name="itemHead" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="339,56" size="100,100" aspect="true">
+    <component id="n0_73rd" name="itemHead" src="gm4tj7" fileName="shared/InventoryItem.xml" xy="339,56" size="100,100" aspect="true">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
     <text id="n2_73rd" name="txt_quest" xy="5,4" size="435,85" fontSize="24" color="#e7faff" autoSize="none" bold="true" strokeColor="#000000" autoClearText="true" text="defeat 1111 villians"/>
-    <component id="n3_73rd" name="btn_accept" src="ef5a7sokh8" fileName="组件/Button3.xml" pkg="z2dx9rj5" xy="12,93" size="171,60">
+    <component id="n3_73rd" name="btn_accept" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="9,103" size="146,49">
       <gearDisplay controller="ctrl_status" pages="0"/>
       <Button title="Accept" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <text id="n4_mu6b" name="n4" xy="24,70" size="236,53" fontSize="24" color="#ffffff" autoSize="none" text=""/>
     <image id="n5_mu6b" name="n5" src="mu6bp7" fileName="Images/completed-rubber-stamp-free-png.png" xy="75,33" size="204,142" aspect="true">
       <gearDisplay controller="ctrl_status" pages="2"/>
     </image>

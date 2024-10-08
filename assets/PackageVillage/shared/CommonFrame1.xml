@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="679,542" extention="Label">
   <displayList>
-    <image id="n0_onn9" name="n0" src="ina81o" fileName="通用素材/通用_框1.png" xy="0,0" size="679,542">
+    <image id="n0_onn9" name="n0" src="ina81o" fileName="通用素材/通用_框1.png" xy="0,0" size="679,542" pkg="080sa613">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <component id="n1_onn9" name="btn_back" src="cenmojv1" fileName="组件/Button_Close.xml" pkg="z2dx9rj5" xy="621,-13" visible="false">

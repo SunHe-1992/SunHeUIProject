@@ -13,7 +13,7 @@
         <item title="Item 8"/>
       </ComboBox>
     </component>
-    <component id="n4" name="n4" src="zd9g41" xy="258,137">
+    <component id="n4" name="n4" src="zd9g41" xy="258,137" pkg="786ck8sb">
       <ComboBox visibleItemCount="5">
         <item title="Item 1"/>
         <item title="Item 2"/>
@@ -24,7 +24,7 @@
         <item title="Item 7"/>
       </ComboBox>
     </component>
-    <component id="n5" name="n5" src="zd9g41" xy="80,141">
+    <component id="n5" name="n5" src="zd9g41" xy="80,141" pkg="786ck8sb">
       <ComboBox visibleItemCount="10">
         <item title="Item 1"/>
         <item title="Item 2"/>

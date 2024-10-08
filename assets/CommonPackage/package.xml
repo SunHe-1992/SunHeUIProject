@@ -4,7 +4,6 @@
     <image id="n9l8c" name="背景图.jpg" path="/不导出素材/"/>
     <image id="v5lee" name="1656674831463.jpg" path="/不导出素材/"/>
     <image id="onn9h" name="公用_二级弹窗.png" path="/不导出素材/"/>
-    <component id="onn9i" name="CommonFrame1.xml" path="/組件/" exported="true"/>
     <component id="g4vvr" name="TopbarCom.xml" path="/組件/" exported="true"/>
     <component id="g4vvs" name="TopBar_Point.xml" path="/組件/"/>
     <image id="g4vvu" name="公用_类别底1.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="19,8,38,16"/>
@@ -112,14 +111,6 @@
     <component id="rtaxo5k" name="commonClose.xml" path="/組件/"/>
     <image id="rtaxo5l" name="通用_分割线.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="28,2,13,4"/>
     <component id="rtaxo5m" name="itemComWithName.xml" path="/組件/"/>
-    <image id="rtaxo5n" name="all按钮.png" path="/素材/數字設置/" exported="true"/>
-    <image id="rtaxo5o" name="加按钮.png" path="/素材/數字設置/" exported="true"/>
-    <image id="rtaxo5p" name="加减底框1.png" path="/素材/數字設置/" exported="true" scale="9grid" scale9grid="27,0,54,59"/>
-    <image id="rtaxo5q" name="减按钮.png" path="/素材/數字設置/" exported="true"/>
-    <component id="rtaxo5s" name="NumSet.xml" path="/組件/" exported="true"/>
-    <component id="rtaxo5t" name="BtnNumSet_Add.xml" path="/素材/數字設置/"/>
-    <component id="rtaxo5u" name="BtnNumSet_Del.xml" path="/素材/數字設置/"/>
-    <component id="rtaxo5v" name="BtnNumSet_All.xml" path="/素材/數字設置/"/>
     <image id="rtaxo5w" name="通用_弹窗3.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="360,37,720,11"/>
     <image id="rtaxo5x" name="通用_箭头.png" path="/通用素材/" exported="true"/>
     <image id="rtaxo5y" name="通用_标切新.png" path="/通用素材/" exported="true"/>
@@ -129,7 +120,6 @@
     <image id="rtaxo62" name="锁.png" path="/通用素材/" exported="true"/>
     <image id="tjzyo63" name="通用_关闭按钮.png" path="/通用素材/" exported="true"/>
     <image id="tjzyo64" name="通用_弹窗1.png" path="/通用素材/" scale="9grid" scale9grid="361,156,26,260"/>
-    <component id="tjzyo65" name="common_kuang_1.xml" path="/組件/" exported="true"/>
     <component id="f4qro" name="BagPageButton.xml" path="/組件/"/>
     <component id="f4qrp" name="SmallBagPageButton.xml" path="/組件/"/>
     <image id="f4qr8" name="更多按钮_未选中.png" path="/素材/分类按钮/"/>
@@ -181,7 +171,6 @@
     <image id="ptvyo6l" name="使用中标签.png" path="/通用素材/" exported="true"/>
     <component id="di7j1b" name="PlayerInfoSet.xml" path="/組件/"/>
     <image id="fxufo6m" name="不可穿戴.png" path="/不导出素材/"/>
-    <image id="hm4wo6n" name="个人信息_bg1.png" path="/切片/切片/" scale="9grid" scale9grid="627,203,10,74"/>
     <image id="hm4wo6o" name="个人信息_切页栏.png" path="/切片/切片/" exported="true"/>
     <image id="hm4wo6p" name="个人信息_标题.png" path="/切片/切片/"/>
     <component id="hm4wo6q" name="PlayerItem.xml" path="/个人信息/"/>
@@ -236,7 +225,6 @@
     <image id="j9d9o85" name="技能底框.png" path="/不导出素材/" exported="true" scale="9grid" scale9grid="30,30,60,60"/>
     <image id="j9d9o86" name="icon_200201(1).png" path="/不导出素材/"/>
     <image id="j9d9o87" name="icon_200102.png" path="/不导出素材/"/>
-    <component id="pf6ao88" name="common_kuang_2.xml" path="/組件/" exported="true"/>
     <image id="n0v3o89" name="个人信息_分割线.png" path="/通用素材/" exported="true" scale="9grid" scale9grid="10,1,20,0"/>
     <component id="vim2o8a" name="skillIcon.xml" path="/不导出组件/"/>
     <component id="hkx4o8b" name="SkillGetType.xml" path="/个人信息/" exported="true"/>

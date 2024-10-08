@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <component id="n0_pw3f" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="080sa613" xy="1,1" size="1277,717">
+    <component id="n0_pw3f" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,1" size="1277,717">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="BuildingInfo"/>
     </component>
-    <component id="n2_pw3f" name="btn_confirm_building" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="213,117" size="112,35">
+    <component id="n2_pw3f" name="btn_confirm_building" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="179,102" size="170,54">
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Build It" titleFontSize="20"/>
     </component>
-    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="components/Dropdown.xml" pkg="9leh0eyf" xy="74,161" size="372,48">
+    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="shared/Dropdown.xml" xy="74,161" size="372,48">
       <relation target="" sidePair="center-center,middle-middle"/>
       <ComboBox visibleItemCount="10"/>
     </component>
-    <list id="n5_abon" name="list_building" xy="473,93" size="733,580" layout="flow_vt" overflow="scroll" lineGap="13" defaultItem="ui://fstosj6iabonph" autoClearItems="true">
+    <list id="n5_abon" name="list_building" xy="473,93" size="733,580" layout="flow_vt" overflow="scroll" lineGap="13" defaultItem="ui://786ck8sbabonph" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>

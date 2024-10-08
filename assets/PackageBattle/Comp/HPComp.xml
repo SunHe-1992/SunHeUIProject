@@ -4,7 +4,7 @@
     <text id="n1_genv" name="n1" xy="8,7" size="50,29" fontSize="20" color="#ffffff" autoSize="shrink" singleLine="true" autoClearText="true" text="HP"/>
     <text id="n2_genv" name="txt_HP" xy="39,0" size="51,45" fontSize="27" color="#ffffff" align="right" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="26"/>
     <text id="n4_genv" name="txt_HPMAX" xy="72,6" size="51,45" fontSize="20" color="#ffffff" align="right" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="/26"/>
-    <component id="n3_genv" name="pgsBar" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="16,37" size="114,3">
+    <component id="n3_genv" name="pgsBar" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="16,37" size="114,3" pkg="786ck8sb">
       <ProgressBar value="50" max="100"/>
     </component>
   </displayList>

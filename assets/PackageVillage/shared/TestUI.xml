@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,640" opaque="false">
+  <displayList>
+    <image id="n2_7rh7" name="frame" src="k1ze6" fileName="shared/images/bgImage.png" xy="33,32" size="1219,580">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_7rh7" name="n3" xy="73,41" size="474,54" fontSize="40" color="#fafcff" autoSize="none" text="Developer Tools">
+      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n0_em5i" name="btn_test" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="373,153">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="btn TEST"/>
+    </component>
+    <component id="n4_7rh7" name="btn_village" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="86,146" size="248,56">
+      <relation target="n2_7rh7" sidePair="left-left,top-top"/>
+      <Button title="Scene: Village"/>
+    </component>
+    <component id="n5_ag5l" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="1195,22">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n8_ei10" name="btn_addGold100" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="107,368" visible="false">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="+ 10K gold"/>
+    </component>
+    <component id="n10_7irf" name="btn_slot" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="107,256" visible="false">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="SLOT minigame"/>
+    </component>
+    <component id="n17_pkni" name="btn_fishing" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="107,312" visible="false">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="Fishing game&#xA;"/>
+    </component>
+    <component id="n18_krpd" name="btn_damageVillian" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="308,258" visible="false">
+      <relation target="n2_7rh7" sidePair="right-right,top-top"/>
+      <Button title="damage to villians"/>
+    </component>
+  </displayList>
+</component>

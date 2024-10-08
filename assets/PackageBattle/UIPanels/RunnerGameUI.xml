@@ -19,7 +19,7 @@
       <relation target="" sidePair="right-right,bottom-bottom"/>
       <Button title="Save Game" titleFontSize="26"/>
     </component>
-    <component id="n9_l1lh" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="518,666" size="243,28" visible="false">
+    <component id="n9_l1lh" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="518,666" size="243,28" visible="false" pkg="786ck8sb">
       <ProgressBar value="50" max="100"/>
     </component>
     <component id="n10_l1lh" name="btn_inventory" src="ef5a7sokha" fileName="组件/Button_Common_18.xml" pkg="z2dx9rj5" xy="122,13" size="128,45" visible="false">

@@ -14,7 +14,6 @@
     <component id="scq5a" name="PawnSummaryBar.xml" path="/Comp/"/>
     <component id="scq5b" name="AttributeUnit.xml" path="/Comp/"/>
     <image id="scq5c" name="bg_2.png" path="/Images/"/>
-    <component id="scq5e" name="ProgressBar1.xml" path="/Comp/"/>
     <image id="scq5f" name="黑底.png" path="/Images/" scale="9grid" scale9grid="19,5,28,10"/>
     <component id="scq5g" name="PawnNameComp.xml" path="/Comp/"/>
     <component id="scq5h" name="TileInfo.xml" path="/Comp/"/>
@@ -93,8 +92,6 @@
     <image id="krpdj3" name="sl_3_kuangEffect_05.png" path="/Images/边框-中 红蓝/"/>
     <image id="krpdj4" name="sl_3_kuangEffect_06.png" path="/Images/边框-中 红蓝/"/>
     <movieclip id="krpdj5" name="frameRedBlue.jta" path="/Images/边框-中 红蓝/"/>
-    <component id="gm4tj6" name="InventoryUI.xml" path="/UIPanels/" exported="true"/>
-    <component id="gm4tj7" name="InventoryItem.xml" path="/Comp/"/>
     <image id="gm4tj8" name="公用道具框_蓝.png" path="/Images/Inventory/"/>
     <image id="gm4tj9" name="公用道具框_选中.png" path="/Images/Inventory/"/>
     <image id="gm4tja" name="公用道具框_黄.png" path="/Images/Inventory/"/>
@@ -103,16 +100,11 @@
     <image id="gm4tjd" name="公用道具框_紫.png" path="/Images/Inventory/"/>
     <image id="gm4tje" name="公用道具框_红.png" path="/Images/Inventory/"/>
     <image id="gm4tjf" name="公用道具框_绿.png" path="/Images/Inventory/"/>
-    <component id="gm4tlv" name="ItemDetail.xml" path="/UIPanels/" exported="true"/>
-    <component id="7ot0lw" name="StoreUI.xml" path="/UIPanels/" exported="true"/>
     <component id="v94blx" name="MenuScreenUI.xml" path="/UIPanels/" exported="true"/>
     <image id="v94bly" name="Main Menu Backgroud.png" path="/Images/"/>
     <component id="v94blz" name="SettingUI.xml" path="/UIPanels/" exported="true"/>
     <component id="gwn6m2" name="Slider2_grip.xml" path="/Comp/"/>
     <component id="gwn6m3" name="Slider2.xml" path="/Comp/"/>
-    <component id="73rdm4" name="QuestUI.xml" path="/UIPanels/" exported="true"/>
-    <component id="73rdm5" name="QuestEntry.xml" path="/Comp/"/>
-    <image id="73rdm7" name="questUI.png" path="/Images/" scale="9grid" scale9grid="0,207,410,11"/>
     <component id="l1lhm8" name="RunnerGameUI.xml" path="/UIPanels/" exported="true"/>
     <component id="l1lhm9" name="GameOverUI.xml" path="/UIPanels/" exported="true"/>
     <image id="fim7ma" name="icon_759102.png" path="/Images/ItemIcons/" exported="true"/>
@@ -201,8 +193,6 @@
     <image id="fim7ol" name="icon_190101.png" path="/Images/ItemIcons/" exported="true"/>
     <image id="fim7om" name="icon_200201.png" path="/Images/ItemIcons/" exported="true"/>
     <image id="fim7on" name="icon_759101.png" path="/Images/ItemIcons/" exported="true"/>
-    <component id="p8p4ow" name="AchievementUI.xml" path="/UIPanels/" exported="true"/>
-    <component id="p8p4ox" name="AchievementItem.xml" path="/Comp/"/>
     <image id="80vnoy" name="weblogo.png" path="/Images/"/>
     <component id="mu6boz" name="TutorialUI.xml" path="/UIPanels/" exported="true"/>
     <component id="mu6bp0" name="GuideMask.xml" path="/Comp/"/>
@@ -212,15 +202,10 @@
     <image id="mu6bp4" name="purplePotion.jpg" path="/Images/Tutorial/"/>
     <image id="mu6bp5" name="redPotion.jpeg" path="/Images/Tutorial/"/>
     <component id="mu6bp6" name="ItemInstruction.xml" path="/Images/Tutorial/"/>
-    <image id="mu6bp7" name="completed-rubber-stamp-free-png.png" path="/Images/"/>
-    <component id="ry5ip8" name="BuildingInfo.xml" path="/UIPanels/" exported="true"/>
     <image id="ry5ip9" name="bgImage.png" path="/images/" scale="9grid" scale9grid="26,71,52,142"/>
-    <component id="fe3qpa" name="OrderInfo.xml" path="/Comp/BuildingComp/"/>
     <image id="fe3qpb" name="bgImage.png" path="/Images/"/>
-    <component id="pw3fpd" name="BuildingUI.xml" path="/Comp/BuildingComp/" exported="true"/>
     <component id="pw3fpe" name="ComboBox1_item.xml" path="/CompItem/"/>
     <component id="pw3fpg" name="ComboBox1.xml" path="/CompItem/" exported="true"/>
-    <component id="abonph" name="UserBuildingIcon.xml" path="/Comp/BuildingComp/"/>
     <component id="txdapi" name="ChapterUI.xml" path="/UIPanels/" exported="true"/>
     <image id="txdapj" name="dungeon1.png" path="/Images/"/>
     <component id="txdapk" name="DungeonComp.xml" path="/Comp/"/>

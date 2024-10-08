@@ -7,7 +7,6 @@
     <component id="cenmojv6" name="Button_Close_2.xml" path="/组件/" exported="true"/>
     <component id="latbojsu" name="Button_Common_0.xml" path="/组件/" exported="true"/>
     <component id="cenmojuq" name="Button_Common_1.xml" path="/组件/" exported="true"/>
-    <component id="lxd07sok1q" name="Button_Common_11.xml" path="/组件/" exported="true"/>
     <component id="l2mn7sok1r" name="Button_Common_12.xml" path="/组件/" exported="true"/>
     <component id="lwwu7sok1x" name="Button_Common_13.xml" path="/组件/" exported="true"/>
     <component id="uij17sok2s" name="Button_Common_14.xml" path="/组件/" exported="true"/>
@@ -50,8 +49,6 @@
     <image id="latbojst" name="图层 4.png" path="/素材/不导出/"/>
     <image id="cenmojto" name="common_btn4.png" path="/素材/不导出/"/>
     <image id="cenmojtp" name="common_btn5.png" path="/素材/不导出/"/>
-    <image id="etaxsojzy" name="xx_btn1.png" path="/素材/不导出/" scale="9grid" scale9grid="39,24,81,18"/>
-    <image id="etaxsojzx" name="xx_btn2.png" path="/素材/不导出/" scale="9grid" scale9grid="39,24,81,18"/>
     <image id="l2mn7sok1s" name="lyh_qy1.png" path="/素材/不导出/"/>
     <image id="l2mn7sok1t" name="lyh_qy2.png" path="/素材/不导出/"/>
     <image id="pm7e1j" name="宠物_箭头3.png" path="/素材/不导出/"/>
@@ -103,8 +100,6 @@
     <image id="ptvyhhk0tb" name="商城_选中切页.png" path="/素材/不导出/"/>
     <component id="ptvyhhk0tc" name="Button_Common_35.xml" path="/组件/" exported="true"/>
     <image id="ptvyhhk0td" name="商城_上选中切页.png" path="/素材/不导出/"/>
-    <image id="hm4whhk0te" name="通用_关闭按钮.png" path="/素材/"/>
-    <component id="hm4whhk0tf" name="Button_close3.xml" path="/组件/" exported="true"/>
     <image id="hm4whhk0tg" name="通用_按钮购买.png" path="/素材/不导出/"/>
     <component id="hm4whhk0th" name="Button_Common_36.xml" path="/组件/" exported="true"/>
     <image id="xde5hhk0ti" name="商城_牌友hl.png" path="/素材/不导出/商城按钮/"/>

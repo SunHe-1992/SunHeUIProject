@@ -2,7 +2,7 @@
 <component size="56,56" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n3_tjzy" name="n3" src="rtaxo5q" fileName="素材/數字設置/减按钮.png" pkg="080sa613" xy="0,0"/>
+    <image id="n3_tjzy" name="n3" src="rtaxo5q" fileName="素材/數字設置/减按钮.png" pkg="786ck8sb" xy="0,0"/>
   </displayList>
   <Button/>
 </component>

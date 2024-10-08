@@ -93,12 +93,6 @@
     <component id="rt103y" name="ComboBoxPopup.xml" path="/components/"/>
     <image id="rt103z" name="p1_png.png" path="/images/" scale="9grid" scale9grid="7,4,144,49"/>
     <component id="rt1040" name="ComboBoxItem.xml" path="/components/"/>
-    <component id="zd9g41" name="Dropdown.xml" path="/components/" exported="true"/>
-    <component id="zd9g42" name="Button15.xml" path="/components/"/>
-    <image id="zd9g43" name="k30.png" path="/images/" scale="9grid" scale9grid="33,10,57,20"/>
-    <image id="zd9g44" name="k28.png" path="/images/" scale="9grid" scale9grid="33,10,55,20"/>
-    <image id="zd9g45" name="k31.png" path="/images/" scale="9grid" scale9grid="33,10,55,20"/>
-    <image id="zd9g46" name="k29.png" path="/images/" scale="9grid" scale9grid="33,10,53,20"/>
     <component id="zd9g47" name="Dropdown2.xml" path="/components/"/>
     <image id="zd9g48" name="k32.png" path="/images/" scale="9grid" scale9grid="26,11,52,22"/>
     <component id="zd9g49" name="Button14.xml" path="/components/"/>

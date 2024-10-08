@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="Window A"/>
     </component>
-    <component id="n2" name="n2" src="zd9g41" xy="33,47">
+    <component id="n2" name="n2" src="zd9g41" xy="33,47" pkg="786ck8sb">
       <ComboBox visibleItemCount="5">
         <item title="Item 1"/>
         <item title="Item 2"/>

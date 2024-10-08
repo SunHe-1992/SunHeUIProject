@@ -13,7 +13,7 @@
     <text id="n1_scq5" name="txt_attrValue" xy="36,-6" size="56,35" fontSize="25" color="#ffffff" align="right" ubb="true" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="12">
       <relation target="" sidePair="right-right"/>
     </text>
-    <component id="n3_scq5" name="pgsBar" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="0,27" size="92,3">
+    <component id="n3_scq5" name="pgsBar" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="0,27" size="92,3" pkg="786ck8sb">
       <gearDisplay controller="ctrl_bar" pages="1"/>
       <ProgressBar value="50" max="100"/>
     </component>

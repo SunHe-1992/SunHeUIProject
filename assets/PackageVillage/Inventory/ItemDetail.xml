@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="712,479">
   <displayList>
-    <component id="n0_gm4t" name="n0" src="onn9i" fileName="組件/CommonFrame1.xml" pkg="080sa613" xy="1,0" size="711,479">
+    <component id="n0_gm4t" name="n0" src="onn9i" fileName="shared/CommonFrame1.xml" xy="1,0" size="711,479">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title=" "/>
     </component>
-    <component id="n2_gm4t" name="btn_close" src="cenmojv6" fileName="组件/Button_Close_2.xml" pkg="z2dx9rj5" xy="630,0" size="75,73">
+    <component id="n2_gm4t" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="644,-2" size="75,73">
       <Button title="close" sound="ui://g2fjgz25od3r3"/>
     </component>
-    <component id="n3_gm4t" name="btn_use" src="em5i3" fileName="comp/ButtonBlue.xml" pkg="arg2zso7" xy="260,374" size="191,46">
+    <component id="n3_gm4t" name="btn_use" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="260,374" size="191,46">
       <Button title="Use" sound="ui://g2fjgz25od3r3"/>
     </component>
     <text id="n4_gm4t" name="txt_detail" xy="296,83" size="390,246" fontSize="30" color="#ffffff" autoSize="none" bold="true" autoClearText="true" text="this is item detail"/>
-    <component id="n5_gm4t" name="itemCom" src="gm4tj7" fileName="Comp/InventoryItem.xml" xy="44,59"/>
+    <component id="n5_gm4t" name="itemCom" src="gm4tj7" fileName="shared/InventoryItem.xml" xy="44,59"/>
   </displayList>
 </component>

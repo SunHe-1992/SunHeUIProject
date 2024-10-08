@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="231,157">
   <displayList>
-    <image id="n0_p8p4" name="n0" src="rtaxo60" fileName="通用素材/雀士_时装展示框.png" pkg="080sa613" xy="0,0" size="231,157">
+    <image id="n0_p8p4" name="n0" src="k1ze0" fileName="Achievement/achi_bg.png" xy="0,0" size="231,157">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <loader id="n1_p8p4" name="iconLoader" xy="170,100" size="58,56" url="ui://fstosj6ifim7oc" align="center" vAlign="middle" fill="scaleMatchWidth" clearOnPublish="true">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <component id="n6_mu6b" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="080sa613" xy="-2,2" size="1277,717">
+    <component id="n6_mu6b" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" pkg="786ck8sb" xy="-2,2" size="1277,717">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
     <image id="n0_mu6b" name="n0" src="mu6bp3" fileName="Images/Tutorial/goldImage.png" xy="88,115" size="100,100"/>

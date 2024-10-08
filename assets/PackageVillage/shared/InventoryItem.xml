@@ -7,7 +7,7 @@
       <gearIcon controller="ctrl_quality" pages="0,1,2,3,4,5" values="ui://fstosj6igm4tjc|ui://fstosj6igm4tjf|ui://fstosj6igm4tj8|ui://fstosj6igm4tjd|ui://fstosj6igm4tja|ui://fstosj6igm4tje"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <image id="n1_gm4t" name="n1" src="gm4tjb" fileName="Images/Inventory/道具选中框.png" xy="-13,-13" size="176,176" aspect="true">
+    <image id="n1_gm4t" name="n1" src="gm4tjb" fileName="Images/Inventory/道具选中框.png" xy="-13,-13" size="176,176" aspect="true" pkg="fstosj6i">
       <gearDisplay controller="button" pages="3,5"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>

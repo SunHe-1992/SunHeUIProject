@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="480,145">
-  <controller name="ctrl_paused" pages="0,,1," selected="1"/>
+  <controller name="ctrl_paused" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0_fe3q" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="3,58" size="243,28" touchable="false">
+    <component id="n0_fe3q" name="sliderHP" src="scq5e" fileName="Comp/ProgressBar1.xml" xy="3,59" size="243,28" touchable="false">
       <ProgressBar value="50" max="100"/>
     </component>
     <text id="n1_fe3q" name="txt_orderName" xy="6,7" size="315,45" fontSize="24" color="#333345" autoSize="none" text="Contruction"/>
-    <component id="n2_fe3q" name="numberSet" src="rtaxo5s" fileName="組件/NumSet.xml" pkg="080sa613" xy="5,99" scale="0.7,0.7"/>
-    <component id="n3_fe3q" name="btn_pause" src="lxd07sok1q" fileName="组件/Button_Common_11.xml" pkg="z2dx9rj5" xy="377,0" size="107,51">
+    <component id="n2_fe3q" name="numberSet" src="rtaxo5s" fileName="組件/NumSet.xml" xy="5,99" scale="0.7,0.7"/>
+    <component id="n3_fe3q" name="btn_pause" src="lxd07sok1q" fileName="组件/Button_Common_11.xml" xy="377,0" size="107,51">
       <relation target="" sidePair="right-right"/>
       <Button title="Pause"/>
     </component>
-    <component id="n6_fe3q" name="btn_delete" src="lxd07sok1q" fileName="组件/Button_Common_11.xml" pkg="z2dx9rj5" xy="378,47" size="107,51">
+    <component id="n6_fe3q" name="btn_delete" src="lxd07sok1q" fileName="组件/Button_Common_11.xml" xy="378,47" size="107,51">
       <relation target="" sidePair="right-right"/>
       <Button title="Delete"/>
     </component>

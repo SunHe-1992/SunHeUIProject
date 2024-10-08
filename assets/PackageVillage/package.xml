@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="786ck8sb">
+  <resources>
+    <component id="gm4tj6" name="InventoryUI.xml" path="/Inventory/" exported="true"/>
+    <component id="7ot0lw" name="StoreUI.xml" path="/Inventory/" exported="true"/>
+    <component id="73rdm4" name="QuestUI.xml" path="/Quest/" exported="true"/>
+    <component id="p8p4ow" name="AchievementUI.xml" path="/Achievement/" exported="true"/>
+    <component id="ry5ip8" name="BuildingInfo.xml" path="/Building/" exported="true"/>
+    <component id="pw3fpd" name="BuildingUI.xml" path="/Building/" exported="true"/>
+    <component id="p8p4ox" name="AchievementItem.xml" path="/Achievement/"/>
+    <image id="k1ze0" name="achi_bg.png" path="/Achievement/" scale="9grid" scale9grid="30,39,60,78"/>
+    <component id="pf6ao88" name="common_kuang_2.xml" path="/shared/"/>
+    <image id="hm4wo6n" name="个人信息_bg1.png" path="/shared/" scale="9grid" scale9grid="627,203,10,74"/>
+    <component id="hm4whhk0tf" name="Button_close3.xml" path="/shared/"/>
+    <image id="hm4whhk0te" name="通用_关闭按钮.png" path="/shared/"/>
+    <component id="fe3qpa" name="OrderInfo.xml" path="/Building/"/>
+    <component id="scq5e" name="ProgressBar1.xml" path="/shared/"/>
+    <component id="lxd07sok1q" name="Button_Common_11.xml" path="/shared/"/>
+    <image id="etaxsojzy" name="xx_btn1.png" path="/shared/" scale="9grid" scale9grid="39,24,81,18"/>
+    <image id="etaxsojzx" name="xx_btn2.png" path="/shared/" scale="9grid" scale9grid="39,24,81,18"/>
+    <component id="gm4tlv" name="ItemDetail.xml" path="/Inventory/" exported="true"/>
+    <component id="gm4tj7" name="InventoryItem.xml" path="/shared/"/>
+    <component id="73rdm5" name="QuestEntry.xml" path="/Quest/"/>
+    <component id="k1ze1" name="Button_Close_2.xml" path="/shared/"/>
+    <image id="k1ze2" name="common_btn3.png" path="/shared/"/>
+    <component id="k1ze3" name="ButtonBlue.xml" path="/shared/"/>
+    <component id="tjzyo65" name="common_kuang_1.xml" path="/shared/"/>
+    <component id="rtaxo5s" name="NumSet.xml" path="/shared/"/>
+    <image id="rtaxo5n" name="all按钮.png" path="/shared/數字設置/" exported="true"/>
+    <image id="rtaxo5o" name="加按钮.png" path="/shared/數字設置/" exported="true"/>
+    <image id="rtaxo5p" name="加减底框1.png" path="/shared/數字設置/" exported="true" scale="9grid" scale9grid="27,0,54,59"/>
+    <image id="rtaxo5q" name="减按钮.png" path="/shared/數字設置/" exported="true"/>
+    <component id="rtaxo5t" name="BtnNumSet_Add.xml" path="/shared/數字設置/"/>
+    <component id="rtaxo5u" name="BtnNumSet_Del.xml" path="/shared/數字設置/"/>
+    <component id="rtaxo5v" name="BtnNumSet_All.xml" path="/shared/數字設置/"/>
+    <component id="abonph" name="UserBuildingIcon.xml" path="/Building/"/>
+    <component id="zd9g41" name="Dropdown.xml" path="/shared/"/>
+    <component id="zd9g42" name="Button15.xml" path="/shared/"/>
+    <image id="zd9g44" name="k28.png" path="/shared/" scale="9grid" scale9grid="33,10,55,20"/>
+    <image id="zd9g46" name="k29.png" path="/shared/" scale="9grid" scale9grid="33,10,53,20"/>
+    <image id="zd9g43" name="k30.png" path="/shared/" scale="9grid" scale9grid="33,10,57,20"/>
+    <image id="zd9g45" name="k31.png" path="/shared/" scale="9grid" scale9grid="33,10,55,20"/>
+    <image id="k1ze4" name="goldCoin.png" path="/Inventory/"/>
+    <component id="onn9i" name="CommonFrame1.xml" path="/shared/" exported="true"/>
+    <image id="73rdm7" name="questUI.png" path="/Quest/" scale="9grid" scale9grid="0,207,410,11"/>
+    <image id="mu6bp7" name="completed-rubber-stamp-free-png.png" path="/Quest/"/>
+    <component id="k1ze5" name="TestUI.xml" path="/shared/" exported="true"/>
+    <image id="k1ze6" name="bgImage.png" path="/shared/images/" scale="9grid" scale9grid="26,71,52,142"/>
+    <image id="lay8hi" name="yellow_button07.png" path="/shared/" exported="true" scale="9grid" scale9grid="12,12,24,7"/>
+    <image id="lay8hh" name="yellow_button08.png" path="/shared/" exported="true" scale="9grid" scale9grid="12,11,24,4"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>
