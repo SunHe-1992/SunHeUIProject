@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="73,51">
+      <Button title="Buildings"/>
+    </component>
+    <component id="n6_hm4d" name="btn_warehouse" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="275,51">
+      <Button title="Warehouse"/>
+    </component>
+    <text id="n7_hm4d" name="txt_hud" xy="43,147" size="581,542" fontSize="26" color="#ffffff" ubb="true" autoSize="shrink" bold="true" autoClearText="true" text="hud"/>
+  </displayList>
+</component>

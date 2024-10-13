@@ -119,7 +119,6 @@
     <image id="rtaxo61" name="标签_已穿戴.png" path="/通用素材/" exported="true"/>
     <image id="rtaxo62" name="锁.png" path="/通用素材/" exported="true"/>
     <image id="tjzyo63" name="通用_关闭按钮.png" path="/通用素材/" exported="true"/>
-    <image id="tjzyo64" name="通用_弹窗1.png" path="/通用素材/" scale="9grid" scale9grid="361,156,26,260"/>
     <component id="f4qro" name="BagPageButton.xml" path="/組件/"/>
     <component id="f4qrp" name="SmallBagPageButton.xml" path="/組件/"/>
     <image id="f4qr8" name="更多按钮_未选中.png" path="/素材/分类按钮/"/>

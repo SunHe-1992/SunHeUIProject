@@ -93,13 +93,6 @@
     <component id="rt103y" name="ComboBoxPopup.xml" path="/components/"/>
     <image id="rt103z" name="p1_png.png" path="/images/" scale="9grid" scale9grid="7,4,144,49"/>
     <component id="rt1040" name="ComboBoxItem.xml" path="/components/"/>
-    <component id="zd9g47" name="Dropdown2.xml" path="/components/"/>
-    <image id="zd9g48" name="k32.png" path="/images/" scale="9grid" scale9grid="26,11,52,22"/>
-    <component id="zd9g49" name="Button14.xml" path="/components/"/>
-    <image id="zd9g4a" name="k23.png" path="/images/" scale="9grid" scale9grid="26,10,52,20"/>
-    <image id="zd9g4b" name="k21.png" path="/images/" scale="9grid" scale9grid="11,7,82,26"/>
-    <image id="zd9g4c" name="k24.png" path="/images/" scale="9grid" scale9grid="26,10,52,20"/>
-    <image id="zd9g4d" name="k22.png" path="/images/" scale="9grid" scale9grid="26,10,52,20"/>
     <component id="zd9g4e" name="Demo_Slider.xml" path="/" exported="true"/>
     <component id="zd9g4f" name="Demo_ProgressBar.xml" path="/" exported="true"/>
     <component id="zd9g4g" name="Demo_List.xml" path="/" exported="true"/>

@@ -2,10 +2,10 @@
 <component size="505,620" extention="Label">
   <controller name="hasClose" exported="true" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n1_tjzy" name="n1" src="tjzyo64" fileName="通用素材/通用_弹窗1.png" xy="0,0" size="493,620" pkg="080sa613">
+    <image id="n1_tjzy" name="n1" src="tjzyo64" fileName="shared/通用_弹窗1.png" xy="0,0" size="493,620">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <component id="n2_tjzy" name="btn_close" src="tjzyhhk0t6" fileName="组件/Button_Common_33.xml" pkg="z2dx9rj5" xy="457,24">
+    <component id="n2_tjzy" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="457,24">
       <gearDisplay controller="hasClose" pages="0"/>
       <relation target="" sidePair="right-right"/>
     </component>

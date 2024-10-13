@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <component id="n5_skdg" name="frame" src="tjzyo65" fileName="shared/common_kuang_1.xml" xy="18,5" size="1230,711">
+    <component id="n5_skdg" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="18,5" size="1230,711">
       <relation target="" sidePair="center-center,middle-middle"/>
-    </component>
-    <component id="n2_ag5l" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="1119,86" visible="false">
-      <Button title="close"/>
     </component>
     <list id="n3_gm4t" name="inventory_list" xy="111,206" size="1052,464" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://786ck8sbgm4tj7" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
@@ -19,7 +16,7 @@
     <component id="n4_gm4t" name="itemDetailCom" src="gm4tlv" fileName="Inventory/ItemDetail.xml" xy="284,120">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <image id="n6_skdg" name="n6" src="k1ze4" fileName="Inventory/goldCoin.png" xy="169,124" size="78,74" aspect="true">
+    <image id="n6_skdg" name="n6" src="k1ze4" fileName="Inventory/goldCoin.png" xy="182,136" size="52,49" aspect="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <text id="n7_skdg" name="txt_gold" xy="247,139" size="263,46" fontSize="24" color="#333345" autoSize="none" bold="true" autoClearText="true" text="Gold: 123123">

@@ -34,12 +34,12 @@
     <component id="rtaxo5u" name="BtnNumSet_Del.xml" path="/shared/數字設置/"/>
     <component id="rtaxo5v" name="BtnNumSet_All.xml" path="/shared/數字設置/"/>
     <component id="abonph" name="UserBuildingIcon.xml" path="/Building/"/>
-    <component id="zd9g41" name="Dropdown.xml" path="/shared/"/>
-    <component id="zd9g42" name="Button15.xml" path="/shared/"/>
-    <image id="zd9g44" name="k28.png" path="/shared/" scale="9grid" scale9grid="33,10,55,20"/>
-    <image id="zd9g46" name="k29.png" path="/shared/" scale="9grid" scale9grid="33,10,53,20"/>
-    <image id="zd9g43" name="k30.png" path="/shared/" scale="9grid" scale9grid="33,10,57,20"/>
-    <image id="zd9g45" name="k31.png" path="/shared/" scale="9grid" scale9grid="33,10,55,20"/>
+    <component id="zd9g41" name="Dropdown.xml" path="/shared/dropdown/"/>
+    <component id="zd9g42" name="Button15.xml" path="/shared/dropdown/"/>
+    <image id="zd9g44" name="k28.png" path="/shared/dropdown/" scale="9grid" scale9grid="33,10,55,20"/>
+    <image id="zd9g46" name="k29.png" path="/shared/dropdown/" scale="9grid" scale9grid="33,10,53,20"/>
+    <image id="zd9g43" name="k30.png" path="/shared/dropdown/" scale="9grid" scale9grid="33,10,57,20"/>
+    <image id="zd9g45" name="k31.png" path="/shared/dropdown/" scale="9grid" scale9grid="33,10,55,20"/>
     <image id="k1ze4" name="goldCoin.png" path="/Inventory/"/>
     <component id="onn9i" name="CommonFrame1.xml" path="/shared/" exported="true"/>
     <image id="73rdm7" name="questUI.png" path="/Quest/" scale="9grid" scale9grid="0,207,410,11"/>
@@ -48,6 +48,23 @@
     <image id="k1ze6" name="bgImage.png" path="/shared/images/" scale="9grid" scale9grid="26,71,52,142"/>
     <image id="lay8hi" name="yellow_button07.png" path="/shared/" exported="true" scale="9grid" scale9grid="12,12,24,7"/>
     <image id="lay8hh" name="yellow_button08.png" path="/shared/" exported="true" scale="9grid" scale9grid="12,11,24,4"/>
+    <component id="hm4dhhk0tg" name="VillageHome.xml" path="/VillageHome/" exported="true"/>
+    <image id="tjzyo64" name="通用_弹窗1.png" path="/shared/" scale="9grid" scale9grid="361,156,26,260"/>
+    <image id="gm4tj8" name="公用道具框_蓝.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tj9" name="公用道具框_选中.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tja" name="公用道具框_黄.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tjb" name="道具选中框.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tjc" name="公用道具框_最低级.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tjd" name="公用道具框_紫.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tje" name="公用道具框_红.png" path="/Inventory/Inventory/"/>
+    <image id="gm4tjf" name="公用道具框_绿.png" path="/Inventory/Inventory/"/>
+    <component id="zd9g47" name="Dropdown2.xml" path="/shared/dropdown/"/>
+    <image id="zd9g48" name="k32.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,11,52,22"/>
+    <component id="zd9g49" name="Button14.xml" path="/shared/dropdown/"/>
+    <image id="zd9g4b" name="k21.png" path="/shared/dropdown/" scale="9grid" scale9grid="11,7,82,26"/>
+    <image id="zd9g4d" name="k22.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
+    <image id="zd9g4a" name="k23.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
+    <image id="zd9g4c" name="k24.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
