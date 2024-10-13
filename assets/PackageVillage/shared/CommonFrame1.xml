@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="679,542" extention="Label">
   <displayList>
-    <image id="n0_onn9" name="n0" src="ina81o" fileName="通用素材/通用_框1.png" pkg="080sa613" xy="0,0" size="679,542">
+    <image id="n0_onn9" name="n0" src="hm4do8q" fileName="shared/通用_框1(1).png" xy="0,0" size="679,542">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <component id="n1_onn9" name="btn_back" src="k1ze1" fileName="shared/Button_Close_2.xml" xy="621,-13" visible="false">
+    <component id="n1_onn9" name="btn_back" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="628,7" visible="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
     <text id="n2_onn9" name="title" xy="164,46" size="351,43" fontSize="30" color="#f3f3ce" align="center" autoSize="shrink" autoClearText="true" text="通用框">

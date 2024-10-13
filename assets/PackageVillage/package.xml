@@ -65,6 +65,7 @@
     <image id="zd9g4d" name="k22.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
     <image id="zd9g4a" name="k23.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
     <image id="zd9g4c" name="k24.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
+    <image id="hm4do8q" name="通用_框1(1).png" path="/shared/" scale="9grid" scale9grid="44,48,88,96"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
