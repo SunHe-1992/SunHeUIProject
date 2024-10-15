@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720">
+<component size="1280,720" designImageLayer="1">
   <displayList>
     <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="73,51">
       <Button title="Buildings"/>

@@ -66,6 +66,17 @@
     <image id="zd9g4a" name="k23.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
     <image id="zd9g4c" name="k24.png" path="/shared/dropdown/" scale="9grid" scale9grid="26,10,52,20"/>
     <image id="hm4do8q" name="通用_框1(1).png" path="/shared/" scale="9grid" scale9grid="44,48,88,96"/>
+    <image id="rc0phhk0th" name="Bronze Bar.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0ti" name="Copper Bar.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tj" name="Iron Bar.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tk" name="Leather.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tl" name="Linen Thread.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tm" name="Log.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tn" name="Plank.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0to" name="Stick.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tp" name="Stone.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tq" name="Straw.png" path="/Icons/" exported="true"/>
+    <image id="rc0phhk0tr" name="Wool Thread.png" path="/Icons/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
