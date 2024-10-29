@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <displayList>
-    <component id="n1_ry5i" name="frame" src="pf6ao88" fileName="組件/common_kuang_2.xml" xy="1,1" size="1277,717">
+    <component id="n1_ry5i" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,1" size="1277,717">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="BuildingInfo"/>
     </component>
-    <list id="n4_fe3q" name="list_order" xy="69,139" size="386,527" overflow="scroll" defaultItem="ui://786ck8sbfe3qpa" autoClearItems="true">
+    <list id="n4_fe3q" name="list_order" xy="773,125" size="386,527" overflow="scroll" defaultItem="ui://786ck8sbfe3qpa" autoClearItems="true">
       <item/>
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
+    <component id="n5_ll0y" name="btn_confirm_produce" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="82,123" size="170,54">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Produce it" titleFontSize="20"/>
+    </component>
+    <component id="n6_ll0y" name="cbox_product" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="82,189" size="372,48">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="1"/>
+        <item title="2"/>
+        <item title="3"/>
+        <item title="4"/>
+      </ComboBox>
+    </component>
   </displayList>
 </component>

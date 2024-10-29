@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="132,40" extention="ComboBox">
   <displayList>
-    <component id="n0" name="button" src="zd9g42" xy="0,0">
+    <component id="n0" name="button" src="zd9g42" fileName="shared/dropdown/Button15.xml" xy="0,0">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <text id="n1" name="title" xy="5,8" size="87,25" fontSize="15" color="#ffcc00" align="center" autoSize="none" strokeColor="#000000" text="">
+    <text id="n1" name="title" xy="5,8" size="87,34" fontSize="24" color="#ffcc00" align="center" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="12342131231">
       <relation target="" sidePair="width-width"/>
     </text>
   </displayList>

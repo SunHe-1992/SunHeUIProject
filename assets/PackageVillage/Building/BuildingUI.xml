@@ -9,7 +9,7 @@
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Build It" titleFontSize="20"/>
     </component>
-    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="shared/Dropdown.xml" xy="74,161" size="372,48">
+    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="74,162" size="372,48">
       <relation target="" sidePair="center-center,middle-middle"/>
       <ComboBox visibleItemCount="10" autoClearItems="true">
         <item title="1"/>
