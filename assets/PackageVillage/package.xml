@@ -77,6 +77,14 @@
     <image id="rc0phhk0tp" name="Stone.png" path="/Icons/" exported="true"/>
     <image id="rc0phhk0tq" name="Straw.png" path="/Icons/" exported="true"/>
     <image id="rc0phhk0tr" name="Wool Thread.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0ts" name="Bronze Ore.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tt" name="Fish Meat.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tu" name="Grapes.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tv" name="Iron Ore.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tw" name="Wine.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tx" name="Deer Meat.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0ty" name="Iron Axe.png" path="/Icons/" exported="true"/>
+    <image id="rd9zhhk0tz" name="Simple clothes.png" path="/Icons/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

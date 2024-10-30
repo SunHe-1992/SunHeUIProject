@@ -11,7 +11,7 @@
       <gearDisplay controller="button" pages="3,5"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <loader id="n2_gm4t" name="iconLoader" xy="75,75" pivot="0.5,0.5" anchor="true" size="130,130" aspect="true" url="ui://786ck8sbk1ze4" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true">
+    <loader id="n2_gm4t" name="iconLoader" xy="75,75" pivot="0.5,0.5" anchor="true" size="130,130" aspect="true" url="ui://786ck8sbk1ze4" align="center" vAlign="middle" fill="scaleMatchWidth" shrinkOnly="true" clearOnPublish="true">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
     <text id="n3_gm4t" name="txt_count" xy="37,97" size="99,44" fontSize="24" color="#ffffff" align="right" vAlign="bottom" autoSize="none" strokeColor="#000000" autoClearText="true" text="x888">
