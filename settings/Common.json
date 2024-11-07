@@ -1,5 +1,5 @@
 {
-  "font": "OPPOSans",
+  "font": "OPPO Sans 4.0",
   "fontSize": 24,
   "textColor": "#ffffff",
   "fontAdjustment": false,
@@ -52,5 +52,6 @@
   "tipsRes": "",
   "buttonClickSound": "ui://9bv6j6647rh78",
   "pivot": "default",
+  "listClearOnPublish": false,
   "fileName": "Common"
 }

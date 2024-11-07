@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n10_m0fb" name="n10" src="m0fbhhk0u0" fileName="Menu/menu_bg.png" xy="0,0" size="1280,720">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8_80vn" name="n8" src="80vnoy" fileName="Images/weblogo.png" pkg="fstosj6i" xy="243,139" pivot="0.5,0.5" anchor="true" size="404,269" aspect="true" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n1_v94b" name="btn_newGame" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="568,382">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="NEW GAME" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <component id="n5_v94b" name="btn_exit" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="568,487">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="EXIT" sound="ui://g2fjgz25od3r3"/>
+    </component>
+    <text id="n7_v94b" name="txt_title" xy="292,149" size="696,131" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="3" singleLine="true" text="Village Demo&#xA;">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_ldmk" name="txt_names" xy="132,501" size="405,180" fontSize="26" color="#ffffff" autoSize="none" bold="true" italic="true" strokeColor="#000000" strokeSize="3" text="He Sun &#xA;Ligeng Cai&#xA;Rustan Ilagan &#xA;Arpit Savaliya&#xA;">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n8_80vn" tween="true" startValue="1" endValue="0.6" duration="12"/>
+    <item time="0" type="Scale" target="n8_80vn" tween="true" startValue="1,1" endValue="0.8,0.8" duration="12"/>
+    <item time="12" type="Alpha" target="n8_80vn" tween="true" startValue="0.6" endValue="1" duration="11"/>
+    <item time="12" type="Scale" target="n8_80vn" tween="true" startValue="0.8,0.8" endValue="1,1" duration="11"/>
+  </transition>
+</component>

@@ -85,6 +85,8 @@
     <image id="rd9zhhk0tx" name="Deer Meat.png" path="/Icons/" exported="true"/>
     <image id="rd9zhhk0ty" name="Iron Axe.png" path="/Icons/" exported="true"/>
     <image id="rd9zhhk0tz" name="Simple clothes.png" path="/Icons/" exported="true"/>
+    <image id="m0fbhhk0u0" name="menu_bg.png" path="/Menu/"/>
+    <component id="m0fbpl" name="VillageMenuUI.xml" path="/Menu/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
