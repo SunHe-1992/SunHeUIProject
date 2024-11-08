@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="325,131">
+<component size="262,220">
   <displayList>
-    <graph id="n0_abon" name="n0" xy="0,0" size="325,131" type="rect">
+    <graph id="n0_abon" name="n0" xy="0,0" size="262,220" type="rect">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_abon" name="txt_name" xy="20,23" size="281,83" fontSize="30" color="#333345" autoSize="shrink" bold="true" autoClearText="true" text="Building info name">
+    <loader id="n2_nf0a" name="iconLoader" xy="7,9" size="254,204" url="ui://786ck8sbnf0ahhk0u3" align="center" vAlign="middle" fill="scaleMatchHeight" shrinkOnly="true" useResize="true" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_abon" name="txt_name" xy="4,4" size="252,79" fontSize="30" color="#f2f8fe" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Building info name">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

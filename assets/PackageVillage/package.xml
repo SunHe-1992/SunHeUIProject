@@ -87,6 +87,13 @@
     <image id="rd9zhhk0tz" name="Simple clothes.png" path="/Icons/" exported="true"/>
     <image id="m0fbhhk0u0" name="menu_bg.png" path="/Menu/"/>
     <component id="m0fbpl" name="VillageMenuUI.xml" path="/Menu/" exported="true"/>
+    <image id="nf0ahhk0u1" name="Blacksmith.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u2" name="Brewery.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u3" name="Fishing Pier.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u4" name="Hunting Lodge.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u5" name="Logging Camp.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u6" name="Mining Camp.png" path="/BuildingIcons/" exported="true"/>
+    <image id="nf0ahhk0u7" name="Tailor.png" path="/BuildingIcons/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -5,11 +5,11 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="BuildingInfo"/>
     </component>
-    <component id="n2_pw3f" name="btn_confirm_building" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="179,102" size="170,54">
+    <component id="n2_pw3f" name="btn_confirm_building" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="1051,74" size="170,54">
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Build It" titleFontSize="20"/>
     </component>
-    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="74,162" size="372,48">
+    <component id="n4_pw3f" name="cbox_building" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="916,135" size="324,48">
       <relation target="" sidePair="center-center,middle-middle"/>
       <ComboBox visibleItemCount="10" autoClearItems="true">
         <item title="1"/>
@@ -18,7 +18,7 @@
         <item title="4"/>
       </ComboBox>
     </component>
-    <list id="n5_abon" name="list_building" xy="473,93" size="733,580" layout="flow_vt" overflow="scroll" lineGap="13" defaultItem="ui://786ck8sbabonph" autoClearItems="true">
+    <list id="n5_abon" name="list_building" xy="71,107" size="819,569" layout="flow_hz" overflow="scroll" lineGap="6" colGap="6" lineItemCount="3" defaultItem="ui://786ck8sbabonph" autoClearItems="true">
       <relation target="" sidePair="center-center,middle-middle"/>
       <item/>
       <item/>
