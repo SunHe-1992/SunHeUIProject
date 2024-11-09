@@ -12,11 +12,11 @@
       <item/>
       <item/>
     </list>
-    <component id="n5_ll0y" name="btn_confirm_produce" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="82,123" size="170,54">
+    <component id="n5_ll0y" name="btn_confirm_produce" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="82,144" size="170,54">
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Produce it" titleFontSize="20"/>
     </component>
-    <component id="n6_ll0y" name="cbox_product" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="82,189" size="372,48">
+    <component id="n6_ll0y" name="cbox_product" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="82,210" size="372,48">
       <relation target="" sidePair="center-center,middle-middle"/>
       <ComboBox visibleItemCount="10" autoClearItems="true">
         <item title="1"/>
@@ -25,5 +25,7 @@
         <item title="4"/>
       </ComboBox>
     </component>
+    <text id="n7_nf0a" name="txt_workers" xy="107,296" size="454,53" fontSize="30" color="#f2f8fe" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Workers Count"/>
+    <component id="n8_nf0a" name="numSetter_woker" src="rtaxo5s" fileName="shared/NumSet.xml" xy="83,368"/>
   </displayList>
 </component>

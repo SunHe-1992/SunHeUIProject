@@ -11,5 +11,9 @@
     <component id="n8_l8f2" name="btn_platform" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="478,51">
       <Button title="Go to platform"/>
     </component>
+    <component id="n9_nf0a" name="btn_AddVillager" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="1086,615" size="164,79">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="Add a Villager"/>
+    </component>
   </displayList>
 </component>
