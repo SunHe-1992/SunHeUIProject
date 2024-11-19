@@ -94,6 +94,11 @@
     <image id="nf0ahhk0u5" name="Logging Camp.png" path="/BuildingIcons/" exported="true"/>
     <image id="nf0ahhk0u6" name="Mining Camp.png" path="/BuildingIcons/" exported="true"/>
     <image id="nf0ahhk0u7" name="Tailor.png" path="/BuildingIcons/" exported="true"/>
+    <component id="an0qhhk0u8" name="OptionsUI.xml" path="/Menu/" exported="true"/>
+    <component id="an0qhhk0u9" name="InstructionUI.xml" path="/Menu/" exported="true"/>
+    <image id="an0qhhk0ua" name="blue_boxCheckmark.png" path="/shared/ButtonCheck/"/>
+    <image id="an0qhhk0ub" name="grey_box.png" path="/shared/ButtonCheck/"/>
+    <component id="an0qhhk0uc" name="ButtonCheck.xml" path="/shared/ButtonCheck/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

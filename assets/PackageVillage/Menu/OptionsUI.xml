@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_pw3f" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,1" size="1277,717">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="Options"/>
+    </component>
+    <component id="n2_pw3f" name="btn_exit" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="553,578" size="170,54">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Exit" titleFontSize="20"/>
+    </component>
+    <component id="n6_an0q" name="btn_music" src="an0qhhk0uc" fileName="shared/ButtonCheck/ButtonCheck.xml" xy="266,240">
+      <Button title="Music"/>
+    </component>
+    <component id="n7_an0q" name="btn_sound" src="an0qhhk0uc" fileName="shared/ButtonCheck/ButtonCheck.xml" xy="266,304">
+      <Button title="Sound"/>
+    </component>
+    <component id="n8_an0q" name="btn_easy" src="an0qhhk0uc" fileName="shared/ButtonCheck/ButtonCheck.xml" xy="596,263">
+      <Button title="Easy"/>
+    </component>
+    <component id="n9_an0q" name="btn_medium" src="an0qhhk0uc" fileName="shared/ButtonCheck/ButtonCheck.xml" xy="750,263">
+      <Button title="Medium"/>
+    </component>
+    <component id="n10_an0q" name="btn_hard" src="an0qhhk0uc" fileName="shared/ButtonCheck/ButtonCheck.xml" xy="904,263">
+      <Button title="Hard"/>
+    </component>
+  </displayList>
+</component>
