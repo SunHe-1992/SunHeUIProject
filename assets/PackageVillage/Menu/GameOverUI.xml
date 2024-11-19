@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_pw3f" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,1" size="1277,717">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="GameOver"/>
+    </component>
+    <component id="n2_pw3f" name="btn_playAgain" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="567,435" size="170,54">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Play Again" titleFontSize="20"/>
+    </component>
+    <component id="n3_an0q" name="btn_mainmenu" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="567,521" size="170,54">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button title="Main Menu" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>
