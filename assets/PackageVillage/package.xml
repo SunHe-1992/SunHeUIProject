@@ -99,6 +99,7 @@
     <image id="an0qhhk0ua" name="blue_boxCheckmark.png" path="/shared/ButtonCheck/"/>
     <image id="an0qhhk0ub" name="grey_box.png" path="/shared/ButtonCheck/"/>
     <component id="an0qhhk0uc" name="ButtonCheck.xml" path="/shared/ButtonCheck/"/>
+    <component id="ar72hhk0ue" name="GameOverUI.xml" path="/Menu/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
