@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" designImageLayer="1">
+  <controller name="ctrl_pawnHUD" pages="0,,1," selected="1"/>
   <displayList>
     <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="73,51">
       <Button title="Buildings"/>
@@ -11,6 +12,10 @@
     <component id="n9_nf0a" name="btn_AddVillager" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="1086,615" size="164,79">
       <relation target="" sidePair="right-right,bottom-bottom"/>
       <Button title="Add a Villager"/>
+    </component>
+    <component id="n10_n4w3" name="pawnHUDcomp" src="n4w3hhk0uf" fileName="VillageHome/PawnHUD.xml" xy="8,318">
+      <gearDisplay controller="ctrl_pawnHUD" pages="1"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
   </displayList>
 </component>

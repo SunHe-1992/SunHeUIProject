@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="373,399">
+  <displayList>
+    <image id="n0_n4w3" name="n0" src="k1ze6" fileName="shared/images/bgImage.png" xy="0,0" size="373,399">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_n4w3" name="txt_name" xy="31,16" size="244,36" fontSize="24" color="#ffffff" autoSize="none" autoClearText="true" text="John, male, 20"/>
+    <text id="n2_n4w3" name="txt_state" xy="31,51" size="244,36" fontSize="24" color="#ffffff" autoSize="none" autoClearText="true" text=" walking"/>
+    <component id="n3_n4w3" name="pBar_stamina" src="scq5e" fileName="shared/ProgressBar1.xml" xy="28,338" size="318,22">
+      <relation target="" sidePair="width-width,left-left,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n4_n4w3" name="n2" xy="28,310" size="228,34" fontSize="24" color="#ffffff" autoSize="none" text="Stamina">
+      <relation target="n3_n4w3" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n5_n4w3" name="pBar_food" src="scq5e" fileName="shared/ProgressBar1.xml" xy="27,287" size="318,22">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n6_n4w3" name="n3" xy="27,259" size="228,34" fontSize="24" color="#ffffff" autoSize="none" text="Food">
+      <relation target="n5_n4w3" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n7_n4w3" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="329,-4">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>
