@@ -23,5 +23,12 @@
     <component id="n7_n4w3" name="btn_close" src="hm4whhk0tf" fileName="shared/Button_close3.xml" xy="329,-4">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
+    <component id="n8_t0ou" name="pBar_HP" src="scq5e" fileName="shared/ProgressBar1.xml" xy="27,239" size="318,22">
+      <relation target="" sidePair="width-width,center-center,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n9_t0ou" name="n3" xy="27,211" size="228,34" fontSize="24" color="#ffffff" autoSize="none" text="HP">
+      <relation target="n8_t0ou" sidePair="left-left,top-top"/>
+    </text>
   </displayList>
 </component>

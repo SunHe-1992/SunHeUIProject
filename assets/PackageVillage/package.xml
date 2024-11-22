@@ -101,6 +101,7 @@
     <component id="an0qhhk0uc" name="ButtonCheck.xml" path="/shared/ButtonCheck/"/>
     <component id="ar72hhk0ue" name="GameOverUI.xml" path="/Menu/" exported="true"/>
     <component id="n4w3hhk0uf" name="PawnHUD.xml" path="/VillageHome/"/>
+    <image id="t0ouhhk0uh" name="wasd.png" path="/Menu/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

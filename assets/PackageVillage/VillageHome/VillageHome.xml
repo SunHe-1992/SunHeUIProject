@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" designImageLayer="1">
-  <controller name="ctrl_pawnHUD" pages="0,,1," selected="1"/>
+  <controller name="ctrl_pawnHUD" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="73,51">
+    <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="20,10">
       <Button title="Buildings"/>
     </component>
-    <component id="n6_hm4d" name="btn_warehouse" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="275,51">
+    <component id="n6_hm4d" name="btn_warehouse" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="189,10">
       <Button title="Warehouse"/>
     </component>
     <text id="n7_hm4d" name="txt_hud" xy="43,147" size="581,542" fontSize="26" color="#ffffff" ubb="true" autoSize="shrink" bold="true" autoClearText="true" text="hud"/>
+    <component id="n11_t0ou" name="btn_help" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="358,10" size="136,66">
+      <Button title="Instruction"/>
+    </component>
     <component id="n9_nf0a" name="btn_AddVillager" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="1086,615" size="164,79">
       <relation target="" sidePair="right-right,bottom-bottom"/>
       <Button title="Add a Villager"/>

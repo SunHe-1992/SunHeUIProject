@@ -5,9 +5,12 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="Instruction&#xA;"/>
     </component>
-    <component id="n2_pw3f" name="n2" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="542,395" size="170,54">
+    <component id="n2_pw3f" name="n2" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="466,547" size="170,54">
       <relation target="" sidePair="center-center,top-top"/>
       <Button title="Build It" titleFontSize="20"/>
     </component>
+    <text id="n3_t0ou" name="n3" xy="305,111" size="890,156" fontSize="24" color="#333345" autoSize="none" bold="true" text="WASD to move camera&#xA;Hold right mouse button to move camera&#xA;Mouse wheel scroll to zoom in / out"/>
+    <image id="n6_t0ou" name="n6" src="t0ouhhk0uh" fileName="Menu/wasd.png" xy="83,117" size="202,135" aspect="true"/>
+    <text id="n7_t0ou" name="n7" xy="302,287" size="890,156" fontSize="24" color="#333345" autoSize="none" bold="true" text="to start game: Click the button Add villagers &#xA;Game Mechanics: Hunger, Energy, and HP&#xA;When a pawn&apos;s Hunger or Energy reaches critically low levels, HP will decrease gradually. Conversely, HP will recover when Hunger is high. While sleeping, the rate of Hunger depletion is reduced to one-third of the normal speed. Manage these stats wisely to keep your pawn healthy and strong."/>
   </displayList>
 </component>
