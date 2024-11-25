@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,93">
+  <controller name="ctrl_speed" pages="0,pause,1,x1,2,X5,3,X10" selected="0"/>
+  <displayList>
+    <component id="n0_uhl3" name="btn_pause" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="6,13" size="72,72">
+      <Button title="Pause"/>
+    </component>
+    <component id="n1_uhl3" name="btn_x1" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="97,13" size="72,72">
+      <Button title="X1"/>
+    </component>
+    <component id="n2_uhl3" name="btn_x5" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="188,13" size="72,72">
+      <Button title="X5"/>
+    </component>
+    <component id="n3_uhl3" name="btn_x10" src="k1ze3" fileName="shared/ButtonBlue.xml" xy="279,13" size="72,72">
+      <Button title="X10"/>
+    </component>
+    <text id="n4_uhl3" name="txt_speed" xy="16,-25" size="267,34" fontSize="24" color="#333345" autoSize="none" bold="true" autoClearText="true" text="speed: "/>
+  </displayList>
+</component>

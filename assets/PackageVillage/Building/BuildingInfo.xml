@@ -26,7 +26,7 @@
         <item title="4"/>
       </ComboBox>
     </component>
-    <text id="n7_nf0a" name="txt_workers" xy="59,253" size="219,162" fontSize="30" color="#f2f8fe" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Workers Count&#xA;123&#xA;123&#xA;123">
+    <text id="n7_nf0a" name="txt_workers" xy="59,253" size="227,162" font="OPPO Sans 4.0" fontSize="30" color="#f2f8fe" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Workers Count &#xA;123&#xA;123&#xA;123">
       <relation target="n1_ry5i" sidePair="left-left,top-top"/>
     </text>
     <component id="n8_nf0a" name="numSetter_woker" src="rtaxo5s" fileName="shared/NumSet.xml" xy="-14,192">

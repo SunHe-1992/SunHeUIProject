@@ -104,6 +104,7 @@
     <image id="t0ouhhk0uh" name="wasd.png" path="/Menu/"/>
     <image id="mbathhk0ui" name="Canteen.png" path="/BuildingIcons/" exported="true"/>
     <image id="mbathhk0uj" name="Simple House.png" path="/BuildingIcons/" exported="true"/>
+    <component id="uhl3hhk0uk" name="SpeedController.xml" path="/VillageHome/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
