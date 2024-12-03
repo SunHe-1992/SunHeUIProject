@@ -23,5 +23,8 @@
       <gearDisplay controller="ctrl_pawnHUD" pages="1"/>
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
+    <component id="n13_tk5t" name="btn_platform" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="509,11" size="136,66">
+      <Button title="MainMenu"/>
+    </component>
   </displayList>
 </component>

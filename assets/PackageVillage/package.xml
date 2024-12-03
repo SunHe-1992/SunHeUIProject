@@ -105,6 +105,8 @@
     <image id="mbathhk0ui" name="Canteen.png" path="/BuildingIcons/" exported="true"/>
     <image id="mbathhk0uj" name="Simple House.png" path="/BuildingIcons/" exported="true"/>
     <component id="uhl3hhk0uk" name="SpeedController.xml" path="/VillageHome/"/>
+    <image id="tk5thhk0ul" name="Gold Axe.png" path="/Icons/" exported="true"/>
+    <image id="tk5thhk0um" name="Silver Axe.png" path="/Icons/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
