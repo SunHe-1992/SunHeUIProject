@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="170,80" extention="Button" designImageOffsetX="-80" designImageOffsetY="-80">
-  <controller name="room" exported="true" pages="0,Online,1,A1 46,2,E2 12,3,A3 74,4,A1 16" selected="0"/>
-  <controller name="course_name" exported="true" pages="0,多人游戏,1,安卓app,2,游戏项目1,3,游戏设计,4,IT项目,5,客服,6,编程2,7,英语" selected="0"/>
+<component size="123,80" extention="Button" designImageOffsetX="-80" designImageOffsetY="-80">
+  <controller name="room" exported="true" pages="0,Online,1,A1 46,2,A1 16,3,A1 18" selected="0"/>
+  <controller name="course_name" exported="true" pages="0,Emerging Tech,1,Advanced Graphics,2,GDP2游戏项目,3,STIG互动游戏专题,4,Employment Skills,5,Simulation Design" selected="0"/>
   <controller name="button" pages="2,up,3,down" selected="0"/>
-  <controller name="type" exported="true" pages="0,,1,lecture,2,lab" selected="2"/>
+  <controller name="type" exported="true" pages="0,,1,lecture,2,lab" selected="1"/>
   <displayList>
-    <graph id="n3_r7dl" name="n3" xy="0,0" size="170,80" type="rect" lineSize="2" lineColor="#ff333345" fillColor="#ffa7bcd3" corner="4">
-      <gearColor controller="room" pages="1,2,3,4" values="#ffcc00|#ffcc00|#ffcc00|#ffcc00" default="#a7bcd3"/>
+    <graph id="n3_r7dl" name="n3" xy="0,0" size="123,80" type="rect" lineSize="2" lineColor="#ff333345" fillColor="#ffa7bcd3" corner="4">
+      <gearColor controller="room" pages="1,2,3" values="#ffcc00|#ffcc00|#ffcc00" default="#a7bcd3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n0_r7dl" name="n0" xy="3,1" size="164,39" fontSize="20" color="#333345" autoSize="shrink" bold="true" text="MP Game (Arb)">
-      <gearText controller="course_name" pages="0,1,2,3,4,5,6,7" values="MP Game (Arb)|Mobile Apps|Game Dev Project 1&#xA;(Georgios)|Game Design (Arb)|IT Project|Customer Service|Game Prog2 (Arb)|English"/>
+    <text id="n0_r7dl" name="n0" xy="3,1" size="117,39" fontSize="20" color="#333345" autoSize="shrink" bold="true" text="Emerging Tech">
+      <gearText controller="course_name" pages="0,1,2,3,4,5" values="Emerging Tech|Adv. Graphics|GDP2游戏项目|STIG互动游戏 Arb|Emp Skills|Simu Design Ali"/>
       <relation target="" sidePair="width-width,height-height,center-center,top-top"/>
     </text>
-    <text id="n1_r7dl" name="title" xy="2,29" size="91,52" fontSize="16" vAlign="bottom" leading="0" autoSize="shrink" autoClearText="true" text="8:30AM&#xA;10:20AM">
+    <text id="n1_r7dl" name="title" xy="2,29" size="68,52" fontSize="16" vAlign="bottom" leading="0" autoSize="shrink" autoClearText="true" text="8:30AM&#xA;10:20AM">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </text>
-    <text id="n2_r7dl" name="n2" xy="97,44" size="69,34" fontSize="19" align="right" vAlign="bottom" autoSize="shrink" text="Online">
-      <gearText controller="room" pages="0,1,2,3,4" values="Online|A1 46|E2 12|A3 74|A1 16"/>
+    <text id="n2_r7dl" name="n2" xy="50,44" size="69,34" fontSize="19" align="right" vAlign="bottom" autoSize="shrink" text="网课">
+      <gearText controller="room" pages="0,1,2,3" values="网课|A1 46|A1 16|A1 18"/>
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </text>
-    <text id="n4_qcn2" name="n4" xy="66,21" size="100,34" fontSize="18" color="#ffffff" autoSize="shrink" strokeColor="#000000" text="Lab">
+    <text id="n4_qcn2" name="n4" xy="6,16" size="100,34" fontSize="14" color="#ffffff" autoSize="shrink" strokeColor="#000000" text="Lecture">
       <gearText controller="type" pages="1,2" values="Lecture|Lab" default=""/>
     </text>
   </displayList>
