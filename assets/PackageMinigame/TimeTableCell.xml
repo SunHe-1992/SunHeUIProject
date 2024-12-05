@@ -7,30 +7,30 @@
     <text id="n1_r7dl" name="n1" xy="33,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="MON"/>
     <text id="n4_r7dl" name="n4" xy="153,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="TUE"/>
     <text id="n5_r7dl" name="n5" xy="273,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="WED"/>
-    <text id="n22_u8ju" name="n22" xy="513,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="FRI"/>
+    <text id="n22_u8ju" name="n22" xy="453,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="FRI"/>
     <text id="n6_r7dl" name="n6" xy="393,4" size="69,37" fontSize="24" color="#264574" autoSize="none" bold="true" text="THU"/>
-    <text id="n23_u8ju" name="n23" xy="633,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="SAT"/>
+    <text id="n23_u8ju" name="n23" xy="507,4" size="69,34" fontSize="24" color="#264574" autoSize="none" bold="true" text="SAT"/>
     <component id="n8_r7dl" name="n8" src="r7dl2w" fileName="TimeTable.xml" xy="2,448" size="120,90" controller="room,1,course_name,1">
       <Button title="6:30&#xA;8:30"/>
     </component>
-    <component id="n19_u8ju" name="n19" src="r7dl2w" fileName="TimeTable.xml" xy="124,37" size="120,74" controller="room,1,course_name,5,type,2">
+    <component id="n19_u8ju" name="n19" src="r7dl2w" fileName="TimeTable.xml" xy="122,201" size="120,74" controller="room,1,course_name,5,type,2">
+      <Button title="12:30&#xA;2:20"/>
+    </component>
+    <component id="n20_u8ju" name="n20" src="r7dl2w" fileName="TimeTable.xml" xy="122,38" size="120,79" controller="room,0,course_name,4">
       <Button title="8:30&#xA;10:20"/>
     </component>
-    <component id="n20_u8ju" name="n20" src="r7dl2w" fileName="TimeTable.xml" xy="124,117" size="120,79" controller="room,0,course_name,4">
+    <component id="n21_u8ju" name="n21" src="r7dl2w" fileName="TimeTable.xml" xy="1,116" size="120,115" controller="room,2,course_name,3">
+      <Button title="10:30&#xA;1:20"/>
+    </component>
+    <component id="n24_u8ju" name="n24" src="r7dl2w" fileName="TimeTable.xml" xy="243,116" size="120,79" controller="room,1,course_name,5,type,1">
       <Button title="10:30&#xA;12:20"/>
     </component>
-    <component id="n21_u8ju" name="n21" src="r7dl2w" fileName="TimeTable.xml" xy="247,246" size="120,115" controller="room,2,course_name,3">
-      <Button title="1:30&#xA;4:20"/>
-    </component>
-    <component id="n24_u8ju" name="n24" src="r7dl2w" fileName="TimeTable.xml" xy="490,117" size="120,79" controller="room,1,course_name,5,type,1">
-      <Button title="10:30&#xA;12:20"/>
-    </component>
-    <component id="n25_u8ju" name="n25" src="r7dl2w" fileName="TimeTable.xml" xy="612,200" size="120,107" controller="room,3,course_name,0">
+    <component id="n25_u8ju" name="n25" src="r7dl2w" fileName="TimeTable.xml" xy="480,201" size="120,107" controller="room,3,course_name,0">
       <Button title="12:30&#xA;3:00"/>
     </component>
-    <component id="n26_u8ju" name="n26" src="r7dl2w" fileName="TimeTable.xml" xy="368,117" size="120,163" controller="room,1,course_name,2">
-      <Button title="10:30&#xA;2:20"/>
+    <component id="n26_u8ju" name="n26" src="r7dl2w" fileName="TimeTable.xml" xy="359,320" size="120,163" controller="room,2,course_name,2">
+      <Button title="3:30&#xA;7:20"/>
     </component>
-    <image id="n27_u8ju" name="n27" src="u8ju36" fileName="images/S3timetable(1).png" xy="-44,-17"/>
+    <image id="n27_u8ju" name="n27" src="u8ju36" fileName="images/时间表.png" xy="-44,-17"/>
   </displayList>
 </component>
