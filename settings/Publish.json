@@ -1,5 +1,5 @@
 {
-  "path": "E:\\Study\\VillageSurvivor\\Assets\\Resources\\FGUIRes",
+  "path": "E:\\Study\\VillageQuest\\VillageQuest\\Assets\\Resources\\FGUIRes",
   "branchPath": "",
   "fileExtension": "bytes",
   "packageCount": 2,
@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "E:\\Study\\VillageSurvivor\\Assets\\Scripts\\FGUIGen",
+    "codePath": "E:\\Study\\VillageQuest\\VillageQuest\\Assets\\Scripts\\FGUIGen",
     "classNamePrefix": "UI_",
     "memberNamePrefix": "",
     "packageName": null,

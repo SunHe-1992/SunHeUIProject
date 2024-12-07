@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
+  <controller name="ctrl_guide" pages="0,,1,dropdown,2,confirm" selected="1"/>
   <displayList>
     <component id="n0_pw3f" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,1" size="1277,717">
       <relation target="" sidePair="width-width,height-height"/>
@@ -31,5 +32,21 @@
       <item/>
       <item/>
     </list>
+    <movieclip id="n7_rubv" name="n7" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="1157,117" size="106,94">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+      <relation target="n4_pw3f" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n8_rubv" name="n8" xy="918,219" size="313,175" fontSize="35" color="#264574" autoSize="none" bold="true" text="Open the menu and Select BlackSmith">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+      <relation target="n4_pw3f" sidePair="center-center,middle-middle"/>
+    </text>
+    <movieclip id="n9_rubv" name="n9" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="1035,65" size="202,74">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="n4_pw3f" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n10_rubv" name="n10" xy="929,251" size="313,181" fontSize="35" color="#264574" autoSize="none" bold="true" text="Click to Build It">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="n4_pw3f" sidePair="center-center,middle-middle"/>
+    </text>
   </displayList>
 </component>

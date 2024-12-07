@@ -107,6 +107,14 @@
     <component id="uhl3hhk0uk" name="SpeedController.xml" path="/VillageHome/"/>
     <image id="tk5thhk0ul" name="Gold Axe.png" path="/Icons/" exported="true"/>
     <image id="tk5thhk0um" name="Silver Axe.png" path="/Icons/" exported="true"/>
+    <image id="rubvhhk0un" name="sl_3_kuangEffect_00.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0uo" name="sl_3_kuangEffect_01.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0up" name="sl_3_kuangEffect_02.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0uq" name="sl_3_kuangEffect_03.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0ur" name="sl_3_kuangEffect_04.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0us" name="sl_3_kuangEffect_05.png" path="/shared/边框-中 红蓝/"/>
+    <image id="rubvhhk0ut" name="sl_3_kuangEffect_06.png" path="/shared/边框-中 红蓝/"/>
+    <movieclip id="rubvhhk0uu" name="frameRedBlue.jta" path="/shared/边框-中 红蓝/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

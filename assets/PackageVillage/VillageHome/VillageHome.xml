@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720" designImageLayer="1">
+<component size="1280,720">
   <controller name="ctrl_pawnHUD" pages="0,,1," selected="0"/>
+  <controller name="ctrl_guide" pages="0,,1,buidling btn,2,add villager" selected="2"/>
   <displayList>
     <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="20,10">
       <Button title="Buildings"/>
@@ -26,5 +27,20 @@
     <component id="n13_tk5t" name="btn_platform" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="509,11" size="136,66">
       <Button title="MainMenu"/>
     </component>
+    <movieclip id="n14_rubv" name="n14" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="-5,-4" size="202,94">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+      <relation target="n5_hm4d" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n15_rubv" name="n15" xy="29,86" size="310,90" fontSize="35" color="#fafcff" autoSize="none" bold="true" strokeColor="#000000" text="Click to Buildings">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+    </text>
+    <movieclip id="n16_rubv" name="n16" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="1061,603" size="202,94">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="n5_hm4d" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n17_rubv" name="n17" xy="822,505" size="433,90" fontSize="35" color="#fafcff" autoSize="none" bold="true" strokeColor="#000000" text="Add 5 villagers">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="n9_nf0a" sidePair="right-right,bottom-bottom"/>
+    </text>
   </displayList>
 </component>

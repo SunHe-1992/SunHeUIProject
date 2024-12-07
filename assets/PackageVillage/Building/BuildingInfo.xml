@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
+  <controller name="ctrl_guide" pages="0,,1,add worker,2,add product list,3,confirm" selected="1"/>
   <displayList>
-    <component id="n1_ry5i" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="1,-3" size="861,721">
+    <component id="n1_ry5i" name="frame" src="pf6ao88" fileName="shared/common_kuang_2.xml" xy="-1,-3" size="861,721">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="BuildingInfo"/>
     </component>
-    <list id="n4_fe3q" name="list_order" xy="445,98" size="386,531" overflow="scroll" defaultItem="ui://786ck8sbfe3qpa" autoClearItems="true">
+    <list id="n4_fe3q" name="list_order" xy="443,98" size="386,531" overflow="scroll" defaultItem="ui://786ck8sbfe3qpa" autoClearItems="true">
       <relation target="n1_ry5i" sidePair="height-height,right-right,top-top"/>
       <item/>
       <item/>
@@ -13,11 +14,11 @@
       <item/>
       <item/>
     </list>
-    <component id="n5_ll0y" name="btn_confirm_produce" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="249,70" size="170,54">
+    <component id="n5_ll0y" name="btn_confirm_produce" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="247,70" size="170,54">
       <relation target="n1_ry5i" sidePair="left-left,top-top"/>
       <Button title="Produce it" titleFontSize="20"/>
     </component>
-    <component id="n6_ll0y" name="cbox_product" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="50,129" size="372,48">
+    <component id="n6_ll0y" name="cbox_product" src="zd9g41" fileName="shared/dropdown/Dropdown.xml" xy="48,129" size="372,48">
       <relation target="n1_ry5i" sidePair="left-left,top-top"/>
       <ComboBox visibleItemCount="10" autoClearItems="true">
         <item title="1"/>
@@ -26,11 +27,35 @@
         <item title="4"/>
       </ComboBox>
     </component>
-    <text id="n7_nf0a" name="txt_workers" xy="59,253" size="227,162" font="OPPO Sans 4.0" fontSize="30" color="#f2f8fe" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Workers Count &#xA;123&#xA;123&#xA;123">
+    <text id="n7_nf0a" name="txt_workers" xy="57,253" size="227,162" font="OPPO Sans 4.0" fontSize="30" color="#f2f8fe" bold="true" strokeColor="#000000" strokeSize="2" autoClearText="true" text="Workers Count &#xA;123&#xA;123&#xA;123">
       <relation target="n1_ry5i" sidePair="left-left,top-top"/>
     </text>
-    <component id="n8_nf0a" name="numSetter_woker" src="rtaxo5s" fileName="shared/NumSet.xml" xy="-14,192">
+    <component id="n8_nf0a" name="numSetter_woker" src="rtaxo5s" fileName="shared/NumSet.xml" xy="-16,192">
       <relation target="n1_ry5i" sidePair="left-left,top-top"/>
     </component>
+    <movieclip id="n9_rubv" name="n9" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="212,174" size="106,94">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+      <relation target="n8_nf0a" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n10_rubv" name="n10" xy="70,439" size="313,239" fontSize="35" color="#5b6c90" autoSize="none" bold="true" text="Assign 5 workers and wait for Construction complete">
+      <gearDisplay controller="ctrl_guide" pages="1"/>
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </text>
+    <movieclip id="n11_rubv" name="n11" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="333,109" size="106,94">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="n8_nf0a" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n12_rubv" name="n12" xy="83,485" size="313,170" fontSize="35" color="#5b6c90" autoSize="none" bold="true" text="Open the menu and Select any order">
+      <gearDisplay controller="ctrl_guide" pages="2"/>
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </text>
+    <movieclip id="n13_rubv" name="n13" src="rubvhhk0uu" fileName="shared/边框-中 红蓝/frameRedBlue.jta" xy="240,47" size="198,94">
+      <gearDisplay controller="ctrl_guide" pages="3"/>
+      <relation target="n8_nf0a" sidePair="center-center,middle-middle"/>
+    </movieclip>
+    <text id="n14_rubv" name="n14" xy="71,478" size="313,170" fontSize="35" color="#5b6c90" autoSize="none" bold="true" text="Click to Produce It">
+      <gearDisplay controller="ctrl_guide" pages="3"/>
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </text>
   </displayList>
 </component>
