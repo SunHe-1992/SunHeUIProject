@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720">
   <controller name="ctrl_pawnHUD" pages="0,,1," selected="0"/>
-  <controller name="ctrl_guide" pages="0,,1,buidling btn,2,add villager" selected="2"/>
+  <controller name="ctrl_guide" pages="0,,1,buidling btn,2,add villager" selected="0"/>
   <displayList>
     <component id="n5_hm4d" name="btn_buildings" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="20,10">
       <Button title="Buildings"/>
@@ -9,15 +9,21 @@
     <component id="n6_hm4d" name="btn_warehouse" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="189,10">
       <Button title="Warehouse"/>
     </component>
+    <component id="n18_sgsm" name="btn_options" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="28,72" size="113,57">
+      <Button title="Options"/>
+    </component>
     <text id="n7_hm4d" name="txt_hud" xy="43,147" size="518,382" fontSize="26" color="#ffffff" ubb="true" autoSize="shrink" bold="true" autoClearText="true" text="hud"/>
+    <text id="n20_sgsm" name="txt_score" xy="1039,568" size="184,47" fontSize="26" color="#ffffff" ubb="true" autoSize="shrink" bold="true" strokeColor="#000000" autoClearText="true" text="Score: 123">
+      <relation target="n9_nf0a" sidePair="center-center,bottom-top"/>
+    </text>
     <component id="n11_t0ou" name="btn_help" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="358,10" size="136,66">
       <Button title="Instruction"/>
     </component>
-    <component id="n9_nf0a" name="btn_AddVillager" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="1086,615" size="164,79">
+    <component id="n9_nf0a" name="btn_AddVillager" src="lxd07sok1q" fileName="shared/Button_Common_11.xml" xy="999,621" size="263,79">
       <relation target="" sidePair="right-right,bottom-bottom"/>
-      <Button title="Add a Villager"/>
+      <Button title="Recruit (100 score)"/>
     </component>
-    <component id="n12_uhl3" name="speedCtrl" src="uhl3hhk0uk" fileName="VillageHome/SpeedController.xml" xy="709,620">
+    <component id="n12_uhl3" name="speedCtrl" src="uhl3hhk0uk" fileName="VillageHome/SpeedController.xml" xy="597,621">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
     <component id="n10_n4w3" name="pawnHUDcomp" src="n4w3hhk0uf" fileName="VillageHome/PawnHUD.xml" xy="8,318">
@@ -38,7 +44,7 @@
       <gearDisplay controller="ctrl_guide" pages="2"/>
       <relation target="n5_hm4d" sidePair="center-center,middle-middle"/>
     </movieclip>
-    <text id="n17_rubv" name="n17" xy="822,505" size="433,90" fontSize="35" color="#fafcff" autoSize="none" bold="true" strokeColor="#000000" text="Add 5 villagers">
+    <text id="n17_rubv" name="n17" xy="834,511" size="433,90" fontSize="35" color="#fafcff" autoSize="none" bold="true" strokeColor="#000000" text="Add 5 villagers">
       <gearDisplay controller="ctrl_guide" pages="2"/>
       <relation target="n9_nf0a" sidePair="right-right,bottom-bottom"/>
     </text>
